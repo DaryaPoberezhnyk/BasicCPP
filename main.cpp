@@ -1,6 +1,5 @@
 #include <iostream>
 #include <cmath>
-#include <_getch> 
 using namespace std;
 
 int main()
