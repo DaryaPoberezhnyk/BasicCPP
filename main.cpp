@@ -5,6 +5,7 @@ using namespace std;
 int main()
 {
 	do {
+		char switch_on;
 		system("cls");
 		cout << "#>----------<MENU>----------<#" << endl;
 		cout << "|         1 - Case 1         |" << endl;
