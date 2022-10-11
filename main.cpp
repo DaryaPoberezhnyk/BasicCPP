@@ -1,8 +1,23 @@
 #include <iostream>
+#include <cmath>
+#include <_getch> 
 using namespace std;
 
 int main()
 {
+	do {
+		system("cls");
+		cout << "#>----------<MENU>----------<#" << endl;
+		cout << "|         1 - Case 1         |" << endl;
+		cout << "|         2 - Case 2         |" << endl;
+		cout << "|         3 - Case 3         |" << endl;
+		cout << "#>--------------------------<#" << endl;
+		cout << "|         0 - Exit           |" << endl;
+		cout << "#>--------------------------<#" << endl;
+		switch_on = _getch();
+		system("cls");
+		switch (switch_on)
+		{
 	const int col = 5;
 	const int row = 5;
 	int arr_2[col][row];
