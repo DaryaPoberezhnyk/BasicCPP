@@ -8,6 +8,7 @@ int main()
     char switch_on;
     int start, end;
     do {
+        int a = 0, b = 0, c = 0, d = 0, e = 0, f = 11;
         system("cls");
         cout << "#>----------<MENU>----------<#" << endl;
         cout << "|         1 - Case 1         |" << endl;
@@ -41,19 +42,23 @@ int main()
             system("cls");
             switch (switch_on)
             {
-            case '1':
+            case 'b':
             {
-                int col=5, row=5;
+                int col, row;
+                cout << "Enter the first number : ";
+                cin >> col;
+                cout << "Enter the first number : ";
+                cin >> row;
                 cout << endl;
 
                 for (size_t i = 0; i < col; i++)
                 {
                     for (size_t j = 0; j < row; j++)
                     {
-                      
+
                         if (i < j)
                         {
-                          
+
                             cout << "   ";
                         }
                         else {
@@ -63,11 +68,15 @@ int main()
                     cout << endl;
                 }
             }break;
-            case '2':
+            case 'a':
             {
-                int col = 5, row = 5;
+                int col, row;
+                cout << "Enter the first number : ";
+                cin >> col;
+                cout << "Enter the first number : ";
+                cin >> row;
                 cout << endl;
-           
+
                 for (size_t i = 0; i < col; i++)
                 {
                     for (size_t j = 0; j < row; j++)
@@ -85,39 +94,114 @@ int main()
                     cout << endl;
                 }
             }break;
-            case '3':
+            case 'c':
             {
-                int col = 5, row = 5;
+                int col, row;
+                cout << "Enter the first number : ";
+                cin >> col;
+                cout << "Enter the first number : ";
+                cin >> row;
+                cout << endl;
+                    for (int i = col; i >= 0; i--) {
+                        for (int k = 0; k <= b; k++) {
+                            cout << " ";
+                        }
+                        for (int j = 0; j <= i; j++) {
+                            cout << "* ";
+                        }
+                        cout << endl;
+                        b++;
+                    }
+                }break;
+            case 'd':
+            {
+                int col, row;
+                cout << "Enter the first number : ";
+                cin >> col;
+                cout << "Enter the first number : ";
+                cin >> row;
                 cout << endl;
 
-                for (size_t i = 0; i < col; i++)
+                for (int i = col; i >= 0; i--)
                 {
-                    for (size_t j = 0; j < row; j++)
+                    for (int j = 0; j <= i; j++)
                     {
-
-                        if (i > j)
-                        {
-
-                            cout << "   ";
-                        }
-                        else {
-                            cout << "*  ";
-                        }
+                        cout << " ";
+                    }
+                    for (int k = 0; k <= a; k++) {
+                        cout << "* ";
                     }
                     cout << endl;
+                    a++;
+                }
+            }break;
+            case 'e' :
+            {
+                int col, row;
+                cout << "Enter the first number : ";
+                cin >> col;
+                cout << "Enter the first number : ";
+                cin >> row;
+                cout << endl;
+
+                for (int i = col; i >= 0; i--) {
+                    for (int k = 0; k <= b; k++) {
+                        cout << "  ";
+                    }
+                    for (int j = 0; j <= i; j++) {
+                        cout << "  * ";
+                    }
+                    cout << endl;
+                    b++;
+                }
+                for (int i = col; i >= 0; i--)
+                {
+                    for (int j = 0; j <= i; j++)
+                    {
+                        cout << "  ";
+                    }
+                    for (int k = 0; k <= a; k++) {
+                        cout << "  * ";
+                    }
+                    cout << endl;
+                    a++;
+                }
+            }break;
+            case 'f':
+            {
+                int col, row;
+                cout << "Enter the first number : ";
+                cin >> col;
+                cout << "Enter the first number : ";
+                cin >> row;
+                cout << endl;
+
+                for (int i = col; i >= 0; i--) {
+                    for (int k = 0; k <= b; k++) {
+                        cout << "  ";
+                    }
+                    for (int j = 0; j <= i; j++) {
+                        cout << "  * ";
+                    }
+                    cout << endl;
+                    b++;
+                }
+                for (int i = col; i >= 0; i--)
+                {
+                    for (int j = 0; j <= i; j++)
+                    {
+                        cout << "  ";
+                    }
+                    for (int k = 0; k <= a; k++) {
+                        cout << "  * ";
+                    }
+                    cout << endl;
+                    a++;
                 }
             }break;
             }while (true);
-        case '2':
-        {
-           
-        }break;
-        case '3':
-        {
-
-        }break;
         }
         }
         } while (true);
         return 0;
-    }
+}
