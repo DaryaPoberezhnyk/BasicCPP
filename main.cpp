@@ -5,9 +5,9 @@
 using namespace std;
 int main()
 {
-    HANDLE hConsole = GetStdHandle(STD_OUTPUT_HANDLE);
     char switch_on;
-    do {
+    do 
+    {
         system("cls");
         cout << "#>----------<MENU>----------<#" << endl;
         cout << "|         1 - Case 1         |" << endl;
@@ -46,7 +46,7 @@ int main()
         {
             int col, row, sign;
             int j;
-            int colour;
+            int color;
             cout << endl;
             cout << "Enter the height of the rectangle : ";
             cin >> col;
@@ -55,7 +55,9 @@ int main()
             cout << "Enter the sign : ";
             cin >> sign;
             cout << "Enter the colour : ";
-            cin >> colour;
+            cin >> color;
+            HANDLE handle = GetStdHandle(STD_OUTPUT_HANDLE);
+            SetConsoleTextAttribute(handle, WORD(0 << 4 | color));
             cout << endl;
 
             for (size_t i = 0; i < col; i++)
@@ -99,7 +101,9 @@ int main()
                 }
                 cout << endl;
             }
+            
             system("pause");
+            system("color 0F");
         }break;
         case '3':
         {
@@ -125,13 +129,106 @@ int main()
         }break;
         case '4':
         {
-
+            const int size = 10;
+            int arr[size] = { 8,5,3,4,5,6,9,7,2,1 };
+            for (size_t i = 0; i < size; i++)
+            {
+                arr[i] = 10;
+                arr[0] = 1;
+                arr[1] = 2;
+                arr[2] = 7;
+                arr[3] = 9;
+                arr[4] = 6;
+                arr[5] = 5;
+                arr[6] = 4;
+                arr[7] = 3;
+                arr[8] = 5;
+                arr[9] = 8;
+            }
+            cout << endl;
+            cout << "  " << arr[9] << ", " << arr[8] << ", " << arr[7] << ", " << arr[6] << ", " << arr[5] << ", " << arr[4] << ", " << arr[3] << ", " << arr[2] << ", " << arr[1] << ", " << arr[0] << endl << endl;
+            HANDLE handle = GetStdHandle(STD_OUTPUT_HANDLE);
+            cout << "  " << arr[0] << ", " << arr[1] << ", " << arr[2] << ", " << arr[3] << ", " << arr[4] << ", " << arr[5] << ", " << arr[6] << ", " << arr[7] << ", " << arr[8] << ", " << arr[9] << endl << endl;
+            system("pause");
             
         }break;
         case '5':
         {
-
-
+            const int size = 5;
+            int arr[size];
+            int one, two, three, four, five;
+            cout << "  Enter the first length : ";
+            cin >> one;
+            cout << "  Enter the second length : ";
+            cin >> two;
+            cout << "  Enter the third length : ";
+            cin >> three;
+            cout << "  Enter the fourth length : ";
+            cin >> four;
+            cout << "  Enter the fifth length : ";
+            cin >> five;
+            cout << endl;
+            for (size_t i = 0; i < size; i++)
+            {
+                arr[i] = 5;
+                arr[0] = one;
+                arr[1] = two;
+                arr[2] = three;
+                arr[3] = four;
+                arr[4] = five;
+            }
+            cout << "  " << arr[0] << ", " << arr[1] << ", " << arr[2] << ", " << arr[3] << ", " << arr[4] << "." << endl << endl;
+            cout << "  Perimeter : " << one + two + three + four + five << endl;
+            system("pause");
+        }break;
+        case '6' :
+        {
+            int min, max, one, two, three, four, five,six, seven, eight, nine, ten, eleven, twelve;
+            const int size = 12;
+            int arr[size];
+            min = max = arr[0];  
+            cout << "Enter the profit for 12 months : January - ";
+            cin >> one;
+            cout << "                                 February - ";
+            cin >> two;
+            cout << "                                 March - ";
+            cin >> three;
+            cout << "                                 April - ";
+            cin >> four;
+            cout << "                                 May - ";
+            cin >> five;
+            cout << "                                 June - ";
+            cin >> six;
+            cout << "                                 July - ";
+            cin >> seven;
+            cout << "                                 Augest - ";
+            cin >> eight;
+            cout << "                                 Semtember - ";
+            cin >> nine;
+            cout << "                                 October - ";
+            cin >> ten;
+            cout << "                                 November - ";
+            cin >> eleven;
+            cout << "                                 December - ";
+            cin >> twelve;
+            cout << endl;
+            for (size_t i = 0; i < size; i++)  
+            {       
+               
+               for (size_t j = 0; j < size; j++)      
+               {            
+                   if (min > arr[i])   
+                     {    
+                       min = arr[i];      
+                     }    
+                   if (max < arr[i])        
+                     {            
+                       max = arr[i];        
+                     }       
+               }      
+               cout << endl << endl;  
+            }
+            system("pause");
         }break;
     }
     } while (true);
