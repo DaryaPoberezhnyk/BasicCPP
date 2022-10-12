@@ -6,12 +6,11 @@ int main()
 {
 	char switch_on;
 	do {
-		int a = 0, b = 0, c = 0, d = 0, e = 0, f = 11;
+
 		system("cls");
 		cout << "#>----------<MENU>----------<#" << endl;
 		cout << "|         1 - Case 1         |" << endl;
 		cout << "|         2 - Case 2         |" << endl;
-		cout << "|         3 - Case 3         |" << endl;
 		cout << "#>--------------------------<#" << endl;
 		cout << "|         0 - Exit           |" << endl;
 		cout << "#>--------------------------<#" << endl;
@@ -29,7 +28,7 @@ int main()
 				for (size_t j = 0; j < row; j++)
 				{
 					arr_2[i][j] = rand() % 10;
-					cout << "  " << arr_2[i][j] << "\t";
+					cout << "   " << arr_2[i][j] << "\t";
 				}
 				cout << endl << endl;
 			}
@@ -83,9 +82,67 @@ int main()
 		}break;
 		case '2':
 		{
+			const int col = 5;
+			const int row = 5;
+			cout << endl;
+			int arr_2[col][row];
 
+			for (size_t i = 0; i < col; i++)
+			{
+				for (size_t j = 0; j < row; j++)
+				{
+					arr_2[i][j] = rand() % 10;
+				}
+			}
+			int sumH[col];
+			int sumV[row];
+			int sum, k = 0;
+
+			for (size_t i = 0; i < col; i++)
+			{
+				sum = 0;
+				for (size_t j = 0; j < row; j++)
+				{
+					sum += arr_2[i][j];
+				}
+				sumH[k] = sum;
+				k++;
+			}
+			k = 0;
+			for (size_t i = 0; i < col; i++)
+			{
+				sum = 0;
+
+				for (size_t j = 0; j < row; j++)
+				{
+					sum += arr_2[j][i];
+				}
+				sumV[k] = sum;
+				k++;
+			}
+
+
+			for (size_t i = 0; i < col; i++)
+			{
+				for (size_t j = 0; j < row; j++)
+				{
+					cout << arr_2[i][j] << "\t";
+				}
+				cout << "| " << sumH[i];
+				cout << endl << endl;
+			}
+			for (size_t i = 0; i < row; i++)
+			{
+				cout << "--------";
+			}
+			cout << endl;
+
+			for (size_t i = 0; i < row; i++)
+			{
+				cout << sumV[i] << "\t";
+			}
 		}break;
-		}
-	}
-	return 0;
+		}break;
+	} while (true);
+    return 0;
 }
