@@ -13,6 +13,9 @@ int main()
         cout << "|         1 - Case 1         |" << endl;
         cout << "|         2 - Case 2         |" << endl;
         cout << "|         3 - Case 3         |" << endl;
+        cout << "|         4 - Case 4         |" << endl;
+        cout << "|         5 - Case 5         |" << endl;
+        cout << "|         6 - Case 6         |" << endl;
         cout << "#>--------------------------<#" << endl;
         cout << "|         0 - Exit           |" << endl;
         cout << "#>--------------------------<#" << endl;
