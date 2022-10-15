@@ -123,9 +123,12 @@ int main()
             cout << "  Enter the firm`s profit for the sixth month : ";
             cin >> six;
             cout << endl;
+            HANDLE handle = GetStdHandle(STD_OUTPUT_HANDLE);
+            SetConsoleTextAttribute(handle, WORD(0 << 4 | 2));
             cout << "  The company`s profit for 6 months is : ";
             cout << (one + two + three + four + five + six) ? cout << " GRN " << endl : cout << endl;
             system("pause");
+            system("color 0F");
         }break;
         case '4':
         {
@@ -148,9 +151,10 @@ int main()
             cout << endl;
             cout << "  " << arr[9] << ", " << arr[8] << ", " << arr[7] << ", " << arr[6] << ", " << arr[5] << ", " << arr[4] << ", " << arr[3] << ", " << arr[2] << ", " << arr[1] << ", " << arr[0] << endl << endl;
             HANDLE handle = GetStdHandle(STD_OUTPUT_HANDLE);
+            SetConsoleTextAttribute(handle, WORD(0 << 4 | 2));
             cout << "  " << arr[0] << ", " << arr[1] << ", " << arr[2] << ", " << arr[3] << ", " << arr[4] << ", " << arr[5] << ", " << arr[6] << ", " << arr[7] << ", " << arr[8] << ", " << arr[9] << endl << endl;
             system("pause");
-            
+            system("color 0F");
         }break;
         case '5':
         {
@@ -183,52 +187,75 @@ int main()
         }break;
         case '6' :
         {
-            int min, max, one, two, three, four, five,six, seven, eight, nine, ten, eleven, twelve;
-            const int size = 12;
-            int arr[size];
-            min = max = arr[0];  
-            cout << "Enter the profit for 12 months : January - ";
-            cin >> one;
-            cout << "                                 February - ";
-            cin >> two;
-            cout << "                                 March - ";
-            cin >> three;
-            cout << "                                 April - ";
-            cin >> four;
-            cout << "                                 May - ";
-            cin >> five;
-            cout << "                                 June - ";
-            cin >> six;
-            cout << "                                 July - ";
-            cin >> seven;
-            cout << "                                 Augest - ";
-            cin >> eight;
-            cout << "                                 Semtember - ";
-            cin >> nine;
-            cout << "                                 October - ";
-            cin >> ten;
-            cout << "                                 November - ";
-            cin >> eleven;
-            cout << "                                 December - ";
-            cin >> twelve;
-            cout << endl;
-            for (size_t i = 0; i < size; i++)  
-            {       
-               
-               for (size_t j = 0; j < size; j++)      
-               {            
-                   if (min > arr[i])   
-                     {    
-                       min = arr[i];      
-                     }    
-                   if (max < arr[i])        
-                     {            
-                       max = arr[i];        
-                     }       
-               }      
-               cout << endl << endl;  
+            const uint32_t size = 12;
+            int a;
+            long long arrA[size];
+
+            for (int i = 0; i < size; i++)
+            {
+                if (i == 0) {
+                    cout << " January : ";
+                }
+                if (i == 1) {
+                    cout << " February : ";
+                }
+                if (i == 2) {
+                    cout << " March : ";
+                }
+                if (i == 3) {
+                    cout << " April : ";
+                }
+                if (i == 4) {
+                    cout << " May : ";
+                }
+                if (i == 5) {
+                    cout << " June : ";
+                }
+                if (i == 6) {
+                    cout << " July : ";
+                }
+                if (i == 7) {
+                    cout << " Augast : ";
+                }
+                if (i == 8) {
+                    cout << " September : ";
+                }
+                if (i == 9) {
+                    cout << " October : ";
+                }
+                if (i == 10) {
+                    cout << " November : ";
+                }
+                if (i == 11) {
+                    cout << " December : ";
+                }
+
+                cin >> a;
+                arrA[i] = a;
             }
+
+            long long max, min;
+            max = min = arrA[0];
+
+            for (size_t i = 0; i < size; i++)
+            {
+                if (min > arrA[i])
+                {
+                    min = arrA[i];
+                }
+                if (max < arrA[i])
+                {
+                    max = arrA[i];
+                }
+            }
+            cout << endl;
+            HANDLE handle = GetStdHandle(STD_OUTPUT_HANDLE);
+            SetConsoleTextAttribute(handle, WORD(0 << 4 | 2));
+            cout << " The most profitable month : " << max << endl;
+            cout << " the most profitable month : " << min << endl;
+            return 0;
             system("pause");
+            system("color 0F");
         }break;
     }
     } while (true);
