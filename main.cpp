@@ -1,11 +1,13 @@
 #include <iostream>
-#include <windows.h>
+#include <Windows.h>
+#include <conio.h>
 using namespace std;
 
 int main()
 {
 	char switch_on;
-	do {
+	do
+	{
 		system("cls");
 		cout << "#>----------<MENU>----------<#" << endl;
 		cout << "|         1 - Case 1         |" << endl;
@@ -22,5 +24,5 @@ int main()
 		}break;
 		}
 	}
-	return 0;
+    return 0;
 }
