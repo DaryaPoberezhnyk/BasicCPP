@@ -113,17 +113,17 @@ int main()
             int one, two, three, four, five, six, r;
             cout << endl;
 
-            cout << "  Enter the firm`s profit for the first month : ";
+            cout << "  Enter the firm`s profit for the first month : " << endl;
             cin >> one;
-            cout << "  Enter the firm`s profit for the second month : ";
+            cout << "  Enter the firm`s profit for the second month : " << endl;
             cin >> two;
-            cout << "  Enter the firm`s profit for the third month : ";
+            cout << "  Enter the firm`s profit for the third month : " << endl;
             cin >> three;
-            cout << "  Enter the firm`s profit for the fourth month : ";
+            cout << "  Enter the firm`s profit for the fourth month : " << endl;
             cin >> four;
-            cout << "  Enter the firm`s profit for the fifth month : ";
+            cout << "  Enter the firm`s profit for the fifth month : " << endl;
             cin >> five;
-            cout << "  Enter the firm`s profit for the sixth month : ";
+            cout << "  Enter the firm`s profit for the sixth month : " << endl;
             cin >> six;
             cout << endl;
             HANDLE handle = GetStdHandle(STD_OUTPUT_HANDLE);
