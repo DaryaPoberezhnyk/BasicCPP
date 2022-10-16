@@ -24,7 +24,6 @@ int main()
         cout << " \t\t\t\t|               2 - Case 2                |" << endl;
         cout << " \t\t\t\t|               3 - Case 3                |" << endl;
         cout << " \t\t\t\t|               4 - Case 4                |" << endl;
-       
         cout << " \t\t\t\t#-----------------------------------------#" << endl;
         cout << " \t\t\t\t|               0 - Exit                  |" << endl;
         cout << " \t\t\t\t#-----------------------------------------#" << endl;
