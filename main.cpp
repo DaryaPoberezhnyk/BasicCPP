@@ -138,7 +138,6 @@ void numers(int N, int V)
 		cout << " The Number V is greater!!! ";
 	}
 }
-
 bool SimpleNumber(int number)
 {
 	uint32_t counter = 0;
