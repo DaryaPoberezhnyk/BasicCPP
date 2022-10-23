@@ -1,94 +1,3 @@
-//#include <iostream>
-//#include <CMATH>
-//using namespace std;
-//
-//void RandMatrix(int arr[][5], const int size)
-//{
-//    for (size_t i = 0; i < size; i++)
-//    {
-//        for (size_t j = 0; j < size; j++)
-//        {
-//            arr[i][j] = rand() % 10;
-//        }
-//    }
-//}
-//void PrintMatrix(int arr[][5], const int size)
-//{
-//    for (size_t i = 0; i < size; i++)
-//    {
-//        for (size_t j = 0; j < size; j++)
-//        {
-//            cout << arr[i][j] << "\t";
-//        }
-//        cout << endl;
-//    }
-//    cout << endl;
-//}
-//void RandArray(int arr[], const int size)
-//{
-//    for (size_t i = 0; i < size; i++)
-//    {
-//        arr[i] = rand() % 10;
-//    }
-//}
-//void Print(int arr[], const int size)
-//{
-//    for (size_t i = 0; i < size; i++)
-//    {
-//        cout << arr[i] << "\t";
-//    }
-//    cout << endl;
-//}
-//int main()
-//{
-//    srand(time(0));
-//    const int size = 5;
-//    /*int arr[size];
-//    int arr_2[size];
-//    RandArray(arr, size);
-//    Print(arr, size);
-//    RandArray(arr_2, size);
-//    Print(arr_2, size);*/
-//    int arr[size][size];
-//    RandMatrix(arr, size);
-//    PrintMatrix(arr, size);
-//    return 0;
-//}
-//int main()
-//{
-//   /* const int size = 5;
-//    int arr[size][size][size][size];
-//    for (size_t i = 0; i < size; i++)
-//    {
-//        for (size_t j = 0; j < size; j++)
-//        {
-//            for (size_t k = 0; k < size; k++)
-//            {
-//                for (size_t x = 0; x < size; x++)
-//                {
-//                    arr[i][j][k][x] = rand() % 10;
-//                }
-//            }
-//        }
-//    }
-//    for (size_t i = 0; i < size; i++)
-//    {
-//        for (size_t j = 0; j < size; j++)
-//        {
-//            for (size_t k = 0; k < size; k++)
-//            {
-//                for (size_t x = 0; x < size; x++)
-//                {
-//                    cout << arr[i][j][k][x] << " ";
-//                }
-//                cout << "\t";
-//            }
-//            cout << endl;
-//        }
-//        cout << endl << endl;
-//    }
-//*/
-//   
 #include <iostream>
 #include <conio.h>
 #include <cmath>
@@ -120,7 +29,7 @@ void TrueFalse(int N)
 	}
 }
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-void cube (int N)
+void cube(int N)
 {
 	int copy = N;
 	for (int i = 1; i < 3; i++)
@@ -130,16 +39,38 @@ void cube (int N)
 	cout << N;
 }
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-void arrsimple(int arr[], const int size)
+ bool arrsimple(int arr[], const int size, int N, int A)
 {
-	int j;
-	for (size_t i = 0; i < size; i++)
+	 uint32_t counter = 0;
+	 N = 0;
+	 A = 0;
+	for (size_t i = 1; i < size; i++)
 	{
 		arr[i] = rand() % 20;
 		cout << " " << arr[i] << "\t";
+		if (arr[i] % i == 0)
+		{
+			counter++;
+			N++;
+		}
+		else
+		{
+			A++;
+		}
 	}
+	HANDLE handle = GetStdHandle(STD_OUTPUT_HANDLE);
+	SetConsoleTextAttribute(handle, WORD(0 << 0 | 14));
 	cout << endl << endl;
-	
+	cout << " The number of simple numbers : " << N << endl;
+	cout << " The number of not simple numbers : " << A << endl;
+	if (counter >= 2)
+	{
+		return false;
+	}
+	else
+	{
+		return true;
+	}
 }
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 void numers(int N, int V)
@@ -175,6 +106,8 @@ void Array(int arr[], const int size)
 			max = arr[i];
 		}
 	}
+	HANDLE handle = GetStdHandle(STD_OUTPUT_HANDLE);
+	SetConsoleTextAttribute(handle, WORD(0 << 0 | 14));
 	cout << " Min = " << min << endl;
 	cout << " Max = " << max << endl << endl;
 }
@@ -236,20 +169,20 @@ int main()
 	do
 	{
 		HANDLE handle = GetStdHandle(STD_OUTPUT_HANDLE);
-		system("cls"); 
-		cout << "#>----------<MENU>----------<#" << endl;
-		cout << "|         1 - Case 1         |" << endl;
-		cout << "|         2 - Case 2         |" << endl;
-		cout << "|         3 - Case 3         |" << endl;
-		cout << "|         4 - Case 4         |" << endl;
-		cout << "|         5 - Case 5         |" << endl;
-		cout << "|         6 - Case 6         |" << endl;
-		cout << "|         7 - Case 7         |" << endl;
-		cout << "|         8 - Case 8         |" << endl;
-		cout << "|         9 - Case 9         |" << endl;
-		cout << "#>--------------------------<#" << endl;
-		cout << "|         0 - Exit           |" << endl;
-		cout << "#>--------------------------<#" << endl;
+		system("cls");
+		cout << "\t\t\t\t\t#>----------<MENU>----------<#" << endl;
+		cout << "\t\t\t\t\t|         1 - Case 1         |" << endl;
+		cout << "\t\t\t\t\t|         2 - Case 2         |" << endl;
+		cout << "\t\t\t\t\t|         3 - Case 3         |" << endl;
+		cout << "\t\t\t\t\t|         4 - Case 4         |" << endl;
+		cout << "\t\t\t\t\t|         5 - Case 5         |" << endl;
+		cout << "\t\t\t\t\t|         6 - Case 6         |" << endl;
+		cout << "\t\t\t\t\t|         7 - Case 7         |" << endl;
+		cout << "\t\t\t\t\t|         8 - Case 8         |" << endl;
+		cout << "\t\t\t\t\t|         9 - Case 9         |" << endl;
+		cout << "\t\t\t\t\t#>--------------------------<#" << endl;
+		cout << "\t\t\t\t\t|         0 - Exit           |" << endl;
+		cout << "\t\t\t\t\t#>--------------------------<#" << endl;
 		switch_on = _getch();
 		system("cls");
 		switch (switch_on)
@@ -267,7 +200,7 @@ int main()
 			system("pause");
 			system("color 0F");
 		}break;
-		case '2' :
+		case '2':
 		{
 			int N;
 			cout << " N -> ";
@@ -277,7 +210,7 @@ int main()
 			system("pause");
 			system("color 0F");
 		}break;
-		case '3' :
+		case '3':
 		{
 			int N;
 			cout << " N -> ";
@@ -285,12 +218,12 @@ int main()
 			SetConsoleTextAttribute(handle, WORD(0 << 0 | 11));
 			if (SimpleNumber(N))
 				cout << "This number is simple!" << endl;
-			else 
+			else
 				cout << "This number is not simple!" << endl;
 			system("pause");
 			system("color 0F");
 		}break;
-		case '4' :
+		case '4':
 		{
 			int N;
 			cout << " N -> ";
@@ -302,7 +235,7 @@ int main()
 			system("pause");
 			system("color 0F");
 		}break;
-		case '5' :
+		case '5':
 		{
 			int N, V;
 			cout << " N -> ";
@@ -358,15 +291,17 @@ int main()
 		{
 			SetConsoleTextAttribute(handle, WORD(0 << 0 | 11));
 			srand(time(0));
+			int N = 0;
+			int A = 0;
 			const  int size = 10;
 			int arr[size];
 			int a = 10;
 			cout << endl;
-			arrsimple(arr, size);
+			arrsimple(arr, size, N, A);
 			system("pause");
 			system("color 0F");
 		}break;
 		}
 	} while (true);
-    return 0;
+	return 0;
 }
