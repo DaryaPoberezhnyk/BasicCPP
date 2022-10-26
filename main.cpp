@@ -182,21 +182,39 @@ void card(int n)
 	}
 }
 ////////////////////////////////////////////////////////////////////////////////////////////
-void lucky(int a, double sum)
+void lucky(int n)
 {
-	double b;
-	b = a % 1000;
-	a -= a % 1000;
-	a = a / 1000;
-	if (a == b)
+	int d;
+	int sum1 = 0, sum2 = 0, i = 1;
+	while (true)
 	{
-		cout << " This number is lucky !!!" << endl;
+		if (n < 0)
+		{
+			break;
+		}
+		while (n > 0)
+		{
+			d = n % 10;
+			if (i % 2 == 0)
+				sum2 += d;
+			else
+				sum1 += d;
+			n = n / 10;
+			i++;
+		}
+		if (sum1 == sum2)
+		{
+			cout << " This number is happy !!! " << endl;
+			break;
+		}
+		else
+		{
+			cout << " This number isn`t happy !!! " << endl;
+			break;
+		}
 	}
-	else
-	{
-		cout << " This number isn`t lucky !!!" << endl;
-	}
- }
+}
+
 ////////////////////////////////////////////////////////////////////////////////////////////
 void Dosc(int x, int y, int c, int d, int a)
 {
@@ -330,13 +348,13 @@ int main()
 		}break;
 		case '5' :
 		{
-			int a, sum = 0;
+			int n;
 			cout << endl;
 			cout << " Enter a six-digit number : ";
-			cin >> a;
+			cin >> n;
 			cout << endl;
 			SetConsoleTextAttribute(handle, WORD(0 << 0 | 14));
-			lucky(a, sum);
+			lucky(n);
 			SetConsoleTextAttribute(handle, WORD(0 << 0 | 7));
 			cout << endl;
 			system("pause");
