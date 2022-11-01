@@ -1,5 +1,6 @@
 #include <iostream>
 #include <Windows.h>
+#include <stdio.h>
 #include <conio.h>
 using namespace std;
 HANDLE hConsole = GetStdHandle(STD_OUTPUT_HANDLE);
@@ -49,7 +50,8 @@ void packege(T arrA[], const uint32_t size, T c)
 	{
 		arrA[i] = rand() % 5;
 		c += 1;
-		if (c > 9) {
+		if (c > 9)
+		{
 			cout << " " << arrA[i] << " ";
 		}
 		else {
@@ -65,19 +67,21 @@ template <typename T>
 
 void suma(T arrA[], const uint32_t size, T c, T sum)
 {
-
+	int count = 0;
 	for (size_t i = 0; i < size; i++)
 	{
-		sum = 0;
 		arrA[i] = rand() % 5;
 		c += 1;
-		if (arrA[i] = 0)
-		{
-			cout << "100";
+	}
+	for (int i = 0; i <50; i++)
+	{
 
-		}
+		int x = 0;
+		if (x == arrA[i])
+			count++;
 	}
 	cout << " The company`s monthly income : " ;
+	cout << count << endl;
 	cout << endl << endl;
 }
 
@@ -85,7 +89,7 @@ void suma(T arrA[], const uint32_t size, T c, T sum)
 int main() {
 
 	int a = 0;
-	int q, w, e, r, t;
+	int q=0, w=0, e=0, r=0, t=0;
 	int c = 0;
 	int sum = 0;
 	const uint32_t size = 50;
