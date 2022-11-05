@@ -60,7 +60,7 @@ void stypid1(T arr[], T a, const uint32_t size, T arrA[], T c)
 }
 
 template <typename T>
-void packege(T arr[], T a,T arrA[], const uint32_t size)
+void packege(T arr[], T a, T arrA[], const uint32_t size)
 {
 	SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 11));
 	a = 0;
@@ -93,16 +93,16 @@ void packege(T arr[], T a,T arrA[], const uint32_t size)
 		arrA[i] = rand() % 5;
 		c += 1;
 		if (arrA[i] == 0)
-		{	
+		{
 			c0++;
 			m += 300;
 		}
 		if (arrA[i] == 1)
-		{		
+		{
 			c1++;
 			m += 100;
 		}
-	
+
 		if (arrA[i] == 2)
 		{
 			c2++;
@@ -110,13 +110,13 @@ void packege(T arr[], T a,T arrA[], const uint32_t size)
 		}
 
 		if (arrA[i] == 3)
-		{			
+		{
 			c3++;
 			m += 178;
 		}
 
-		if (arrA[i] == 4) 
-		{		
+		if (arrA[i] == 4)
+		{
 			c4++;
 			m += 230;
 		}
@@ -140,7 +140,10 @@ void packege(T arr[], T a,T arrA[], const uint32_t size)
 	if (c0 > c1 && c0 > c2 && c0 > c3 && c0 > c4) {
 		SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 6));
 		cout << " The most popular package ";
-		cout << "0 - ";
+		SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 3));
+		cout << "0 ";
+		SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+		cout << "--> ";
 		SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 3));
 		cout << c0;
 		SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 6));
@@ -230,7 +233,7 @@ void packege1(T arr[], T a, T arrA[], const uint32_t size)
 	{
 		arrA[i] = rand() % 5;
 		c += 1;
-		if (arrA[i] == 0) 
+		if (arrA[i] == 0)
 		{
 			c0++;
 			m += 300;
@@ -255,12 +258,12 @@ void packege1(T arr[], T a, T arrA[], const uint32_t size)
 			c4++;
 			m += 230;
 		}
-		if (c > 9) 
+		if (c > 9)
 		{
 			cout << " " << arrA[i] << " ";
 			SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 8));
 		}
-		else 
+		else
 		{
 			cout << arrA[i] << " ";
 			SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 8));
@@ -280,7 +283,7 @@ void packege1(T arr[], T a, T arrA[], const uint32_t size)
 int main()
 {
 	int a = 0;
-	int q=0, w=0, e=0, r=0, t=0;
+	int q = 0, w = 0, e = 0, r = 0, t = 0;
 	int c = 0;
 	int sum = 0;
 	const uint32_t size = 50;
@@ -301,17 +304,24 @@ int main()
 		cout << "\t\t\t\t\t#>---------------------------------------------------<#" << endl;
 		switch_on = _getch();
 		system("cls");
+
 		switch (switch_on)
 		{
+		case '0':
+		{
+			break;
+		}break;
+
 		case '1':
 		{
 			cout << endl;
 			stypid(arr, a, size);
 			cout << endl;
-			system("pause");
 			SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+			system("pause");
+
 		}break;
-		case '2' :
+		case '2':
 		{
 			cout << endl;
 			SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 14));
@@ -328,7 +338,7 @@ int main()
 			SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
 			system("pause");
 		}break;
-		case '3' :
+		case '3':
 		{
 			cout << endl;
 			packege(arr, a, arrA, size);
@@ -343,7 +353,8 @@ int main()
 			system("pause");
 		}break;
 		}
-	} while (true);
+	} while (switch_on != '0');
+
 	return 0;
 	SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
 }
