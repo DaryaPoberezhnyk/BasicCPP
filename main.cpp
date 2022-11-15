@@ -249,6 +249,35 @@ T* ExcludeArray(T* A, const uint32_t M, T* B, const uint32_t N, uint32_t& main_s
         return DeleteRepeatElements<T>(result, M + N, main_size);
     }
 }
+//////////////////////////////////////////////////////
+template<typename T>
+T* Initialize1(const uint32_t size)
+{
+    T* new_arr = new T[size];
+    for (uint32_t i = 0; i < size; i++)
+    {
+        new_arr[i] = rand() % 20;
+    }
+    return new_arr;
+}
+template<typename T>
+void Print1(T* new_arr, const uint32_t size)
+{
+    for (uint32_t i = 0; i < size; i++)
+    {
+        cout << new_arr[i] << "\t";
+    }
+    cout << endl;
+}
+template<typename T>
+void Insertions(T* a, T* b) 
+{
+
+    if (a == 0) {
+        cout << b;
+
+    }
+}
 int main()
 {
     char switch_on;
@@ -341,6 +370,25 @@ int main()
             SetConsoleTextAttribute(handle, WORD(0 << 4 | 7));
             cout << endl;
             system("pause");
+        }break;
+        case '3':
+        {
+            uint32_t size, C = 0;
+            int a, b;
+            cout << " Enter M : ";
+            cin >> size;
+            int* arr = Initialize1<int>(size);
+            Print1(arr, size);
+            cout << " Enter a : ";
+            cin >> a;
+            cout << " Enter b : ";
+            cin >> b;
+            Insertions<int>(a, b, arr);
+            Print1(arr, size);
+            cout << endl;
+            cout << " ";
+            system("pause");
+
         }break;
         }
     } while (true);
