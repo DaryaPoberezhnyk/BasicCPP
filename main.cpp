@@ -38,6 +38,33 @@ char* mystrcat(char* str1, const char* str2) {
 	str1[size] = '\0';
 	return str1;
 }
+char* mystrchr(char* str, char s) {
+	int size = mystrlen(str);
+	for (size_t i = 0; i < size; i++)
+	{
+		if (str[i] == s) {
+			return (str + i);
+		}
+	}
+	return 0;
+}
+char* mystrstr(char* str1, char* str2)
+{
+	int size1 = mystrlen(str1);
+	int size2 = mystrlen(str2);
+
+	for (size_t i = 0; i < size1; i++)
+	{
+		if (str1[i] = str2[i])
+		{
+			for (size_t j = 0; j < size2; j++)
+			{
+			}
+		}
+	}
+	return 0;
+}
+
 
 int main()
 {
@@ -78,7 +105,7 @@ int main()
 			cout << "Str 1 = " << str1 << endl;
 			cout << "Str 2 = " << str2 << endl << endl;;
 			system("pause");
-		}
+		}break;
 		case '3':
 		{
 			cout << endl;
@@ -90,6 +117,21 @@ int main()
 			cout << " Str1 = " << str1;
 			
 			system("pause");
+		}break;
+		case '4':
+		{
+			char* str = new char[7] {"Hello"};
+			char s;
+			cin >> s;
+			char* sign = mystrchr(str, s);
+
+			for (size_t i = 0; i < mystrlen(str); i++)
+			{
+				cout << *(str + i) << " = " << (long long)(str + i) << endl;
+			}
+			cout << (long long)sign << endl;
+			system("pause");
+
 		}break;
 		}
 	} while (true);
