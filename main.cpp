@@ -124,14 +124,28 @@ int main()
 			char s;
 			cin >> s;
 			char* sign = mystrchr(str, s);
-
 			for (size_t i = 0; i < mystrlen(str); i++)
 			{
 				cout << *(str + i) << " = " << (long long)(str + i) << endl;
 			}
 			cout << (long long)sign << endl;
 			system("pause");
-
+		}break;
+		case '5' :
+		{
+			char* str1 = new char[7] {"Hello"};
+			char* str2 = new char[7] {"Hello"};
+			cin >> str2;
+			char* sign = mystrstr(str1, str2);
+			for (size_t i = 0; i < mystrlen(str1); i++)
+			{
+				for (size_t i = 0; i < mystrlen(str2); i++)
+				{
+					cout << *(str1 + i) << " = " << (long long)(str1 + i) << endl;
+				}
+				break;
+			}cout << (long long)sign << endl;
+			system("pause");
 		}break;
 		}
 	} while (true);
