@@ -205,17 +205,6 @@ struct dog
         name = " MIKE ";
     }
 };
-void dog1(int g, int y, int n)
-{
-    if (g = y)
-    {
-        cout << " GAF GAF...";
-    }
-    if (g = n)
-    {
-
-    }
-}
 int main()
 {
     SetConsoleCP(1251);
