@@ -534,7 +534,7 @@ struct slizerin
         line = "-----------------------";
         one = " 1. Драко Малфой ";
         two = " 2. Милисента Булстроуд";
-        three = " 3. Милисента Булстроуд ";
+        three = " 3. Трейси Дэвис!!";
         line2 = "-----------------------";
         vibir = " * Для вибору персонажа натисніть його номер : ";
     }
@@ -662,6 +662,21 @@ struct sp3
         vibir = " * Для підтвердження персонажа натисніть 1 : ";
     }
 };
+struct hp
+{
+    string hp;
+    string hp1;
+    void Output()
+    {
+        cout << hp;
+        cout << hp1 << endl;
+    }
+    void Input()
+    {
+        hp = " ХП1 **********";
+        hp1= "                                   ХП2 **********";
+    }
+};
 
 int main()
 {
@@ -755,7 +770,9 @@ int main()
                                             system("cls");
                                             cout << endl;
                                             cout << " Гравець 1: " << y1 << " обрав Кети Белл" << "\t\t\t Гравець 2: " << y2 << " обрав Кети Белл" << endl;
-                                            cout << " ХП **********\t\t\t\t\t ХП ********** " << endl;
+                                            hp* h = new hp;
+                                            h->Input();
+                                            h->Output();
                                         }
                                     }
                                 }
@@ -779,7 +796,9 @@ int main()
                                             system("cls");
                                             cout << endl;
                                             cout << " Гравець 1: " << y1 << " обрав Кети Белл" << "\t\t\t Гравець 2: " << y2 << " обрав Гарі Потера" << endl;
-                                            cout << " ХП **********\t\t\t\t\t ХП ********** " << endl;
+                                            hp* h = new hp;
+                                            h->Input();
+                                            h->Output();
                                         }
                                     }
 
@@ -804,7 +823,9 @@ int main()
                                             system("cls");
                                             cout << endl;
                                             cout << " Гравець 1: " << y1 << " обрав Кети Белл" << "\t\t\t Гравець 2: " << y2 << " обрав Гермиону Грейнджер!! " << endl;
-                                            cout << " ХП **********\t\t\t\t\t ХП ********** " << endl;
+                                            hp* h = new hp;
+                                            h->Input();
+                                            h->Output();
                                         }
                                     }
 
@@ -839,7 +860,10 @@ int main()
                                             system("cls");
                                             cout << endl;
                                             cout << " Гравець 1: " << y1 << " обрав Кети Белл" << "\t\t\t Гравець 2: " << y2 << " обрав Чо Чанґ!! " << endl;
-                                            cout << " ХП **********\t\t\t\t\t ХП ********** " << endl;
+                                            hp* h = new hp;
+                                            h->Input();
+                                            h->Output();
+                                            system("pause");
                                         }
                                     }
                                 }
@@ -855,7 +879,7 @@ int main()
                                         system("cls");
                                         cout << endl;
                                         cout << " Гравець " << y2;
-                                        cout << ". Ви обрали персонажа Майкл Корнер!!! " << endl;
+                                        cout << ". Ви обрали персонажа Майкл Корнер!! " << endl;
                                         cout << " Для початку бою натисніть 1 :";
                                         cin >> x;
                                         if (x == 1)
@@ -863,7 +887,10 @@ int main()
                                             system("cls");
                                             cout << endl;
                                             cout << " Гравець 1: " << y1 << " обрав Кети Белл" << "\t\t\t Гравець 2: " << y2 << " обрав Майкл Корнер!! " << endl;
-                                            cout << " ХП **********\t\t\t\t\t ХП ********** " << endl;
+                                            hp* h = new hp;
+                                            h->Input();
+                                            h->Output();
+                                            system("pause");
                                         }
                                     }
                                 }
@@ -878,12 +905,19 @@ int main()
                                     {
                                         system("cls");
                                         cout << endl;
-                                        cout << " Ви обрали персонажа Маркус Белбі!! " << endl;
-                                        cout << " Для вибору персонажа для другого гравця натисніть 1 : ";
+                                        cout << " Гравець " << y2;
+                                        cout << ". Ви обрали персонажа Маркус Белбі!! " << endl;
+                                        cout << " Для початку бою натисніть 1 :";
                                         cin >> x;
                                         if (x == 1)
                                         {
-
+                                            system("cls");
+                                            cout << endl;
+                                            cout << " Гравець 1: " << y1 << " обрав Кети Белл" << "\t\t\t Гравець 2: " << y2 << " обрав Маркус Белбі!! " << endl;
+                                            hp* h = new hp;
+                                            h->Input();
+                                            h->Output();
+                                            system("pause");
                                         }
                                     }
                                 }
@@ -907,12 +941,19 @@ int main()
                                     {
                                         system("cls");
                                         cout << endl;
-                                        cout << " Ви обрали персонажа Німфадора Тонкс!! " << endl;
-                                        cout << " Для вибору персонажа для другого гравця натисніть 1 : ";
+                                        cout << " Гравець " << y2;
+                                        cout << ". Ви обрали персонажа Німфадора Тонкс!! " << endl;
+                                        cout << " Для початку бою натисніть 1 :";
                                         cin >> x;
                                         if (x == 1)
                                         {
-
+                                            system("cls");
+                                            cout << endl;
+                                            cout << " Гравець 1: " << y1 << " обрав Кети Белл" << "\t\t\t Гравець 2: " << y2 << " обрав Німфадора Тонкс!! " << endl;
+                                            hp* h = new hp;
+                                            h->Input();
+                                            h->Output();
+                                            system("pause");
                                         }
                                     }
                                 }
@@ -927,12 +968,19 @@ int main()
                                     {
                                         system("cls");
                                         cout << endl;
-                                        cout << " Ви обрали персонажа Помона Спраут!! " << endl;
-                                        cout << " Для вибору персонажа для другого гравця натисніть 1 : ";
+                                        cout << " Гравець " << y2;
+                                        cout << ". Ви обрали персонажа Помона Спраут!! " << endl;
+                                        cout << " Для початку бою натисніть 1 :";
                                         cin >> x;
                                         if (x == 1)
                                         {
-
+                                            system("cls");
+                                            cout << endl;
+                                            cout << " Гравець 1: " << y1 << " обрав Кети Белл" << "\t\t\t Гравець 2: " << y2 << " обрав Помона Спраут!! " << endl;
+                                            hp* h = new hp;
+                                            h->Input();
+                                            h->Output();
+                                            system("pause");
                                         }
                                     }
                                 }
@@ -947,12 +995,19 @@ int main()
                                     {
                                         system("cls");
                                         cout << endl;
-                                        cout << " Ви обрали персонажа Седрік Діґорі!! " << endl;
-                                        cout << " Для вибору персонажа для другого гравця натисніть 1 : ";
+                                        cout << " Гравець " << y2;
+                                        cout << ". Ви обрали персонажа Седрік Діґорі!! " << endl;
+                                        cout << " Для початку бою натисніть 1 :";
                                         cin >> x;
                                         if (x == 1)
                                         {
-
+                                            system("cls");
+                                            cout << endl;
+                                            cout << " Гравець 1: " << y1 << " обрав Кети Белл" << "\t\t\t Гравець 2: " << y2 << " обрав Седрік Діґорі!! " << endl;
+                                            hp* h = new hp;
+                                            h->Input();
+                                            h->Output();
+                                            system("pause");
                                         }
                                     }
                                 }
@@ -976,12 +1031,19 @@ int main()
                                     {
                                         system("cls");
                                         cout << endl;
-                                        cout << " Ви обрали персонажа Драко Малфой!! " << endl;
-                                        cout << " Для вибору персонажа для другого гравця натисніть 1 : ";
+                                        cout << " Гравець " << y2;
+                                        cout << ". Ви обрали персонажа Драко Малфой!! " << endl;
+                                        cout << " Для початку бою натисніть 1 :";
                                         cin >> x;
                                         if (x == 1)
                                         {
-
+                                            system("cls");
+                                            cout << endl;
+                                            cout << " Гравець 1: " << y1 << " обрав Кети Белл" << "\t\t\t Гравець 2: " << y2 << " обрав Драко Малфой!! " << endl;
+                                            hp* h = new hp;
+                                            h->Input();
+                                            h->Output();
+                                            system("pause");
                                         }
                                     }
                                 }
@@ -996,12 +1058,19 @@ int main()
                                     {
                                         system("cls");
                                         cout << endl;
-                                        cout << " Ви обрали персонажа Милисента Булстроуд!! " << endl;
-                                        cout << " Для вибору персонажа для другого гравця натисніть 1 : ";
+                                        cout << " Гравець " << y2;
+                                        cout << ". Ви обрали персонажа Милисента Булстроуд!! " << endl;
+                                        cout << " Для початку бою натисніть 1 :";
                                         cin >> x;
                                         if (x == 1)
                                         {
-
+                                            system("cls");
+                                            cout << endl;
+                                            cout << " Гравець 1: " << y1 << " обрав Кети Белл" << "\t\t\t Гравець 2: " << y2 << " обрав Милисента Булстроуд!! " << endl;
+                                            hp* h = new hp;
+                                            h->Input();
+                                            h->Output();
+                                            system("pause");
                                         }
                                     }
                                 }
@@ -1016,12 +1085,19 @@ int main()
                                     {
                                         system("cls");
                                         cout << endl;
-                                        cout << " Ви обрали персонажа Трейси Дэвис!! " << endl;
-                                        cout << " Для вибору персонажа для другого гравця натисніть 1 : ";
+                                        cout << " Гравець " << y2;
+                                        cout << ". Ви обрали персонажа Трейси Дэвис!! " << endl;
+                                        cout << " Для початку бою натисніть 1 :";
                                         cin >> x;
                                         if (x == 1)
                                         {
-
+                                            system("cls");
+                                            cout << endl;
+                                            cout << " Гравець 1: " << y1 << " обрав Кети Белл" << "\t\t\t Гравець 2: " << y2 << " обрав Трейси Дэвис!! " << endl;
+                                            hp* h = new hp;
+                                            h->Input();
+                                            h->Output();
+                                            system("pause");
                                         }
                                     }
                                 }
@@ -1040,12 +1116,380 @@ int main()
                     {
                         system("cls");
                         cout << endl;
-                        cout << " Ви обрали персонажа Гарі Потера!! " << endl;
+                        cout << " Гравець " << y1;
+                        cout << ". Ви обрали персонажа Гарі Потера!! " << endl;
                         cout << " Для вибору персонажа для другого гравця натисніть 1 : ";
                         cin >> x;
                         if (x == 1)
                         {
+                            system("cls");
+                            cout << " Ви гравець номер 2, напишіть свій нік : ";
+                            cin >> y2;
+                            system("cls");
+                            facultet* f = new facultet;
+                            f->Input();
+                            f->Output();
+                            cin >> x;
+                            if (x == 1)
+                            {
+                                system("cls");
+                                int x;
+                                grifindor* g = new grifindor;
+                                g->Input();
+                                g->Output();
+                                cin >> x;
+                                if (x == 1)
+                                {
+                                    system("cls");
+                                    gp1* g1 = new gp1;
+                                    g1->Input();
+                                    g1->Output();
+                                    cin >> x;
+                                    if (x == 1)
+                                    {
+                                        system("cls");
+                                        cout << endl;
+                                        cout << " Гравець " << y2;
+                                        cout << ". Ви обрали персонажа Кети Белл!! " << endl;
+                                        cout << " Для початку бою натисніть 1 :";
+                                        cin >> x;
+                                        if (x == 1)
+                                        {
+                                            system("cls");
+                                            cout << endl;
+                                            cout << " Гравець 1: " << y1 << " обрав Гарі Потера" << "\t\t\t Гравець 2: " << y2 << " обрав Кети Белл" << endl;
+                                            hp* h = new hp;
+                                            h->Input();
+                                            h->Output();
+                                        }
+                                    }
+                                }
+                                if (x == 2)
+                                {
+                                    system("cls");
+                                    gp2* g2 = new gp2;
+                                    g2->Input();
+                                    g2->Output();
+                                    cin >> x;
+                                    if (x == 1)
+                                    {
+                                        system("cls");
+                                        cout << endl;
+                                        cout << " Гравець " << y2;
+                                        cout << ". Ви обрали персонажа Гарі Потера!! " << endl;
+                                        cout << " Для початку бою натисніть 1 :";
+                                        cin >> x;
+                                        if (x == 1)
+                                        {
+                                            system("cls");
+                                            cout << endl;
+                                            cout << " Гравець 1: " << y1 << " обрав Гарі Потера" << "\t\t\t Гравець 2: " << y2 << " обрав Гарі Потера" << endl;
+                                            hp* h = new hp;
+                                            h->Input();
+                                            h->Output();
+                                        }
+                                    }
 
+                                }
+                                if (x == 3)
+                                {
+                                    system("cls");
+                                    gp3* g3 = new gp3;
+                                    g3->Input();
+                                    g3->Output();
+                                    cin >> x;
+                                    if (x == 1)
+                                    {
+                                        system("cls");
+                                        cout << endl;
+                                        cout << " Гравець " << y2;
+                                        cout << ". Ви обрали персонажа Гермиону Грейнджер!! " << endl;
+                                        cout << " Для початку бою натисніть 1 :";
+                                        cin >> x;
+                                        if (x == 1)
+                                        {
+                                            system("cls");
+                                            cout << endl;
+                                            cout << " Гравець 1: " << y1 << " обрав Гарі Потера" << "\t\t\t Гравець 2: " << y2 << " обрав Гермиону Грейнджер!! " << endl;
+                                            hp* h = new hp;
+                                            h->Input();
+                                            h->Output();
+                                        }
+                                    }
+
+                                }
+                            }
+                            if (x == 2)
+                            {
+                                system("cls");
+                                int x;
+                                reivenclov* r = new reivenclov;
+                                r->Input();
+                                r->Output();
+                                cin >> x;
+                                if (x == 1)
+                                {
+                                    system("cls");
+                                    rp1* r1 = new rp1;
+                                    r1->Input();
+                                    r1->Output();
+                                    cin >> x;
+                                    if (x == 1)
+                                    {
+                                        system("cls");
+                                        cout << endl;
+
+                                        cout << " Гравець " << y2;
+                                        cout << ". Ви обрали персонажа Чо Чанґ!! " << endl;
+                                        cout << " Для початку бою натисніть 1 :";
+                                        cin >> x;
+                                        if (x == 1)
+                                        {
+                                            system("cls");
+                                            cout << endl;
+                                            cout << " Гравець 1: " << y1 << " обрав Гарі Потера" << "\t\t\t Гравець 2: " << y2 << " обрав Чо Чанґ!! " << endl;
+                                            hp* h = new hp;
+                                            h->Input();
+                                            h->Output();
+                                            system("pause");
+                                        }
+                                    }
+                                }
+                                if (x == 2)
+                                {
+                                    system("cls");
+                                    rp2* r2 = new rp2;
+                                    r2->Input();
+                                    r2->Output();
+                                    cin >> x;
+                                    if (x == 1)
+                                    {
+                                        system("cls");
+                                        cout << endl;
+                                        cout << " Гравець " << y2;
+                                        cout << ". Ви обрали персонажа Майкл Корнер!! " << endl;
+                                        cout << " Для початку бою натисніть 1 :";
+                                        cin >> x;
+                                        if (x == 1)
+                                        {
+                                            system("cls");
+                                            cout << endl;
+                                            cout << " Гравець 1: " << y1 << " обрав Гарі Потера" << "\t\t\t Гравець 2: " << y2 << " обрав Майкл Корнер!! " << endl;
+                                            hp* h = new hp;
+                                            h->Input();
+                                            h->Output();
+                                            system("pause");
+                                        }
+                                    }
+                                }
+                                if (x == 3)
+                                {
+                                    system("cls");
+                                    rp3* r3 = new rp3;
+                                    r3->Input();
+                                    r3->Output();
+                                    cin >> x;
+                                    if (x == 1)
+                                    {
+                                        system("cls");
+                                        cout << endl;
+                                        cout << " Гравець " << y2;
+                                        cout << ". Ви обрали персонажа Маркус Белбі!! " << endl;
+                                        cout << " Для початку бою натисніть 1 :";
+                                        cin >> x;
+                                        if (x == 1)
+                                        {
+                                            system("cls");
+                                            cout << endl;
+                                            cout << " Гравець 1: " << y1 << " обрав Гарі Потера" << "\t\t\t Гравець 2: " << y2 << " обрав Маркус Белбі!! " << endl;
+                                            hp* h = new hp;
+                                            h->Input();
+                                            h->Output();
+                                            system("pause");
+                                        }
+                                    }
+                                }
+                            }
+                            if (x == 3)
+                            {
+                                system("cls");
+                                int x;
+                                gafelpaf* g = new gafelpaf;
+                                g->Input();
+                                g->Output();
+                                cin >> x;
+                                if (x == 1)
+                                {
+                                    system("cls");
+                                    gap1* g1 = new gap1;
+                                    g1->Input();
+                                    g1->Output();
+                                    cin >> x;
+                                    if (x == 1)
+                                    {
+                                        system("cls");
+                                        cout << endl;
+                                        cout << " Гравець " << y2;
+                                        cout << ". Ви обрали персонажа Німфадора Тонкс!! " << endl;
+                                        cout << " Для початку бою натисніть 1 :";
+                                        cin >> x;
+                                        if (x == 1)
+                                        {
+                                            system("cls");
+                                            cout << endl;
+                                            cout << " Гравець 1: " << y1 << " обрав Гарі Потера" << "\t\t\t Гравець 2: " << y2 << " обрав Німфадора Тонкс!! " << endl;
+                                            hp* h = new hp;
+                                            h->Input();
+                                            h->Output();
+                                            system("pause");
+                                        }
+                                    }
+                                }
+                                if (x == 2)
+                                {
+                                    system("cls");
+                                    gap2* g2 = new gap2;
+                                    g2->Input();
+                                    g2->Output();
+                                    cin >> x;
+                                    if (x == 1)
+                                    {
+                                        system("cls");
+                                        cout << endl;
+                                        cout << " Гравець " << y2;
+                                        cout << ". Ви обрали персонажа Помона Спраут!! " << endl;
+                                        cout << " Для початку бою натисніть 1 :";
+                                        cin >> x;
+                                        if (x == 1)
+                                        {
+                                            system("cls");
+                                            cout << endl;
+                                            cout << " Гравець 1: " << y1 << " обрав Гарі Потера" << "\t\t\t Гравець 2: " << y2 << " обрав Помона Спраут!! " << endl;
+                                            hp* h = new hp;
+                                            h->Input();
+                                            h->Output();
+                                            system("pause");
+                                        }
+                                    }
+                                }
+                                if (x == 3)
+                                {
+                                    system("cls");
+                                    gap3* g3 = new gap3;
+                                    g3->Input();
+                                    g3->Output();
+                                    cin >> x;
+                                    if (x == 1)
+                                    {
+                                        system("cls");
+                                        cout << endl;
+                                        cout << " Гравець " << y2;
+                                        cout << ". Ви обрали персонажа Седрік Діґорі!! " << endl;
+                                        cout << " Для початку бою натисніть 1 :";
+                                        cin >> x;
+                                        if (x == 1)
+                                        {
+                                            system("cls");
+                                            cout << endl;
+                                            cout << " Гравець 1: " << y1 << " обрав Гарі Потера" << "\t\t\t Гравець 2: " << y2 << " обрав Седрік Діґорі!! " << endl;
+                                            hp* h = new hp;
+                                            h->Input();
+                                            h->Output();
+                                            system("pause");
+                                        }
+                                    }
+                                }
+                            }
+                            if (x == 4)
+                            {
+                                system("cls");
+                                int x;
+                                slizerin* s = new slizerin;
+                                s->Input();
+                                s->Output();
+                                cin >> x;
+                                if (x == 1)
+                                {
+                                    system("cls");
+                                    sp1* s1 = new sp1;
+                                    s1->Input();
+                                    s1->Output();
+                                    cin >> x;
+                                    if (x == 1)
+                                    {
+                                        system("cls");
+                                        cout << endl;
+                                        cout << " Гравець " << y2;
+                                        cout << ". Ви обрали персонажа Драко Малфой!! " << endl;
+                                        cout << " Для початку бою натисніть 1 :";
+                                        cin >> x;
+                                        if (x == 1)
+                                        {
+                                            system("cls");
+                                            cout << endl;
+                                            cout << " Гравець 1: " << y1 << " обрав Гарі Потера" << "\t\t\t Гравець 2: " << y2 << " обрав Драко Малфой!! " << endl;
+                                            hp* h = new hp;
+                                            h->Input();
+                                            h->Output();
+                                            system("pause");
+                                        }
+                                    }
+                                }
+                                if (x == 2)
+                                {
+                                    system("cls");
+                                    sp2* s2 = new sp2;
+                                    s2->Input();
+                                    s2->Output();
+                                    cin >> x;
+                                    if (x == 1)
+                                    {
+                                        system("cls");
+                                        cout << endl;
+                                        cout << " Гравець " << y2;
+                                        cout << ". Ви обрали персонажа Милисента Булстроуд!! " << endl;
+                                        cout << " Для початку бою натисніть 1 :";
+                                        cin >> x;
+                                        if (x == 1)
+                                        {
+                                            system("cls");
+                                            cout << endl;
+                                            cout << " Гравець 1: " << y1 << " обрав Гарі Потера" << "\t\t\t Гравець 2: " << y2 << " обрав Милисента Булстроуд!! " << endl;
+                                            hp* h = new hp;
+                                            h->Input();
+                                            h->Output();
+                                            system("pause");
+                                        }
+                                    }
+                                }
+                                if (x == 3)
+                                {
+                                    system("cls");
+                                    sp3* s3 = new sp3;
+                                    s3->Input();
+                                    s3->Output();
+                                    cin >> x;
+                                    if (x == 1)
+                                    {
+                                        system("cls");
+                                        cout << endl;
+                                        cout << " Гравець " << y2;
+                                        cout << ". Ви обрали персонажа Трейси Дэвис!! " << endl;
+                                        cout << " Для початку бою натисніть 1 :";
+                                        cin >> x;
+                                        if (x == 1)
+                                        {
+                                            system("cls");
+                                            cout << endl;
+                                            cout << " Гравець 1: " << y1 << " обрав Гарі Потера" << "\t\t\t Гравець 2: " << y2 << " обрав Трейси Дэвис!! " << endl;
+                                            hp* h = new hp;
+                                            h->Input();
+                                            h->Output();
+                                            system("pause");
+                                        }
+                                    }
+                                }
+                            }
                         }
                     }
                    
@@ -1061,12 +1505,380 @@ int main()
                     {
                         system("cls");
                         cout << endl;
-                        cout << " Ви обрали персонажа Гермиону Грейнджер!! " << endl;
+                        cout << " Гравець " << y1;
+                        cout << ". Ви обрали персонажа Гермиону Грейнджер!! " << endl;
                         cout << " Для вибору персонажа для другого гравця натисніть 1 : ";
                         cin >> x;
                         if (x == 1)
                         {
+                            system("cls");
+                            cout << " Ви гравець номер 2, напишіть свій нік : ";
+                            cin >> y2;
+                            system("cls");
+                            facultet* f = new facultet;
+                            f->Input();
+                            f->Output();
+                            cin >> x;
+                            if (x == 1)
+                            {
+                                system("cls");
+                                int x;
+                                grifindor* g = new grifindor;
+                                g->Input();
+                                g->Output();
+                                cin >> x;
+                                if (x == 1)
+                                {
+                                    system("cls");
+                                    gp1* g1 = new gp1;
+                                    g1->Input();
+                                    g1->Output();
+                                    cin >> x;
+                                    if (x == 1)
+                                    {
+                                        system("cls");
+                                        cout << endl;
+                                        cout << " Гравець " << y2;
+                                        cout << ". Ви обрали персонажа Кети Белл!! " << endl;
+                                        cout << " Для початку бою натисніть 1 :";
+                                        cin >> x;
+                                        if (x == 1)
+                                        {
+                                            system("cls");
+                                            cout << endl;
+                                            cout << " Гравець 1: " << y1 << " обрав Гермиону Грейнджер" << "\t\t\t Гравець 2: " << y2 << " обрав Кети Белл" << endl;
+                                            hp* h = new hp;
+                                            h->Input();
+                                            h->Output();
+                                        }
+                                    }
+                                }
+                                if (x == 2)
+                                {
+                                    system("cls");
+                                    gp2* g2 = new gp2;
+                                    g2->Input();
+                                    g2->Output();
+                                    cin >> x;
+                                    if (x == 1)
+                                    {
+                                        system("cls");
+                                        cout << endl;
+                                        cout << " Гравець " << y2;
+                                        cout << ". Ви обрали персонажа Гарі Потера!! " << endl;
+                                        cout << " Для початку бою натисніть 1 :";
+                                        cin >> x;
+                                        if (x == 1)
+                                        {
+                                            system("cls");
+                                            cout << endl;
+                                            cout << " Гравець 1: " << y1 << " обрав Гермиону Грейнджер" << "\t\t\t Гравець 2: " << y2 << " обрав Гарі Потера" << endl;
+                                            hp* h = new hp;
+                                            h->Input();
+                                            h->Output();
+                                        }
+                                    }
 
+                                }
+                                if (x == 3)
+                                {
+                                    system("cls");
+                                    gp3* g3 = new gp3;
+                                    g3->Input();
+                                    g3->Output();
+                                    cin >> x;
+                                    if (x == 1)
+                                    {
+                                        system("cls");
+                                        cout << endl;
+                                        cout << " Гравець " << y2;
+                                        cout << ". Ви обрали персонажа Гермиону Грейнджер!! " << endl;
+                                        cout << " Для початку бою натисніть 1 :";
+                                        cin >> x;
+                                        if (x == 1)
+                                        {
+                                            system("cls");
+                                            cout << endl;
+                                            cout << " Гравець 1: " << y1 << " обрав Гермиону Грейнджер" << "\t\t\t Гравець 2: " << y2 << " обрав Гермиону Грейнджер!! " << endl;
+                                            hp* h = new hp;
+                                            h->Input();
+                                            h->Output();
+                                        }
+                                    }
+
+                                }
+                            }
+                            if (x == 2)
+                            {
+                                system("cls");
+                                int x;
+                                reivenclov* r = new reivenclov;
+                                r->Input();
+                                r->Output();
+                                cin >> x;
+                                if (x == 1)
+                                {
+                                    system("cls");
+                                    rp1* r1 = new rp1;
+                                    r1->Input();
+                                    r1->Output();
+                                    cin >> x;
+                                    if (x == 1)
+                                    {
+                                        system("cls");
+                                        cout << endl;
+
+                                        cout << " Гравець " << y2;
+                                        cout << ". Ви обрали персонажа Чо Чанґ!! " << endl;
+                                        cout << " Для початку бою натисніть 1 :";
+                                        cin >> x;
+                                        if (x == 1)
+                                        {
+                                            system("cls");
+                                            cout << endl;
+                                            cout << " Гравець 1: " << y1 << " обрав Гермиону Грейнджер" << "\t\t\t Гравець 2: " << y2 << " обрав Чо Чанґ!! " << endl;
+                                            hp* h = new hp;
+                                            h->Input();
+                                            h->Output();
+                                            system("pause");
+                                        }
+                                    }
+                                }
+                                if (x == 2)
+                                {
+                                    system("cls");
+                                    rp2* r2 = new rp2;
+                                    r2->Input();
+                                    r2->Output();
+                                    cin >> x;
+                                    if (x == 1)
+                                    {
+                                        system("cls");
+                                        cout << endl;
+                                        cout << " Гравець " << y2;
+                                        cout << ". Ви обрали персонажа Майкл Корнер!! " << endl;
+                                        cout << " Для початку бою натисніть 1 :";
+                                        cin >> x;
+                                        if (x == 1)
+                                        {
+                                            system("cls");
+                                            cout << endl;
+                                            cout << " Гравець 1: " << y1 << " обрав Гермиону Грейнджер" << "\t\t\t Гравець 2: " << y2 << " обрав Майкл Корнер!! " << endl;
+                                            hp* h = new hp;
+                                            h->Input();
+                                            h->Output();               
+                                            system("pause");
+                                        }
+                                    }
+                                }
+                                if (x == 3)
+                                {
+                                    system("cls");
+                                    rp3* r3 = new rp3;
+                                    r3->Input();
+                                    r3->Output();
+                                    cin >> x;
+                                    if (x == 1)
+                                    {
+                                        system("cls");
+                                        cout << endl;
+                                        cout << " Гравець " << y2;
+                                        cout << ". Ви обрали персонажа Маркус Белбі!! " << endl;
+                                        cout << " Для початку бою натисніть 1 :";
+                                        cin >> x;
+                                        if (x == 1)
+                                        {
+                                            system("cls");
+                                            cout << endl;
+                                            cout << " Гравець 1: " << y1 << " обрав Гермиону Грейнджер" << "\t\t\t Гравець 2: " << y2 << " обрав Маркус Белбі!! " << endl;
+                                            hp* h = new hp;
+                                            h->Input();
+                                            h->Output();           
+                                            system("pause");
+                                        }
+                                    }
+                                }
+                            }
+                            if (x == 3)
+                            {
+                                system("cls");
+                                int x;
+                                gafelpaf* g = new gafelpaf;
+                                g->Input();
+                                g->Output();
+                                cin >> x;
+                                if (x == 1)
+                                {
+                                    system("cls");
+                                    gap1* g1 = new gap1;
+                                    g1->Input();
+                                    g1->Output();
+                                    cin >> x;
+                                    if (x == 1)
+                                    {
+                                        system("cls");
+                                        cout << endl;
+                                        cout << " Гравець " << y2;
+                                        cout << ". Ви обрали персонажа Німфадора Тонкс!! " << endl;
+                                        cout << " Для початку бою натисніть 1 :";
+                                        cin >> x;
+                                        if (x == 1)
+                                        {
+                                            system("cls");
+                                            cout << endl;
+                                            cout << " Гравець 1: " << y1 << " обрав Гермиону Грейнджер" << "\t\t\t Гравець 2: " << y2 << " обрав Німфадора Тонкс!! " << endl;
+                                            hp* h = new hp;
+                                            h->Input();
+                                            h->Output();
+                                            system("pause");
+                                        }
+                                    }
+                                }
+                                if (x == 2)
+                                {
+                                    system("cls");
+                                    gap2* g2 = new gap2;
+                                    g2->Input();
+                                    g2->Output();
+                                    cin >> x;
+                                    if (x == 1)
+                                    {
+                                        system("cls");
+                                        cout << endl;
+                                        cout << " Гравець " << y2;
+                                        cout << ". Ви обрали персонажа Помона Спраут!! " << endl;
+                                        cout << " Для початку бою натисніть 1 :";
+                                        cin >> x;
+                                        if (x == 1)
+                                        {
+                                            system("cls");
+                                            cout << endl;
+                                            cout << " Гравець 1: " << y1 << " обрав Гермиону Грейнджер" << "\t\t\t Гравець 2: " << y2 << " обрав Помона Спраут!! " << endl;
+                                            hp* h = new hp;
+                                            h->Input();
+                                            h->Output();
+                                            system("pause");
+                                        }
+                                    }
+                                }
+                                if (x == 3)
+                                {
+                                    system("cls");
+                                    gap3* g3 = new gap3;
+                                    g3->Input();
+                                    g3->Output();
+                                    cin >> x;
+                                    if (x == 1)
+                                    {
+                                        system("cls");
+                                        cout << endl;
+                                        cout << " Гравець " << y2;
+                                        cout << ". Ви обрали персонажа Седрік Діґорі!! " << endl;
+                                        cout << " Для початку бою натисніть 1 :";
+                                        cin >> x;
+                                        if (x == 1)
+                                        {
+                                            system("cls");
+                                            cout << endl;
+                                            cout << " Гравець 1: " << y1 << " обрав Гермиону Грейнджер" << "\t\t\t Гравець 2: " << y2 << " обрав Седрік Діґорі!! " << endl;
+                                            hp* h = new hp;
+                                            h->Input();
+                                            h->Output();
+                                            system("pause");
+                                        }
+                                    }
+                                }
+                            }
+                            if (x == 4)
+                            {
+                                system("cls");
+                                int x;
+                                slizerin* s = new slizerin;
+                                s->Input();
+                                s->Output();
+                                cin >> x;
+                                if (x == 1)
+                                {
+                                    system("cls");
+                                    sp1* s1 = new sp1;
+                                    s1->Input();
+                                    s1->Output();
+                                    cin >> x;
+                                    if (x == 1)
+                                    {
+                                        system("cls");
+                                        cout << endl;
+                                        cout << " Гравець " << y2;
+                                        cout << ". Ви обрали персонажа Драко Малфой!! " << endl;
+                                        cout << " Для початку бою натисніть 1 :";
+                                        cin >> x;
+                                        if (x == 1)
+                                        {
+                                            system("cls");
+                                            cout << endl;
+                                            cout << " Гравець 1: " << y1 << " обрав Гермиону Грейнджер" << "\t\t\t Гравець 2: " << y2 << " обрав Драко Малфой!! " << endl;
+                                            hp* h = new hp;
+                                            h->Input();
+                                            h->Output();
+                                            system("pause");
+                                        }
+                                    }
+                                }
+                                if (x == 2)
+                                {
+                                    system("cls");
+                                    sp2* s2 = new sp2;
+                                    s2->Input();
+                                    s2->Output();
+                                    cin >> x;
+                                    if (x == 1)
+                                    {
+                                        system("cls");
+                                        cout << endl;
+                                        cout << " Гравець " << y2;
+                                        cout << ". Ви обрали персонажа Милисента Булстроуд!! " << endl;
+                                        cout << " Для початку бою натисніть 1 :";
+                                        cin >> x;
+                                        if (x == 1)
+                                        {
+                                            system("cls");
+                                            cout << endl;
+                                            cout << " Гравець 1: " << y1 << " обрав Гермиону Грейнджер" << "\t\t\t Гравець 2: " << y2 << " обрав Милисента Булстроуд!! " << endl;
+                                            hp* h = new hp;
+                                            h->Input();
+                                            h->Output();
+                                            system("pause");
+                                        }
+                                    }
+                                }
+                                if (x == 3)
+                                {
+                                    system("cls");
+                                    sp3* s3 = new sp3;
+                                    s3->Input();
+                                    s3->Output();
+                                    cin >> x;
+                                    if (x == 1)
+                                    {
+                                        system("cls");
+                                        cout << endl;
+                                        cout << " Гравець " << y2;
+                                        cout << ". Ви обрали персонажа Трейси Дэвис!! " << endl;
+                                        cout << " Для початку бою натисніть 1 :";
+                                        cin >> x;
+                                        if (x == 1)
+                                        {
+                                            system("cls");
+                                            cout << endl;
+                                            cout << " Гравець 1: " << y1 << " обрав Гермиону Грейнджер" << "\t\t\t Гравець 2: " << y2 << " обрав Трейси Дэвис!! " << endl;
+                                            hp* h = new hp;
+                                            h->Input();
+                                            h->Output();
+                                            system("pause");
+                                        }
+                                    }
+                                }
+                            }
                         }
                     }
 
@@ -1091,12 +1903,380 @@ int main()
                     {
                         system("cls");
                         cout << endl;
-                        cout << " Ви обрали персонажа Чо Чанґ!! " << endl;
+                        cout << " Гравець " << y1;
+                        cout << ". Ви обрали персонажа Чо Чанґ!! " << endl;
                         cout << " Для вибору персонажа для другого гравця натисніть 1 : ";
                         cin >> x;
                         if (x == 1)
                         {
+                            system("cls");
+                            cout << " Ви гравець номер 2, напишіть свій нік : ";
+                            cin >> y2;
+                            system("cls");
+                            facultet* f = new facultet;
+                            f->Input();
+                            f->Output();
+                            cin >> x;
+                            if (x == 1)
+                            {
+                                system("cls");
+                                int x;
+                                grifindor* g = new grifindor;
+                                g->Input();
+                                g->Output();
+                                cin >> x;
+                                if (x == 1)
+                                {
+                                    system("cls");
+                                    gp1* g1 = new gp1;
+                                    g1->Input();
+                                    g1->Output();
+                                    cin >> x;
+                                    if (x == 1)
+                                    {
+                                        system("cls");
+                                        cout << endl;
+                                        cout << " Гравець " << y2;
+                                        cout << ". Ви обрали персонажа Кети Белл!! " << endl;
+                                        cout << " Для початку бою натисніть 1 :";
+                                        cin >> x;
+                                        if (x == 1)
+                                        {
+                                            system("cls");
+                                            cout << endl;
+                                            cout << " Гравець 1: " << y1 << " обрав Чо Чанґ!!" << "\t\t\t Гравець 2: " << y2 << " обрав Кети Белл" << endl;
+                                            hp* h = new hp;
+                                            h->Input();
+                                            h->Output();
+                                        }
+                                    }
+                                }
+                                if (x == 2)
+                                {
+                                    system("cls");
+                                    gp2* g2 = new gp2;
+                                    g2->Input();
+                                    g2->Output();
+                                    cin >> x;
+                                    if (x == 1)
+                                    {
+                                        system("cls");
+                                        cout << endl;
+                                        cout << " Гравець " << y2;
+                                        cout << ". Ви обрали персонажа Гарі Потера!! " << endl;
+                                        cout << " Для початку бою натисніть 1 :";
+                                        cin >> x;
+                                        if (x == 1)
+                                        {
+                                            system("cls");
+                                            cout << endl;
+                                            cout << " Гравець 1: " << y1 << " обрав Чо Чанґ!!" << "\t\t\t Гравець 2: " << y2 << " обрав Гарі Потера" << endl;
+                                            hp* h = new hp;
+                                            h->Input();
+                                            h->Output();
+                                        }
+                                    }
 
+                                }
+                                if (x == 3)
+                                {
+                                    system("cls");
+                                    gp3* g3 = new gp3;
+                                    g3->Input();
+                                    g3->Output();
+                                    cin >> x;
+                                    if (x == 1)
+                                    {
+                                        system("cls");
+                                        cout << endl;
+                                        cout << " Гравець " << y2;
+                                        cout << ". Ви обрали персонажа Гермиону Грейнджер!! " << endl;
+                                        cout << " Для початку бою натисніть 1 :";
+                                        cin >> x;
+                                        if (x == 1)
+                                        {
+                                            system("cls");
+                                            cout << endl;
+                                            cout << " Гравець 1: " << y1 << " обрав Чо Чанґ!!" << "\t\t\t Гравець 2: " << y2 << " обрав Гермиону Грейнджер!! " << endl;
+                                            hp* h = new hp;
+                                            h->Input();
+                                            h->Output();
+                                        }
+                                    }
+
+                                }
+                            }
+                            if (x == 2)
+                            {
+                                system("cls");
+                                int x;
+                                reivenclov* r = new reivenclov;
+                                r->Input();
+                                r->Output();
+                                cin >> x;
+                                if (x == 1)
+                                {
+                                    system("cls");
+                                    rp1* r1 = new rp1;
+                                    r1->Input();
+                                    r1->Output();
+                                    cin >> x;
+                                    if (x == 1)
+                                    {
+                                        system("cls");
+                                        cout << endl;
+
+                                        cout << " Гравець " << y2;
+                                        cout << ". Ви обрали персонажа Чо Чанґ!! " << endl;
+                                        cout << " Для початку бою натисніть 1 :";
+                                        cin >> x;
+                                        if (x == 1)
+                                        {
+                                            system("cls");
+                                            cout << endl;
+                                            cout << " Гравець 1: " << y1 << " обрав Чо Чанґ!!" << "\t\t\t Гравець 2: " << y2 << " обрав Чо Чанґ!! " << endl;
+                                            hp* h = new hp;
+                                            h->Input();
+                                            h->Output();
+                                            system("pause");
+                                        }
+                                    }
+                                }
+                                if (x == 2)
+                                {
+                                    system("cls");
+                                    rp2* r2 = new rp2;
+                                    r2->Input();
+                                    r2->Output();
+                                    cin >> x;
+                                    if (x == 1)
+                                    {
+                                        system("cls");
+                                        cout << endl;
+                                        cout << " Гравець " << y2;
+                                        cout << ". Ви обрали персонажа Майкл Корнер!! " << endl;
+                                        cout << " Для початку бою натисніть 1 :";
+                                        cin >> x;
+                                        if (x == 1)
+                                        {
+                                            system("cls");
+                                            cout << endl;
+                                            cout << " Гравець 1: " << y1 << " обрав Чо Чанґ!!" << "\t\t\t Гравець 2: " << y2 << " обрав Майкл Корнер!! " << endl;
+                                            hp* h = new hp;
+                                            h->Input();
+                                            h->Output();
+                                            system("pause");
+                                        }
+                                    }
+                                }
+                                if (x == 3)
+                                {
+                                    system("cls");
+                                    rp3* r3 = new rp3;
+                                    r3->Input();
+                                    r3->Output();
+                                    cin >> x;
+                                    if (x == 1)
+                                    {
+                                        system("cls");
+                                        cout << endl;
+                                        cout << " Гравець " << y2;
+                                        cout << ". Ви обрали персонажа Маркус Белбі!! " << endl;
+                                        cout << " Для початку бою натисніть 1 :";
+                                        cin >> x;
+                                        if (x == 1)
+                                        {
+                                            system("cls");
+                                            cout << endl;
+                                            cout << " Гравець 1: " << y1 << " обрав Чо Чанґ!!" << "\t\t\t Гравець 2: " << y2 << " обрав Маркус Белбі!! " << endl;
+                                            hp* h = new hp;
+                                            h->Input();
+                                            h->Output();   
+                                            system("pause");
+                                        }
+                                    }
+                                }
+                            }
+                            if (x == 3)
+                            {
+                                system("cls");
+                                int x;
+                                gafelpaf* g = new gafelpaf;
+                                g->Input();
+                                g->Output();
+                                cin >> x;
+                                if (x == 1)
+                                {
+                                    system("cls");
+                                    gap1* g1 = new gap1;
+                                    g1->Input();
+                                    g1->Output();
+                                    cin >> x;
+                                    if (x == 1)
+                                    {
+                                        system("cls");
+                                        cout << endl;
+                                        cout << " Гравець " << y2;
+                                        cout << ". Ви обрали персонажа Німфадора Тонкс!! " << endl;
+                                        cout << " Для початку бою натисніть 1 :";
+                                        cin >> x;
+                                        if (x == 1)
+                                        {
+                                            system("cls");
+                                            cout << endl;
+                                            cout << " Гравець 1: " << y1 << " обрав Чо Чанґ!!" << "\t\t\t Гравець 2: " << y2 << " обрав Німфадора Тонкс!! " << endl;
+                                            hp* h = new hp;
+                                            h->Input();
+                                            h->Output();
+                                            system("pause");
+                                        }
+                                    }
+                                }
+                                if (x == 2)
+                                {
+                                    system("cls");
+                                    gap2* g2 = new gap2;
+                                    g2->Input();
+                                    g2->Output();
+                                    cin >> x;
+                                    if (x == 1)
+                                    {
+                                        system("cls");
+                                        cout << endl;
+                                        cout << " Гравець " << y2;
+                                        cout << ". Ви обрали персонажа Помона Спраут!! " << endl;
+                                        cout << " Для початку бою натисніть 1 :";
+                                        cin >> x;
+                                        if (x == 1)
+                                        {
+                                            system("cls");
+                                            cout << endl;
+                                            cout << " Гравець 1: " << y1 << " обрав Чо Чанґ!!" << "\t\t\t Гравець 2: " << y2 << " обрав Помона Спраут!! " << endl;
+                                            hp* h = new hp;
+                                            h->Input();
+                                            h->Output();
+                                            system("pause");
+                                        }
+                                    }
+                                }
+                                if (x == 3)
+                                {
+                                    system("cls");
+                                    gap3* g3 = new gap3;
+                                    g3->Input();
+                                    g3->Output();
+                                    cin >> x;
+                                    if (x == 1)
+                                    {
+                                        system("cls");
+                                        cout << endl;
+                                        cout << " Гравець " << y2;
+                                        cout << ". Ви обрали персонажа Седрік Діґорі!! " << endl;
+                                        cout << " Для початку бою натисніть 1 :";
+                                        cin >> x;
+                                        if (x == 1)
+                                        {
+                                            system("cls");
+                                            cout << endl;
+                                            cout << " Гравець 1: " << y1 << " обрав Чо Чанґ!!" << "\t\t\t Гравець 2: " << y2 << " обрав Седрік Діґорі!! " << endl;
+                                            hp* h = new hp;
+                                            h->Input();
+                                            h->Output(); 
+                                            system("pause");
+                                        }
+                                    }
+                                }
+                            }
+                            if (x == 4)
+                            {
+                                system("cls");
+                                int x;
+                                slizerin* s = new slizerin;
+                                s->Input();
+                                s->Output();
+                                cin >> x;
+                                if (x == 1)
+                                {
+                                    system("cls");
+                                    sp1* s1 = new sp1;
+                                    s1->Input();
+                                    s1->Output();
+                                    cin >> x;
+                                    if (x == 1)
+                                    {
+                                        system("cls");
+                                        cout << endl;
+                                        cout << " Гравець " << y2;
+                                        cout << ". Ви обрали персонажа Драко Малфой!! " << endl;
+                                        cout << " Для початку бою натисніть 1 :";
+                                        cin >> x;
+                                        if (x == 1)
+                                        {
+                                            system("cls");
+                                            cout << endl;
+                                            cout << " Гравець 1: " << y1 << " обрав Чо Чанґ!!" << "\t\t\t Гравець 2: " << y2 << " обрав Драко Малфой!! " << endl;
+                                            hp* h = new hp;
+                                            h->Input();
+                                            h->Output();
+                                            system("pause");
+                                        }
+                                    }
+                                }
+                                if (x == 2)
+                                {
+                                    system("cls");
+                                    sp2* s2 = new sp2;
+                                    s2->Input();
+                                    s2->Output();
+                                    cin >> x;
+                                    if (x == 1)
+                                    {
+                                        system("cls");
+                                        cout << endl;
+                                        cout << " Гравець " << y2;
+                                        cout << ". Ви обрали персонажа Милисента Булстроуд!! " << endl;
+                                        cout << " Для початку бою натисніть 1 :";
+                                        cin >> x;
+                                        if (x == 1)
+                                        {
+                                            system("cls");
+                                            cout << endl;
+                                            cout << " Гравець 1: " << y1 << " обрав Чо Чанґ!!" << "\t\t\t Гравець 2: " << y2 << " обрав Милисента Булстроуд!! " << endl;
+                                            hp* h = new hp;
+                                            h->Input();
+                                            h->Output();
+                                            system("pause");
+                                        }
+                                    }
+                                }
+                                if (x == 3)
+                                {
+                                    system("cls");
+                                    sp3* s3 = new sp3;
+                                    s3->Input();
+                                    s3->Output();
+                                    cin >> x;
+                                    if (x == 1)
+                                    {
+                                        system("cls");
+                                        cout << endl;
+                                        cout << " Гравець " << y2;
+                                        cout << ". Ви обрали персонажа Трейси Дэвис!! " << endl;
+                                        cout << " Для початку бою натисніть 1 :";
+                                        cin >> x;
+                                        if (x == 1)
+                                        {
+                                            system("cls");
+                                            cout << endl;
+                                            cout << " Гравець 1: " << y1 << " обрав Чо Чанґ!!" << "\t\t\t Гравець 2: " << y2 << " обрав Трейси Дэвис!! " << endl;
+                                            hp* h = new hp;
+                                            h->Input();
+                                            h->Output();
+                                            system("pause");
+                                        }
+                                    }
+                                }
+                            }
                         }
                     }
                 }
@@ -1111,12 +2291,380 @@ int main()
                     {
                         system("cls");
                         cout << endl;
-                        cout << " Ви обрали персонажа Майкл Корнер!! " << endl;
+                        cout << " Гравець " << y1;
+                        cout << ". Ви обрали персонажа Майкл Корнер!! " << endl;
                         cout << " Для вибору персонажа для другого гравця натисніть 1 : ";
                         cin >> x;
                         if (x == 1)
                         {
+                            system("cls");
+                            cout << " Ви гравець номер 2, напишіть свій нік : ";
+                            cin >> y2;
+                            system("cls");
+                            facultet* f = new facultet;
+                            f->Input();
+                            f->Output();
+                            cin >> x;
+                            if (x == 1)
+                            {
+                                system("cls");
+                                int x;
+                                grifindor* g = new grifindor;
+                                g->Input();
+                                g->Output();
+                                cin >> x;
+                                if (x == 1)
+                                {
+                                    system("cls");
+                                    gp1* g1 = new gp1;
+                                    g1->Input();
+                                    g1->Output();
+                                    cin >> x;
+                                    if (x == 1)
+                                    {
+                                        system("cls");
+                                        cout << endl;
+                                        cout << " Гравець " << y2;
+                                        cout << ". Ви обрали персонажа Кети Белл!! " << endl;
+                                        cout << " Для початку бою натисніть 1 :";
+                                        cin >> x;
+                                        if (x == 1)
+                                        {
+                                            system("cls");
+                                            cout << endl;
+                                            cout << " Гравець 1: " << y1 << " обрав Майкл Корнер!!" << "\t\t\t Гравець 2: " << y2 << " обрав Кети Белл" << endl;
+                                            hp* h = new hp;
+                                            h->Input();
+                                            h->Output();
+                                        }
+                                    }
+                                }
+                                if (x == 2)
+                                {
+                                    system("cls");
+                                    gp2* g2 = new gp2;
+                                    g2->Input();
+                                    g2->Output();
+                                    cin >> x;
+                                    if (x == 1)
+                                    {
+                                        system("cls");
+                                        cout << endl;
+                                        cout << " Гравець " << y2;
+                                        cout << ". Ви обрали персонажа Гарі Потера!! " << endl;
+                                        cout << " Для початку бою натисніть 1 :";
+                                        cin >> x;
+                                        if (x == 1)
+                                        {
+                                            system("cls");
+                                            cout << endl;
+                                            cout << " Гравець 1: " << y1 << " обрав Майкл Корнер!!" << "\t\t\t Гравець 2: " << y2 << " обрав Гарі Потера" << endl;
+                                            hp* h = new hp;
+                                            h->Input();
+                                            h->Output();
+                                        }
+                                    }
 
+                                }
+                                if (x == 3)
+                                {
+                                    system("cls");
+                                    gp3* g3 = new gp3;
+                                    g3->Input();
+                                    g3->Output();
+                                    cin >> x;
+                                    if (x == 1)
+                                    {
+                                        system("cls");
+                                        cout << endl;
+                                        cout << " Гравець " << y2;
+                                        cout << ". Ви обрали персонажа Гермиону Грейнджер!! " << endl;
+                                        cout << " Для початку бою натисніть 1 :";
+                                        cin >> x;
+                                        if (x == 1)
+                                        {
+                                            system("cls");
+                                            cout << endl;
+                                            cout << " Гравець 1: " << y1 << " обрав Майкл Корнер!!" << "\t\t\t Гравець 2: " << y2 << " обрав Гермиону Грейнджер!! " << endl;
+                                            hp* h = new hp;
+                                            h->Input();
+                                            h->Output();
+                                        }
+                                    }
+
+                                }
+                            }
+                            if (x == 2)
+                            {
+                                system("cls");
+                                int x;
+                                reivenclov* r = new reivenclov;
+                                r->Input();
+                                r->Output();
+                                cin >> x;
+                                if (x == 1)
+                                {
+                                    system("cls");
+                                    rp1* r1 = new rp1;
+                                    r1->Input();
+                                    r1->Output();
+                                    cin >> x;
+                                    if (x == 1)
+                                    {
+                                        system("cls");
+                                        cout << endl;
+
+                                        cout << " Гравець " << y2;
+                                        cout << ". Ви обрали персонажа Чо Чанґ!! " << endl;
+                                        cout << " Для початку бою натисніть 1 :";
+                                        cin >> x;
+                                        if (x == 1)
+                                        {
+                                            system("cls");
+                                            cout << endl;
+                                            cout << " Гравець 1: " << y1 << " обрав Майкл Корнер!!" << "\t\t\t Гравець 2: " << y2 << " обрав Чо Чанґ!! " << endl;
+                                            hp* h = new hp;
+                                            h->Input();
+                                            h->Output();
+                                            system("pause");
+                                        }
+                                    }
+                                }
+                                if (x == 2)
+                                {
+                                    system("cls");
+                                    rp2* r2 = new rp2;
+                                    r2->Input();
+                                    r2->Output();
+                                    cin >> x;
+                                    if (x == 1)
+                                    {
+                                        system("cls");
+                                        cout << endl;
+                                        cout << " Гравець " << y2;
+                                        cout << ". Ви обрали персонажа Майкл Корнер!! " << endl;
+                                        cout << " Для початку бою натисніть 1 :";
+                                        cin >> x;
+                                        if (x == 1)
+                                        {
+                                            system("cls");
+                                            cout << endl;
+                                            cout << " Гравець 1: " << y1 << " обрав Майкл Корнер!!" << "\t\t\t Гравець 2: " << y2 << " обрав Майкл Корнер!! " << endl;
+                                            hp* h = new hp;
+                                            h->Input();
+                                            h->Output();
+                                            system("pause");
+                                        }
+                                    }
+                                }
+                                if (x == 3)
+                                {
+                                    system("cls");
+                                    rp3* r3 = new rp3;
+                                    r3->Input();
+                                    r3->Output();
+                                    cin >> x;
+                                    if (x == 1)
+                                    {
+                                        system("cls");
+                                        cout << endl;
+                                        cout << " Гравець " << y2;
+                                        cout << ". Ви обрали персонажа Маркус Белбі!! " << endl;
+                                        cout << " Для початку бою натисніть 1 :";
+                                        cin >> x;
+                                        if (x == 1)
+                                        {
+                                            system("cls");
+                                            cout << endl;
+                                            cout << " Гравець 1: " << y1 << " обрав Майкл Корнер!!" << "\t\t\t Гравець 2: " << y2 << " обрав Маркус Белбі!! " << endl;
+                                            hp* h = new hp;
+                                            h->Input();
+                                            h->Output();
+                                            system("pause");
+                                        }
+                                    }
+                                }
+                            }
+                            if (x == 3)
+                            {
+                                system("cls");
+                                int x;
+                                gafelpaf* g = new gafelpaf;
+                                g->Input();
+                                g->Output();
+                                cin >> x;
+                                if (x == 1)
+                                {
+                                    system("cls");
+                                    gap1* g1 = new gap1;
+                                    g1->Input();
+                                    g1->Output();
+                                    cin >> x;
+                                    if (x == 1)
+                                    {
+                                        system("cls");
+                                        cout << endl;
+                                        cout << " Гравець " << y2;
+                                        cout << ". Ви обрали персонажа Німфадора Тонкс!! " << endl;
+                                        cout << " Для початку бою натисніть 1 :";
+                                        cin >> x;
+                                        if (x == 1)
+                                        {
+                                            system("cls");
+                                            cout << endl;
+                                            cout << " Гравець 1: " << y1 << " обрав Майкл Корнер!!" << "\t\t\t Гравець 2: " << y2 << " обрав Німфадора Тонкс!! " << endl;
+                                            hp* h = new hp;
+                                            h->Input();
+                                            h->Output();
+                                            system("pause");
+                                        }
+                                    }
+                                }
+                                if (x == 2)
+                                {
+                                    system("cls");
+                                    gap2* g2 = new gap2;
+                                    g2->Input();
+                                    g2->Output();
+                                    cin >> x;
+                                    if (x == 1)
+                                    {
+                                        system("cls");
+                                        cout << endl;
+                                        cout << " Гравець " << y2;
+                                        cout << ". Ви обрали персонажа Помона Спраут!! " << endl;
+                                        cout << " Для початку бою натисніть 1 :";
+                                        cin >> x;
+                                        if (x == 1)
+                                        {
+                                            system("cls");
+                                            cout << endl;
+                                            cout << " Гравець 1: " << y1 << " обрав Майкл Корнер!!" << "\t\t\t Гравець 2: " << y2 << " обрав Помона Спраут!! " << endl;
+                                            hp* h = new hp;
+                                            h->Input();
+                                            h->Output();
+                                            system("pause");
+                                        }
+                                    }
+                                }
+                                if (x == 3)
+                                {
+                                    system("cls");
+                                    gap3* g3 = new gap3;
+                                    g3->Input();
+                                    g3->Output();
+                                    cin >> x;
+                                    if (x == 1)
+                                    {
+                                        system("cls");
+                                        cout << endl;
+                                        cout << " Гравець " << y2;
+                                        cout << ". Ви обрали персонажа Седрік Діґорі!! " << endl;
+                                        cout << " Для початку бою натисніть 1 :";
+                                        cin >> x;
+                                        if (x == 1)
+                                        {
+                                            system("cls");
+                                            cout << endl;
+                                            cout << " Гравець 1: " << y1 << " обрав Майкл Корнер!!" << "\t\t\t Гравець 2: " << y2 << " обрав Седрік Діґорі!! " << endl;
+                                            hp* h = new hp;
+                                            h->Input();
+                                            h->Output();       
+                                            system("pause");
+                                        }
+                                    }
+                                }
+                            }
+                            if (x == 4)
+                            {
+                                system("cls");
+                                int x;
+                                slizerin* s = new slizerin;
+                                s->Input();
+                                s->Output();
+                                cin >> x;
+                                if (x == 1)
+                                {
+                                    system("cls");
+                                    sp1* s1 = new sp1;
+                                    s1->Input();
+                                    s1->Output();
+                                    cin >> x;
+                                    if (x == 1)
+                                    {
+                                        system("cls");
+                                        cout << endl;
+                                        cout << " Гравець " << y2;
+                                        cout << ". Ви обрали персонажа Драко Малфой!! " << endl;
+                                        cout << " Для початку бою натисніть 1 :";
+                                        cin >> x;
+                                        if (x == 1)
+                                        {
+                                            system("cls");
+                                            cout << endl;
+                                            cout << " Гравець 1: " << y1 << " обрав Майкл Корнер!!" << "\t\t\t Гравець 2: " << y2 << " обрав Драко Малфой!! " << endl;
+                                            hp* h = new hp;
+                                            h->Input();
+                                            h->Output(); 
+                                            system("pause");
+                                        }
+                                    }
+                                }
+                                if (x == 2)
+                                {
+                                    system("cls");
+                                    sp2* s2 = new sp2;
+                                    s2->Input();
+                                    s2->Output();
+                                    cin >> x;
+                                    if (x == 1)
+                                    {
+                                        system("cls");
+                                        cout << endl;
+                                        cout << " Гравець " << y2;
+                                        cout << ". Ви обрали персонажа Милисента Булстроуд!! " << endl;
+                                        cout << " Для початку бою натисніть 1 :";
+                                        cin >> x;
+                                        if (x == 1)
+                                        {
+                                            system("cls");
+                                            cout << endl;
+                                            cout << " Гравець 1: " << y1 << " обрав Майкл Корнер!!" << "\t\t\t Гравець 2: " << y2 << " обрав Милисента Булстроуд!! " << endl;
+                                            hp* h = new hp;
+                                            h->Input();
+                                            h->Output(); 
+                                            system("pause");
+                                        }
+                                    }
+                                }
+                                if (x == 3)
+                                {
+                                    system("cls");
+                                    sp3* s3 = new sp3;
+                                    s3->Input();
+                                    s3->Output();
+                                    cin >> x;
+                                    if (x == 1)
+                                    {
+                                        system("cls");
+                                        cout << endl;
+                                        cout << " Гравець " << y2;
+                                        cout << ". Ви обрали персонажа Трейси Дэвис!! " << endl;
+                                        cout << " Для початку бою натисніть 1 :";
+                                        cin >> x;
+                                        if (x == 1)
+                                        {
+                                            system("cls");
+                                            cout << endl;
+                                            cout << " Гравець 1: " << y1 << " обрав Майкл Корнер!!" << "\t\t\t Гравець 2: " << y2 << " обрав Трейси Дэвис!! " << endl;
+                                            hp* h = new hp;
+                                            h->Input();
+                                            h->Output(); 
+                                            system("pause");
+                                        }
+                                    }
+                                }
+                            }
                         }
                     }
                 }
@@ -1131,12 +2679,380 @@ int main()
                     {
                         system("cls");
                         cout << endl;
-                        cout << " Ви обрали персонажа Маркус Белбі!! " << endl;
+                        cout << " Гравець " << y1;
+                        cout << ". Ви обрали персонажа Маркус Белбі!! " << endl;
                         cout << " Для вибору персонажа для другого гравця натисніть 1 : ";
                         cin >> x;
                         if (x == 1)
                         {
+                            system("cls");
+                            cout << " Ви гравець номер 2, напишіть свій нік : ";
+                            cin >> y2;
+                            system("cls");
+                            facultet* f = new facultet;
+                            f->Input();
+                            f->Output();
+                            cin >> x;
+                            if (x == 1)
+                            {
+                                system("cls");
+                                int x;
+                                grifindor* g = new grifindor;
+                                g->Input();
+                                g->Output();
+                                cin >> x;
+                                if (x == 1)
+                                {
+                                    system("cls");
+                                    gp1* g1 = new gp1;
+                                    g1->Input();
+                                    g1->Output();
+                                    cin >> x;
+                                    if (x == 1)
+                                    {
+                                        system("cls");
+                                        cout << endl;
+                                        cout << " Гравець " << y2;
+                                        cout << ". Ви обрали персонажа Кети Белл!! " << endl;
+                                        cout << " Для початку бою натисніть 1 :";
+                                        cin >> x;
+                                        if (x == 1)
+                                        {
+                                            system("cls");
+                                            cout << endl;
+                                            cout << " Гравець 1: " << y1 << " обрав Маркус Белбі!!" << "\t\t\t Гравець 2: " << y2 << " обрав Кети Белл" << endl;
+                                            hp* h = new hp;
+                                            h->Input();
+                                            h->Output();                                 
+                                        }
+                                    }
+                                }
+                                if (x == 2)
+                                {
+                                    system("cls");
+                                    gp2* g2 = new gp2;
+                                    g2->Input();
+                                    g2->Output();
+                                    cin >> x;
+                                    if (x == 1)
+                                    {
+                                        system("cls");
+                                        cout << endl;
+                                        cout << " Гравець " << y2;
+                                        cout << ". Ви обрали персонажа Гарі Потера!! " << endl;
+                                        cout << " Для початку бою натисніть 1 :";
+                                        cin >> x;
+                                        if (x == 1)
+                                        {
+                                            system("cls");
+                                            cout << endl;
+                                            cout << " Гравець 1: " << y1 << " обрав Маркус Белбі!!" << "\t\t\t Гравець 2: " << y2 << " обрав Гарі Потера" << endl;
+                                            hp* h = new hp;
+                                            h->Input();
+                                            h->Output();
+                                        }
+                                    }
 
+                                }
+                                if (x == 3)
+                                {
+                                    system("cls");
+                                    gp3* g3 = new gp3;
+                                    g3->Input();
+                                    g3->Output();
+                                    cin >> x;
+                                    if (x == 1)
+                                    {
+                                        system("cls");
+                                        cout << endl;
+                                        cout << " Гравець " << y2;
+                                        cout << ". Ви обрали персонажа Гермиону Грейнджер!! " << endl;
+                                        cout << " Для початку бою натисніть 1 :";
+                                        cin >> x;
+                                        if (x == 1)
+                                        {
+                                            system("cls");
+                                            cout << endl;
+                                            cout << " Гравець 1: " << y1 << " обрав Маркус Белбі!!" << "\t\t\t Гравець 2: " << y2 << " обрав Гермиону Грейнджер!! " << endl;
+                                            hp* h = new hp;
+                                            h->Input();
+                                            h->Output();
+                                        }
+                                    }
+
+                                }
+                            }
+                            if (x == 2)
+                            {
+                                system("cls");
+                                int x;
+                                reivenclov* r = new reivenclov;
+                                r->Input();
+                                r->Output();
+                                cin >> x;
+                                if (x == 1)
+                                {
+                                    system("cls");
+                                    rp1* r1 = new rp1;
+                                    r1->Input();
+                                    r1->Output();
+                                    cin >> x;
+                                    if (x == 1)
+                                    {
+                                        system("cls");
+                                        cout << endl;
+
+                                        cout << " Гравець " << y2;
+                                        cout << ". Ви обрали персонажа Чо Чанґ!! " << endl;
+                                        cout << " Для початку бою натисніть 1 :";
+                                        cin >> x;
+                                        if (x == 1)
+                                        {
+                                            system("cls");
+                                            cout << endl;
+                                            cout << " Гравець 1: " << y1 << " обрав Маркус Белбі!!" << "\t\t\t Гравець 2: " << y2 << " обрав Чо Чанґ!! " << endl;
+                                            hp* h = new hp;
+                                            h->Input();
+                                            h->Output(); 
+                                            system("pause");
+                                        }
+                                    }
+                                }
+                                if (x == 2)
+                                {
+                                    system("cls");
+                                    rp2* r2 = new rp2;
+                                    r2->Input();
+                                    r2->Output();
+                                    cin >> x;
+                                    if (x == 1)
+                                    {
+                                        system("cls");
+                                        cout << endl;
+                                        cout << " Гравець " << y2;
+                                        cout << ". Ви обрали персонажа Майкл Корнер!! " << endl;
+                                        cout << " Для початку бою натисніть 1 :";
+                                        cin >> x;
+                                        if (x == 1)
+                                        {
+                                            system("cls");
+                                            cout << endl;
+                                            cout << " Гравець 1: " << y1 << " обрав Маркус Белбі!!" << "\t\t\t Гравець 2: " << y2 << " обрав Майкл Корнер!! " << endl;
+                                            hp* h = new hp;
+                                            h->Input();
+                                            h->Output(); 
+                                            system("pause");
+                                        }
+                                    }
+                                }
+                                if (x == 3)
+                                {
+                                    system("cls");
+                                    rp3* r3 = new rp3;
+                                    r3->Input();
+                                    r3->Output();
+                                    cin >> x;
+                                    if (x == 1)
+                                    {
+                                        system("cls");
+                                        cout << endl;
+                                        cout << " Гравець " << y2;
+                                        cout << ". Ви обрали персонажа Маркус Белбі!! " << endl;
+                                        cout << " Для початку бою натисніть 1 :";
+                                        cin >> x;
+                                        if (x == 1)
+                                        {
+                                            system("cls");
+                                            cout << endl;
+                                            cout << " Гравець 1: " << y1 << " ообрав Маркус Белбі!!" << "\t\t\t Гравець 2: " << y2 << " обрав Маркус Белбі!! " << endl;
+                                            hp* h = new hp;
+                                            h->Input();
+                                            h->Output(); 
+                                            system("pause");
+                                        }
+                                    }
+                                }
+                            }
+                            if (x == 3)
+                            {
+                                system("cls");
+                                int x;
+                                gafelpaf* g = new gafelpaf;
+                                g->Input();
+                                g->Output();
+                                cin >> x;
+                                if (x == 1)
+                                {
+                                    system("cls");
+                                    gap1* g1 = new gap1;
+                                    g1->Input();
+                                    g1->Output();
+                                    cin >> x;
+                                    if (x == 1)
+                                    {
+                                        system("cls");
+                                        cout << endl;
+                                        cout << " Гравець " << y2;
+                                        cout << ". Ви обрали персонажа Німфадора Тонкс!! " << endl;
+                                        cout << " Для початку бою натисніть 1 :";
+                                        cin >> x;
+                                        if (x == 1)
+                                        {
+                                            system("cls");
+                                            cout << endl;
+                                            cout << " Гравець 1: " << y1 << " обрав Маркус Белбі!!" << "\t\t\t Гравець 2: " << y2 << " обрав Німфадора Тонкс!! " << endl;
+                                            hp* h = new hp;
+                                            h->Input();
+                                            h->Output(); 
+                                            system("pause");
+                                        }
+                                    }
+                                }
+                                if (x == 2)
+                                {
+                                    system("cls");
+                                    gap2* g2 = new gap2;
+                                    g2->Input();
+                                    g2->Output();
+                                    cin >> x;
+                                    if (x == 1)
+                                    {
+                                        system("cls");
+                                        cout << endl;
+                                        cout << " Гравець " << y2;
+                                        cout << ". Ви обрали персонажа Помона Спраут!! " << endl;
+                                        cout << " Для початку бою натисніть 1 :";
+                                        cin >> x;
+                                        if (x == 1)
+                                        {
+                                            system("cls");
+                                            cout << endl;
+                                            cout << " Гравець 1: " << y1 << " обрав Маркус Белбі!!" << "\t\t\t Гравець 2: " << y2 << " обрав Помона Спраут!! " << endl;
+                                            hp* h = new hp;
+                                            h->Input();
+                                            h->Output(); 
+                                            system("pause");
+                                        }
+                                    }
+                                }
+                                if (x == 3)
+                                {
+                                    system("cls");
+                                    gap3* g3 = new gap3;
+                                    g3->Input();
+                                    g3->Output();
+                                    cin >> x;
+                                    if (x == 1)
+                                    {
+                                        system("cls");
+                                        cout << endl;
+                                        cout << " Гравець " << y2;
+                                        cout << ". Ви обрали персонажа Седрік Діґорі!! " << endl;
+                                        cout << " Для початку бою натисніть 1 :";
+                                        cin >> x;
+                                        if (x == 1)
+                                        {
+                                            system("cls");
+                                            cout << endl;
+                                            cout << " Гравець 1: " << y1 << " обрав Маркус Белбі!!" << "\t\t\t Гравець 2: " << y2 << " обрав Седрік Діґорі!! " << endl;
+                                            hp* h = new hp;
+                                            h->Input();
+                                            h->Output(); 
+                                            system("pause");
+                                        }
+                                    }
+                                }
+                            }
+                            if (x == 4)
+                            {
+                                system("cls");
+                                int x;
+                                slizerin* s = new slizerin;
+                                s->Input();
+                                s->Output();
+                                cin >> x;
+                                if (x == 1)
+                                {
+                                    system("cls");
+                                    sp1* s1 = new sp1;
+                                    s1->Input();
+                                    s1->Output();
+                                    cin >> x;
+                                    if (x == 1)
+                                    {
+                                        system("cls");
+                                        cout << endl;
+                                        cout << " Гравець " << y2;
+                                        cout << ". Ви обрали персонажа Драко Малфой!! " << endl;
+                                        cout << " Для початку бою натисніть 1 :";
+                                        cin >> x;
+                                        if (x == 1)
+                                        {
+                                            system("cls");
+                                            cout << endl;
+                                            cout << " Гравець 1: " << y1 << " обрав Маркус Белбі!!" << "\t\t\t Гравець 2: " << y2 << " обрав Драко Малфой!! " << endl;
+                                            hp* h = new hp;
+                                            h->Input();
+                                            h->Output(); 
+                                            system("pause");
+                                        }
+                                    }
+                                }
+                                if (x == 2)
+                                {
+                                    system("cls");
+                                    sp2* s2 = new sp2;
+                                    s2->Input();
+                                    s2->Output();
+                                    cin >> x;
+                                    if (x == 1)
+                                    {
+                                        system("cls");
+                                        cout << endl;
+                                        cout << " Гравець " << y2;
+                                        cout << ". Ви обрали персонажа Милисента Булстроуд!! " << endl;
+                                        cout << " Для початку бою натисніть 1 :";
+                                        cin >> x;
+                                        if (x == 1)
+                                        {
+                                            system("cls");
+                                            cout << endl;
+                                            cout << " Гравець 1: " << y1 << " обрав Маркус Белбі!!" << "\t\t\t Гравець 2: " << y2 << " обрав Милисента Булстроуд!! " << endl;
+                                            hp* h = new hp;
+                                            h->Input();
+                                            h->Output(); 
+                                            system("pause");
+                                        }
+                                    }
+                                }
+                                if (x == 3)
+                                {
+                                    system("cls");
+                                    sp3* s3 = new sp3;
+                                    s3->Input();
+                                    s3->Output();
+                                    cin >> x;
+                                    if (x == 1)
+                                    {
+                                        system("cls");
+                                        cout << endl;
+                                        cout << " Гравець " << y2;
+                                        cout << ". Ви обрали персонажа Трейси Дэвис!! " << endl;
+                                        cout << " Для початку бою натисніть 1 :";
+                                        cin >> x;
+                                        if (x == 1)
+                                        {
+                                            system("cls");
+                                            cout << endl;
+                                            cout << " Гравець 1: " << y1 << " обрав Маркус Белбі!!" << "\t\t\t Гравець 2: " << y2 << " обрав Трейси Дэвис!! " << endl;
+                                            hp* h = new hp;
+                                            h->Input();
+                                            h->Output(); 
+                                            system("pause");
+                                        }
+                                    }
+                                }
+                            }
                         }
                     }
                 }
@@ -1160,12 +3076,380 @@ int main()
                     {
                         system("cls");
                         cout << endl;
-                        cout << " Ви обрали персонажа Німфадора Тонкс!! " << endl;
+                        cout << " Гравець " << y1;
+                        cout << ". Ви обрали персонажа Німфадора Тонкс!! " << endl;
                         cout << " Для вибору персонажа для другого гравця натисніть 1 : ";
                         cin >> x;
                         if (x == 1)
                         {
+                            system("cls");
+                            cout << " Ви гравець номер 2, напишіть свій нік : ";
+                            cin >> y2;
+                            system("cls");
+                            facultet* f = new facultet;
+                            f->Input();
+                            f->Output();
+                            cin >> x;
+                            if (x == 1)
+                            {
+                                system("cls");
+                                int x;
+                                grifindor* g = new grifindor;
+                                g->Input();
+                                g->Output();
+                                cin >> x;
+                                if (x == 1)
+                                {
+                                    system("cls");
+                                    gp1* g1 = new gp1;
+                                    g1->Input();
+                                    g1->Output();
+                                    cin >> x;
+                                    if (x == 1)
+                                    {
+                                        system("cls");
+                                        cout << endl;
+                                        cout << " Гравець " << y2;
+                                        cout << ". Ви обрали персонажа Кети Белл!! " << endl;
+                                        cout << " Для початку бою натисніть 1 :";
+                                        cin >> x;
+                                        if (x == 1)
+                                        {
+                                            system("cls");
+                                            cout << endl;
+                                            cout << " Гравець 1: " << y1 << " обрав Німфадора Тонкс!!" << "\t\t\t Гравець 2: " << y2 << " обрав Кети Белл" << endl;
+                                            hp* h = new hp;
+                                            h->Input();
+                                            h->Output();
+                                        }
+                                    }
+                                }
+                                if (x == 2)
+                                {
+                                    system("cls");
+                                    gp2* g2 = new gp2;
+                                    g2->Input();
+                                    g2->Output();
+                                    cin >> x;
+                                    if (x == 1)
+                                    {
+                                        system("cls");
+                                        cout << endl;
+                                        cout << " Гравець " << y2;
+                                        cout << ". Ви обрали персонажа Гарі Потера!! " << endl;
+                                        cout << " Для початку бою натисніть 1 :";
+                                        cin >> x;
+                                        if (x == 1)
+                                        {
+                                            system("cls");
+                                            cout << endl;
+                                            cout << " Гравець 1: " << y1 << " обрав Німфадора Тонкс!!" << "\t\t\t Гравець 2: " << y2 << " обрав Гарі Потера" << endl;
+                                            hp* h = new hp;
+                                            h->Input();
+                                            h->Output();
+                                        }
+                                    }
 
+                                }
+                                if (x == 3)
+                                {
+                                    system("cls");
+                                    gp3* g3 = new gp3;
+                                    g3->Input();
+                                    g3->Output();
+                                    cin >> x;
+                                    if (x == 1)
+                                    {
+                                        system("cls");
+                                        cout << endl;
+                                        cout << " Гравець " << y2;
+                                        cout << ". Ви обрали персонажа Гермиону Грейнджер!! " << endl;
+                                        cout << " Для початку бою натисніть 1 :";
+                                        cin >> x;
+                                        if (x == 1)
+                                        {
+                                            system("cls");
+                                            cout << endl;
+                                            cout << " Гравець 1: " << y1 << " обрав Німфадора Тонкс!!" << "\t\t\t Гравець 2: " << y2 << " обрав Гермиону Грейнджер!! " << endl;
+                                            hp* h = new hp;
+                                            h->Input();
+                                            h->Output();
+                                        }
+                                    }
+
+                                }
+                            }
+                            if (x == 2)
+                            {
+                                system("cls");
+                                int x;
+                                reivenclov* r = new reivenclov;
+                                r->Input();
+                                r->Output();
+                                cin >> x;
+                                if (x == 1)
+                                {
+                                    system("cls");
+                                    rp1* r1 = new rp1;
+                                    r1->Input();
+                                    r1->Output();
+                                    cin >> x;
+                                    if (x == 1)
+                                    {
+                                        system("cls");
+                                        cout << endl;
+
+                                        cout << " Гравець " << y2;
+                                        cout << ". Ви обрали персонажа Чо Чанґ!! " << endl;
+                                        cout << " Для початку бою натисніть 1 :";
+                                        cin >> x;
+                                        if (x == 1)
+                                        {
+                                            system("cls");
+                                            cout << endl;
+                                            cout << " Гравець 1: " << y1 << " обрав Німфадора Тонкс!!" << "\t\t\t Гравець 2: " << y2 << " обрав Чо Чанґ!! " << endl;
+                                            hp* h = new hp;
+                                            h->Input();
+                                            h->Output();
+                                            system("pause");
+                                        }
+                                    }
+                                }
+                                if (x == 2)
+                                {
+                                    system("cls");
+                                    rp2* r2 = new rp2;
+                                    r2->Input();
+                                    r2->Output();
+                                    cin >> x;
+                                    if (x == 1)
+                                    {
+                                        system("cls");
+                                        cout << endl;
+                                        cout << " Гравець " << y2;
+                                        cout << ". Ви обрали персонажа Майкл Корнер!! " << endl;
+                                        cout << " Для початку бою натисніть 1 :";
+                                        cin >> x;
+                                        if (x == 1)
+                                        {
+                                            system("cls");
+                                            cout << endl;
+                                            cout << " Гравець 1: " << y1 << " обрав Німфадора Тонкс!!" << "\t\t\t Гравець 2: " << y2 << " обрав Майкл Корнер!! " << endl;
+                                            hp* h = new hp;
+                                            h->Input();
+                                            h->Output();
+                                            system("pause");
+                                        }
+                                    }
+                                }
+                                if (x == 3)
+                                {
+                                    system("cls");
+                                    rp3* r3 = new rp3;
+                                    r3->Input();
+                                    r3->Output();
+                                    cin >> x;
+                                    if (x == 1)
+                                    {
+                                        system("cls");
+                                        cout << endl;
+                                        cout << " Гравець " << y2;
+                                        cout << ". Ви обрали персонажа Маркус Белбі!! " << endl;
+                                        cout << " Для початку бою натисніть 1 :";
+                                        cin >> x;
+                                        if (x == 1)
+                                        {
+                                            system("cls");
+                                            cout << endl;
+                                            cout << " Гравець 1: " << y1 << " обрав Німфадора Тонкс!!" << "\t\t\t Гравець 2: " << y2 << " обрав Маркус Белбі!! " << endl;
+                                            hp* h = new hp;
+                                            h->Input();
+                                            h->Output();
+                                            system("pause");
+                                        }
+                                    }
+                                }
+                            }
+                            if (x == 3)
+                            {
+                                system("cls");
+                                int x;
+                                gafelpaf* g = new gafelpaf;
+                                g->Input();
+                                g->Output();
+                                cin >> x;
+                                if (x == 1)
+                                {
+                                    system("cls");
+                                    gap1* g1 = new gap1;
+                                    g1->Input();
+                                    g1->Output();
+                                    cin >> x;
+                                    if (x == 1)
+                                    {
+                                        system("cls");
+                                        cout << endl;
+                                        cout << " Гравець " << y2;
+                                        cout << ". Ви обрали персонажа Німфадора Тонкс!! " << endl;
+                                        cout << " Для початку бою натисніть 1 :";
+                                        cin >> x;
+                                        if (x == 1)
+                                        {
+                                            system("cls");
+                                            cout << endl;
+                                            cout << " Гравець 1: " << y1 << " обрав Німфадора Тонкс!!" << "\t\t\t Гравець 2: " << y2 << " обрав Німфадора Тонкс!! " << endl;
+                                            hp* h = new hp;
+                                            h->Input();
+                                            h->Output();
+                                            system("pause");
+                                        }
+                                    }
+                                }
+                                if (x == 2)
+                                {
+                                    system("cls");
+                                    gap2* g2 = new gap2;
+                                    g2->Input();
+                                    g2->Output();
+                                    cin >> x;
+                                    if (x == 1)
+                                    {
+                                        system("cls");
+                                        cout << endl;
+                                        cout << " Гравець " << y2;
+                                        cout << ". Ви обрали персонажа Помона Спраут!! " << endl;
+                                        cout << " Для початку бою натисніть 1 :";
+                                        cin >> x;
+                                        if (x == 1)
+                                        {
+                                            system("cls");
+                                            cout << endl;
+                                            cout << " Гравець 1: " << y1 << " обрав Німфадора Тонкс!!" << "\t\t\t Гравець 2: " << y2 << " обрав Помона Спраут!! " << endl;
+                                            hp* h = new hp;
+                                            h->Input();
+                                            h->Output();
+                                            system("pause");
+                                        }
+                                    }
+                                }
+                                if (x == 3)
+                                {
+                                    system("cls");
+                                    gap3* g3 = new gap3;
+                                    g3->Input();
+                                    g3->Output();
+                                    cin >> x;
+                                    if (x == 1)
+                                    {
+                                        system("cls");
+                                        cout << endl;
+                                        cout << " Гравець " << y2;
+                                        cout << ". Ви обрали персонажа Седрік Діґорі!! " << endl;
+                                        cout << " Для початку бою натисніть 1 :";
+                                        cin >> x;
+                                        if (x == 1)
+                                        {
+                                            system("cls");
+                                            cout << endl;
+                                            cout << " Гравець 1: " << y1 << " обрав Німфадора Тонкс!!" << "\t\t\t Гравець 2: " << y2 << " обрав Седрік Діґорі!! " << endl;
+                                            hp* h = new hp;
+                                            h->Input();
+                                            h->Output();
+                                            system("pause");
+                                        }
+                                    }
+                                }
+                            }
+                            if (x == 4)
+                            {
+                                system("cls");
+                                int x;
+                                slizerin* s = new slizerin;
+                                s->Input();
+                                s->Output();
+                                cin >> x;
+                                if (x == 1)
+                                {
+                                    system("cls");
+                                    sp1* s1 = new sp1;
+                                    s1->Input();
+                                    s1->Output();
+                                    cin >> x;
+                                    if (x == 1)
+                                    {
+                                        system("cls");
+                                        cout << endl;
+                                        cout << " Гравець " << y2;
+                                        cout << ". Ви обрали персонажа Драко Малфой!! " << endl;
+                                        cout << " Для початку бою натисніть 1 :";
+                                        cin >> x;
+                                        if (x == 1)
+                                        {
+                                            system("cls");
+                                            cout << endl;
+                                            cout << " Гравець 1: " << y1 << " обрав Німфадора Тонкс!!" << "\t\t\t Гравець 2: " << y2 << " обрав Драко Малфой!! " << endl;
+                                            hp* h = new hp;
+                                            h->Input();
+                                            h->Output();
+                                            system("pause");
+                                        }
+                                    }
+                                }
+                                if (x == 2)
+                                {
+                                    system("cls");
+                                    sp2* s2 = new sp2;
+                                    s2->Input();
+                                    s2->Output();
+                                    cin >> x;
+                                    if (x == 1)
+                                    {
+                                        system("cls");
+                                        cout << endl;
+                                        cout << " Гравець " << y2;
+                                        cout << ". Ви обрали персонажа Милисента Булстроуд!! " << endl;
+                                        cout << " Для початку бою натисніть 1 :";
+                                        cin >> x;
+                                        if (x == 1)
+                                        {
+                                            system("cls");
+                                            cout << endl;
+                                            cout << " Гравець 1: " << y1 << " обрав Німфадора Тонкс!!" << "\t\t\t Гравець 2: " << y2 << " обрав Милисента Булстроуд!! " << endl;
+                                            hp* h = new hp;
+                                            h->Input();
+                                            h->Output();
+                                            system("pause");
+                                        }
+                                    }
+                                }
+                                if (x == 3)
+                                {
+                                    system("cls");
+                                    sp3* s3 = new sp3;
+                                    s3->Input();
+                                    s3->Output();
+                                    cin >> x;
+                                    if (x == 1)
+                                    {
+                                        system("cls");
+                                        cout << endl;
+                                        cout << " Гравець " << y2;
+                                        cout << ". Ви обрали персонажа Трейси Дэвис!! " << endl;
+                                        cout << " Для початку бою натисніть 1 :";
+                                        cin >> x;
+                                        if (x == 1)
+                                        {
+                                            system("cls");
+                                            cout << endl;
+                                            cout << " Гравець 1: " << y1 << " обрав Німфадора Тонкс!!" << "\t\t\t Гравець 2: " << y2 << " обрав Трейси Дэвис!! " << endl;
+                                            hp* h = new hp;
+                                            h->Input();
+                                            h->Output();
+                                            system("pause");
+                                        }
+                                    }
+                                }
+                            }
                         }
                     }
                 }
@@ -1180,12 +3464,380 @@ int main()
                     {
                         system("cls");
                         cout << endl;
-                        cout << " Ви обрали персонажа Помона Спраут!! " << endl;
+                        cout << " Гравець " << y2;
+                        cout << ". Ви обрали персонажа Помона Спраут!! " << endl;
                         cout << " Для вибору персонажа для другого гравця натисніть 1 : ";
                         cin >> x;
                         if (x == 1)
                         {
+                            system("cls");
+                            cout << " Ви гравець номер 2, напишіть свій нік : ";
+                            cin >> y2;
+                            system("cls");
+                            facultet* f = new facultet;
+                            f->Input();
+                            f->Output();
+                            cin >> x;
+                            if (x == 1)
+                            {
+                                system("cls");
+                                int x;
+                                grifindor* g = new grifindor;
+                                g->Input();
+                                g->Output();
+                                cin >> x;
+                                if (x == 1)
+                                {
+                                    system("cls");
+                                    gp1* g1 = new gp1;
+                                    g1->Input();
+                                    g1->Output();
+                                    cin >> x;
+                                    if (x == 1)
+                                    {
+                                        system("cls");
+                                        cout << endl;
+                                        cout << " Гравець " << y2;
+                                        cout << ". Ви обрали персонажа Кети Белл!! " << endl;
+                                        cout << " Для початку бою натисніть 1 :";
+                                        cin >> x;
+                                        if (x == 1)
+                                        {
+                                            system("cls");
+                                            cout << endl;
+                                            cout << " Гравець 1: " << y1 << " обрав Помона Спраут!!" << "\t\t\t Гравець 2: " << y2 << " обрав Кети Белл" << endl;
+                                            hp* h = new hp;
+                                            h->Input();
+                                            h->Output();
+                                        }
+                                    }
+                                }
+                                if (x == 2)
+                                {
+                                    system("cls");
+                                    gp2* g2 = new gp2;
+                                    g2->Input();
+                                    g2->Output();
+                                    cin >> x;
+                                    if (x == 1)
+                                    {
+                                        system("cls");
+                                        cout << endl;
+                                        cout << " Гравець " << y2;
+                                        cout << ". Ви обрали персонажа Гарі Потера!! " << endl;
+                                        cout << " Для початку бою натисніть 1 :";
+                                        cin >> x;
+                                        if (x == 1)
+                                        {
+                                            system("cls");
+                                            cout << endl;
+                                            cout << " Гравець 1: " << y1 << " обрав Помона Спраут!!" << "\t\t\t Гравець 2: " << y2 << " обрав Гарі Потера" << endl;
+                                            hp* h = new hp;
+                                            h->Input();
+                                            h->Output();
+                                        }
+                                    }
 
+                                }
+                                if (x == 3)
+                                {
+                                    system("cls");
+                                    gp3* g3 = new gp3;
+                                    g3->Input();
+                                    g3->Output();
+                                    cin >> x;
+                                    if (x == 1)
+                                    {
+                                        system("cls");
+                                        cout << endl;
+                                        cout << " Гравець " << y2;
+                                        cout << ". Ви обрали персонажа Гермиону Грейнджер!! " << endl;
+                                        cout << " Для початку бою натисніть 1 :";
+                                        cin >> x;
+                                        if (x == 1)
+                                        {
+                                            system("cls");
+                                            cout << endl;
+                                            cout << " Гравець 1: " << y1 << " обрав Помона Спраут!!" << "\t\t\t Гравець 2: " << y2 << " обрав Гермиону Грейнджер!! " << endl;
+                                            hp* h = new hp;
+                                            h->Input();
+                                            h->Output();
+                                        }
+                                    }
+
+                                }
+                            }
+                            if (x == 2)
+                            {
+                                system("cls");
+                                int x;
+                                reivenclov* r = new reivenclov;
+                                r->Input();
+                                r->Output();
+                                cin >> x;
+                                if (x == 1)
+                                {
+                                    system("cls");
+                                    rp1* r1 = new rp1;
+                                    r1->Input();
+                                    r1->Output();
+                                    cin >> x;
+                                    if (x == 1)
+                                    {
+                                        system("cls");
+                                        cout << endl;
+
+                                        cout << " Гравець " << y2;
+                                        cout << ". Ви обрали персонажа Чо Чанґ!! " << endl;
+                                        cout << " Для початку бою натисніть 1 :";
+                                        cin >> x;
+                                        if (x == 1)
+                                        {
+                                            system("cls");
+                                            cout << endl;
+                                            cout << " Гравець 1: " << y1 << " обрав Помона Спраут!!" << "\t\t\t Гравець 2: " << y2 << " обрав Чо Чанґ!! " << endl;
+                                            hp* h = new hp;
+                                            h->Input();
+                                            h->Output();
+                                            system("pause");
+                                        }
+                                    }
+                                }
+                                if (x == 2)
+                                {
+                                    system("cls");
+                                    rp2* r2 = new rp2;
+                                    r2->Input();
+                                    r2->Output();
+                                    cin >> x;
+                                    if (x == 1)
+                                    {
+                                        system("cls");
+                                        cout << endl;
+                                        cout << " Гравець " << y2;
+                                        cout << ". Ви обрали персонажа Майкл Корнер!! " << endl;
+                                        cout << " Для початку бою натисніть 1 :";
+                                        cin >> x;
+                                        if (x == 1)
+                                        {
+                                            system("cls");
+                                            cout << endl;
+                                            cout << " Гравець 1: " << y1 << " обрав Помона Спраут!!" << "\t\t\t Гравець 2: " << y2 << " обрав Майкл Корнер!! " << endl;
+                                            hp* h = new hp;
+                                            h->Input();
+                                            h->Output();
+                                            system("pause");
+                                        }
+                                    }
+                                }
+                                if (x == 3)
+                                {
+                                    system("cls");
+                                    rp3* r3 = new rp3;
+                                    r3->Input();
+                                    r3->Output();
+                                    cin >> x;
+                                    if (x == 1)
+                                    {
+                                        system("cls");
+                                        cout << endl;
+                                        cout << " Гравець " << y2;
+                                        cout << ". Ви обрали персонажа Маркус Белбі!! " << endl;
+                                        cout << " Для початку бою натисніть 1 :";
+                                        cin >> x;
+                                        if (x == 1)
+                                        {
+                                            system("cls");
+                                            cout << endl;
+                                            cout << " Гравець 1: " << y1 << " обрав Помона Спраут!!" << "\t\t\t Гравець 2: " << y2 << " обрав Маркус Белбі!! " << endl;
+                                            hp* h = new hp;
+                                            h->Input();
+                                            h->Output();
+                                            system("pause");
+                                        }
+                                    }
+                                }
+                            }
+                            if (x == 3)
+                            {
+                                system("cls");
+                                int x;
+                                gafelpaf* g = new gafelpaf;
+                                g->Input();
+                                g->Output();
+                                cin >> x;
+                                if (x == 1)
+                                {
+                                    system("cls");
+                                    gap1* g1 = new gap1;
+                                    g1->Input();
+                                    g1->Output();
+                                    cin >> x;
+                                    if (x == 1)
+                                    {
+                                        system("cls");
+                                        cout << endl;
+                                        cout << " Гравець " << y2;
+                                        cout << ". Ви обрали персонажа Німфадора Тонкс!! " << endl;
+                                        cout << " Для початку бою натисніть 1 :";
+                                        cin >> x;
+                                        if (x == 1)
+                                        {
+                                            system("cls");
+                                            cout << endl;
+                                            cout << " Гравець 1: " << y1 << " обрав Помона Спраут!!" << "\t\t\t Гравець 2: " << y2 << " обрав Німфадора Тонкс!! " << endl;
+                                            hp* h = new hp;
+                                            h->Input();
+                                            h->Output();
+                                            system("pause");
+                                        }
+                                    }
+                                }
+                                if (x == 2)
+                                {
+                                    system("cls");
+                                    gap2* g2 = new gap2;
+                                    g2->Input();
+                                    g2->Output();
+                                    cin >> x;
+                                    if (x == 1)
+                                    {
+                                        system("cls");
+                                        cout << endl;
+                                        cout << " Гравець " << y2;
+                                        cout << ". Ви обрали персонажа Помона Спраут!! " << endl;
+                                        cout << " Для початку бою натисніть 1 :";
+                                        cin >> x;
+                                        if (x == 1)
+                                        {
+                                            system("cls");
+                                            cout << endl;
+                                            cout << " Гравець 1: " << y1 << " обрав Помона Спраут!!" << "\t\t\t Гравець 2: " << y2 << " обрав Помона Спраут!! " << endl;
+                                            hp* h = new hp;
+                                            h->Input();
+                                            h->Output();
+                                            system("pause");
+                                        }
+                                    }
+                                }
+                                if (x == 3)
+                                {
+                                    system("cls");
+                                    gap3* g3 = new gap3;
+                                    g3->Input();
+                                    g3->Output();
+                                    cin >> x;
+                                    if (x == 1)
+                                    {
+                                        system("cls");
+                                        cout << endl;
+                                        cout << " Гравець " << y2;
+                                        cout << ". Ви обрали персонажа Седрік Діґорі!! " << endl;
+                                        cout << " Для початку бою натисніть 1 :";
+                                        cin >> x;
+                                        if (x == 1)
+                                        {
+                                            system("cls");
+                                            cout << endl;
+                                            cout << " Гравець 1: " << y1 << " обрав Помона Спраут!!" << "\t\t\t Гравець 2: " << y2 << " обрав Седрік Діґорі!! " << endl;
+                                            hp* h = new hp;
+                                            h->Input();
+                                            h->Output();
+                                            system("pause");
+                                        }
+                                    }
+                                }
+                            }
+                            if (x == 4)
+                            {
+                                system("cls");
+                                int x;
+                                slizerin* s = new slizerin;
+                                s->Input();
+                                s->Output();
+                                cin >> x;
+                                if (x == 1)
+                                {
+                                    system("cls");
+                                    sp1* s1 = new sp1;
+                                    s1->Input();
+                                    s1->Output();
+                                    cin >> x;
+                                    if (x == 1)
+                                    {
+                                        system("cls");
+                                        cout << endl;
+                                        cout << " Гравець " << y2;
+                                        cout << ". Ви обрали персонажа Драко Малфой!! " << endl;
+                                        cout << " Для початку бою натисніть 1 :";
+                                        cin >> x;
+                                        if (x == 1)
+                                        {
+                                            system("cls");
+                                            cout << endl;
+                                            cout << " Гравець 1: " << y1 << " обрав Помона Спраут!!" << "\t\t\t Гравець 2: " << y2 << " обрав Драко Малфой!! " << endl;
+                                            hp* h = new hp;
+                                            h->Input();
+                                            h->Output();
+                                            system("pause");
+                                        }
+                                    }
+                                }
+                                if (x == 2)
+                                {
+                                    system("cls");
+                                    sp2* s2 = new sp2;
+                                    s2->Input();
+                                    s2->Output();
+                                    cin >> x;
+                                    if (x == 1)
+                                    {
+                                        system("cls");
+                                        cout << endl;
+                                        cout << " Гравець " << y2;
+                                        cout << ". Ви обрали персонажа Милисента Булстроуд!! " << endl;
+                                        cout << " Для початку бою натисніть 1 :";
+                                        cin >> x;
+                                        if (x == 1)
+                                        {
+                                            system("cls");
+                                            cout << endl;
+                                            cout << " Гравець 1: " << y1 << " обрав Помона Спраут!!" << "\t\t\t Гравець 2: " << y2 << " обрав Милисента Булстроуд!! " << endl;
+                                            hp* h = new hp;
+                                            h->Input();
+                                            h->Output();
+                                            system("pause");
+                                        }
+                                    }
+                                }
+                                if (x == 3)
+                                {
+                                    system("cls");
+                                    sp3* s3 = new sp3;
+                                    s3->Input();
+                                    s3->Output();
+                                    cin >> x;
+                                    if (x == 1)
+                                    {
+                                        system("cls");
+                                        cout << endl;
+                                        cout << " Гравець " << y2;
+                                        cout << ". Ви обрали персонажа Трейси Дэвис!! " << endl;
+                                        cout << " Для початку бою натисніть 1 :";
+                                        cin >> x;
+                                        if (x == 1)
+                                        {
+                                            system("cls");
+                                            cout << endl;
+                                            cout << " Гравець 1: " << y1 << " обрав Помона Спраут!!" << "\t\t\t Гравець 2: " << y2 << " обрав Трейси Дэвис!! " << endl;
+                                            hp* h = new hp;
+                                            h->Input();
+                                            h->Output();
+                                            system("pause");
+                                        }
+                                    }
+                                }
+                            }
                         }
                     }
                 }
@@ -1200,7 +3852,8 @@ int main()
                     {
                         system("cls");
                         cout << endl;
-                        cout << " Ви обрали персонажа Седрік Діґорі!! " << endl;
+                        cout << " Гравець " << y2;
+                        cout << ". Ви обрали персонажа Седрік Діґорі!! " << endl;
                         cout << " Для вибору персонажа для другого гравця натисніть 1 : ";
                         cin >> x;
                         if (x == 1)
@@ -1229,12 +3882,380 @@ int main()
                     {
                         system("cls");
                         cout << endl;
-                        cout << " Ви обрали персонажа Драко Малфой!! " << endl;
+                        cout << " Гравець " << y1;
+                        cout << ". Ви обрали персонажа Драко Малфой!! " << endl;
                         cout << " Для вибору персонажа для другого гравця натисніть 1 : ";
                         cin >> x;
                         if (x == 1)
                         {
+                            system("cls");
+                            cout << " Ви гравець номер 2, напишіть свій нік : ";
+                            cin >> y2;
+                            system("cls");
+                            facultet* f = new facultet;
+                            f->Input();
+                            f->Output();
+                            cin >> x;
+                            if (x == 1)
+                            {
+                                system("cls");
+                                int x;
+                                grifindor* g = new grifindor;
+                                g->Input();
+                                g->Output();
+                                cin >> x;
+                                if (x == 1)
+                                {
+                                    system("cls");
+                                    gp1* g1 = new gp1;
+                                    g1->Input();
+                                    g1->Output();
+                                    cin >> x;
+                                    if (x == 1)
+                                    {
+                                        system("cls");
+                                        cout << endl;
+                                        cout << " Гравець " << y2;
+                                        cout << ". Ви обрали персонажа Кети Белл!! " << endl;
+                                        cout << " Для початку бою натисніть 1 :";
+                                        cin >> x;
+                                        if (x == 1)
+                                        {
+                                            system("cls");
+                                            cout << endl;
+                                            cout << " Гравець 1: " << y1 << " обрав Драко Малфой!!" << "\t\t\t Гравець 2: " << y2 << " обрав Кети Белл" << endl;
+                                            hp* h = new hp;
+                                            h->Input();
+                                            h->Output();
+                                        }
+                                    }
+                                }
+                                if (x == 2)
+                                {
+                                    system("cls");
+                                    gp2* g2 = new gp2;
+                                    g2->Input();
+                                    g2->Output();
+                                    cin >> x;
+                                    if (x == 1)
+                                    {
+                                        system("cls");
+                                        cout << endl;
+                                        cout << " Гравець " << y2;
+                                        cout << ". Ви обрали персонажа Гарі Потера!! " << endl;
+                                        cout << " Для початку бою натисніть 1 :";
+                                        cin >> x;
+                                        if (x == 1)
+                                        {
+                                            system("cls");
+                                            cout << endl;
+                                            cout << " Гравець 1: " << y1 << " обрав Драко Малфой!!" << "\t\t\t Гравець 2: " << y2 << " обрав Гарі Потера" << endl;
+                                            hp* h = new hp;
+                                            h->Input();
+                                            h->Output();
+                                        }
+                                    }
 
+                                }
+                                if (x == 3)
+                                {
+                                    system("cls");
+                                    gp3* g3 = new gp3;
+                                    g3->Input();
+                                    g3->Output();
+                                    cin >> x;
+                                    if (x == 1)
+                                    {
+                                        system("cls");
+                                        cout << endl;
+                                        cout << " Гравець " << y2;
+                                        cout << ". Ви обрали персонажа Гермиону Грейнджер!! " << endl;
+                                        cout << " Для початку бою натисніть 1 :";
+                                        cin >> x;
+                                        if (x == 1)
+                                        {
+                                            system("cls");
+                                            cout << endl;
+                                            cout << " Гравець 1: " << y1 << " обрав Драко Малфой!!" << "\t\t\t Гравець 2: " << y2 << " обрав Гермиону Грейнджер!! " << endl;
+                                            hp* h = new hp;
+                                            h->Input();
+                                            h->Output();
+                                        }
+                                    }
+
+                                }
+                            }
+                            if (x == 2)
+                            {
+                                system("cls");
+                                int x;
+                                reivenclov* r = new reivenclov;
+                                r->Input();
+                                r->Output();
+                                cin >> x;
+                                if (x == 1)
+                                {
+                                    system("cls");
+                                    rp1* r1 = new rp1;
+                                    r1->Input();
+                                    r1->Output();
+                                    cin >> x;
+                                    if (x == 1)
+                                    {
+                                        system("cls");
+                                        cout << endl;
+
+                                        cout << " Гравець " << y2;
+                                        cout << ". Ви обрали персонажа Чо Чанґ!! " << endl;
+                                        cout << " Для початку бою натисніть 1 :";
+                                        cin >> x;
+                                        if (x == 1)
+                                        {
+                                            system("cls");
+                                            cout << endl;
+                                            cout << " Гравець 1: " << y1 << " обрав Драко Малфой!!" << "\t\t\t Гравець 2: " << y2 << " обрав Чо Чанґ!! " << endl;
+                                            hp* h = new hp;
+                                            h->Input();
+                                            h->Output();
+                                            system("pause");
+                                        }
+                                    }
+                                }
+                                if (x == 2)
+                                {
+                                    system("cls");
+                                    rp2* r2 = new rp2;
+                                    r2->Input();
+                                    r2->Output();
+                                    cin >> x;
+                                    if (x == 1)
+                                    {
+                                        system("cls");
+                                        cout << endl;
+                                        cout << " Гравець " << y2;
+                                        cout << ". Ви обрали персонажа Майкл Корнер!! " << endl;
+                                        cout << " Для початку бою натисніть 1 :";
+                                        cin >> x;
+                                        if (x == 1)
+                                        {
+                                            system("cls");
+                                            cout << endl;
+                                            cout << " Гравець 1: " << y1 << " обрав Драко Малфой!!" << "\t\t\t Гравець 2: " << y2 << " обрав Майкл Корнер!! " << endl;
+                                            hp* h = new hp;
+                                            h->Input();
+                                            h->Output();
+                                            system("pause");
+                                        }
+                                    }
+                                }
+                                if (x == 3)
+                                {
+                                    system("cls");
+                                    rp3* r3 = new rp3;
+                                    r3->Input();
+                                    r3->Output();
+                                    cin >> x;
+                                    if (x == 1)
+                                    {
+                                        system("cls");
+                                        cout << endl;
+                                        cout << " Гравець " << y2;
+                                        cout << ". Ви обрали персонажа Маркус Белбі!! " << endl;
+                                        cout << " Для початку бою натисніть 1 :";
+                                        cin >> x;
+                                        if (x == 1)
+                                        {
+                                            system("cls");
+                                            cout << endl;
+                                            cout << " Гравець 1: " << y1 << " обрав Драко Малфой!!" << "\t\t\t Гравець 2: " << y2 << " обрав Маркус Белбі!! " << endl;
+                                            hp* h = new hp;
+                                            h->Input();
+                                            h->Output();
+                                            system("pause");
+                                        }
+                                    }
+                                }
+                            }
+                            if (x == 3)
+                            {
+                                system("cls");
+                                int x;
+                                gafelpaf* g = new gafelpaf;
+                                g->Input();
+                                g->Output();
+                                cin >> x;
+                                if (x == 1)
+                                {
+                                    system("cls");
+                                    gap1* g1 = new gap1;
+                                    g1->Input();
+                                    g1->Output();
+                                    cin >> x;
+                                    if (x == 1)
+                                    {
+                                        system("cls");
+                                        cout << endl;
+                                        cout << " Гравець " << y2;
+                                        cout << ". Ви обрали персонажа Німфадора Тонкс!! " << endl;
+                                        cout << " Для початку бою натисніть 1 :";
+                                        cin >> x;
+                                        if (x == 1)
+                                        {
+                                            system("cls");
+                                            cout << endl;
+                                            cout << " Гравець 1: " << y1 << " обрав Драко Малфой!!" << "\t\t\t Гравець 2: " << y2 << " обрав Німфадора Тонкс!! " << endl;
+                                            hp* h = new hp;
+                                            h->Input();
+                                            h->Output();
+                                            system("pause");
+                                        }
+                                    }
+                                }
+                                if (x == 2)
+                                {
+                                    system("cls");
+                                    gap2* g2 = new gap2;
+                                    g2->Input();
+                                    g2->Output();
+                                    cin >> x;
+                                    if (x == 1)
+                                    {
+                                        system("cls");
+                                        cout << endl;
+                                        cout << " Гравець " << y2;
+                                        cout << ". Ви обрали персонажа Помона Спраут!! " << endl;
+                                        cout << " Для початку бою натисніть 1 :";
+                                        cin >> x;
+                                        if (x == 1)
+                                        {
+                                            system("cls");
+                                            cout << endl;
+                                            cout << " Гравець 1: " << y1 << " обрав Драко Малфой!!" << "\t\t\t Гравець 2: " << y2 << " обрав Помона Спраут!! " << endl;
+                                            hp* h = new hp;
+                                            h->Input();
+                                            h->Output();
+                                            system("pause");
+                                        }
+                                    }
+                                }
+                                if (x == 3)
+                                {
+                                    system("cls");
+                                    gap3* g3 = new gap3;
+                                    g3->Input();
+                                    g3->Output();
+                                    cin >> x;
+                                    if (x == 1)
+                                    {
+                                        system("cls");
+                                        cout << endl;
+                                        cout << " Гравець " << y2;
+                                        cout << ". Ви обрали персонажа Седрік Діґорі!! " << endl;
+                                        cout << " Для початку бою натисніть 1 :";
+                                        cin >> x;
+                                        if (x == 1)
+                                        {
+                                            system("cls");
+                                            cout << endl;
+                                            cout << " Гравець 1: " << y1 << " обрав Драко Малфой!!" << "\t\t\t Гравець 2: " << y2 << " обрав Седрік Діґорі!! " << endl;
+                                            hp* h = new hp;
+                                            h->Input();
+                                            h->Output();
+                                            system("pause");
+                                        }
+                                    }
+                                }
+                            }
+                            if (x == 4)
+                            {
+                                system("cls");
+                                int x;
+                                slizerin* s = new slizerin;
+                                s->Input();
+                                s->Output();
+                                cin >> x;
+                                if (x == 1)
+                                {
+                                    system("cls");
+                                    sp1* s1 = new sp1;
+                                    s1->Input();
+                                    s1->Output();
+                                    cin >> x;
+                                    if (x == 1)
+                                    {
+                                        system("cls");
+                                        cout << endl;
+                                        cout << " Гравець " << y2;
+                                        cout << ". Ви обрали персонажа Драко Малфой!! " << endl;
+                                        cout << " Для початку бою натисніть 1 :";
+                                        cin >> x;
+                                        if (x == 1)
+                                        {
+                                            system("cls");
+                                            cout << endl;
+                                            cout << " Гравець 1: " << y1 << " обрав Драко Малфой!!" << "\t\t\t Гравець 2: " << y2 << " обрав Драко Малфой!! " << endl;
+                                            hp* h = new hp;
+                                            h->Input();
+                                            h->Output();
+                                            system("pause");
+                                        }
+                                    }
+                                }
+                                if (x == 2)
+                                {
+                                    system("cls");
+                                    sp2* s2 = new sp2;
+                                    s2->Input();
+                                    s2->Output();
+                                    cin >> x;
+                                    if (x == 1)
+                                    {
+                                        system("cls");
+                                        cout << endl;
+                                        cout << " Гравець " << y2;
+                                        cout << ". Ви обрали персонажа Милисента Булстроуд!! " << endl;
+                                        cout << " Для початку бою натисніть 1 :";
+                                        cin >> x;
+                                        if (x == 1)
+                                        {
+                                            system("cls");
+                                            cout << endl;
+                                            cout << " Гравець 1: " << y1 << " обрав Драко Малфой!!" << "\t\t\t Гравець 2: " << y2 << " обрав Милисента Булстроуд!! " << endl;
+                                            hp* h = new hp;
+                                            h->Input();
+                                            h->Output();
+                                            system("pause");
+                                        }
+                                    }
+                                }
+                                if (x == 3)
+                                {
+                                    system("cls");
+                                    sp3* s3 = new sp3;
+                                    s3->Input();
+                                    s3->Output();
+                                    cin >> x;
+                                    if (x == 1)
+                                    {
+                                        system("cls");
+                                        cout << endl;
+                                        cout << " Гравець " << y2;
+                                        cout << ". Ви обрали персонажа Трейси Дэвис!! " << endl;
+                                        cout << " Для початку бою натисніть 1 :";
+                                        cin >> x;
+                                        if (x == 1)
+                                        {
+                                            system("cls");
+                                            cout << endl;
+                                            cout << " Гравець 1: " << y1 << " обрав Драко Малфой!!" << "\t\t\t Гравець 2: " << y2 << " обрав Трейси Дэвис!! " << endl;
+                                            hp* h = new hp;
+                                            h->Input();
+                                            h->Output();
+                                            system("pause");
+                                        }
+                                    }
+                                }
+                            }
                         }
                     }
                 }
@@ -1249,12 +4270,380 @@ int main()
                     {
                         system("cls");
                         cout << endl;
-                        cout << " Ви обрали персонажа Милисента Булстроуд!! " << endl;
+                        cout << " Гравець " << y2;
+                        cout << ". Ви обрали персонажа Милисента Булстроуд!! " << endl;
                         cout << " Для вибору персонажа для другого гравця натисніть 1 : ";
                         cin >> x;
                         if (x == 1)
                         {
+                            system("cls");
+                            cout << " Ви гравець номер 2, напишіть свій нік : ";
+                            cin >> y2;
+                            system("cls");
+                            facultet* f = new facultet;
+                            f->Input();
+                            f->Output();
+                            cin >> x;
+                            if (x == 1)
+                            {
+                                system("cls");
+                                int x;
+                                grifindor* g = new grifindor;
+                                g->Input();
+                                g->Output();
+                                cin >> x;
+                                if (x == 1)
+                                {
+                                    system("cls");
+                                    gp1* g1 = new gp1;
+                                    g1->Input();
+                                    g1->Output();
+                                    cin >> x;
+                                    if (x == 1)
+                                    {
+                                        system("cls");
+                                        cout << endl;
+                                        cout << " Гравець " << y2;
+                                        cout << ". Ви обрали персонажа Кети Белл!! " << endl;
+                                        cout << " Для початку бою натисніть 1 :";
+                                        cin >> x;
+                                        if (x == 1)
+                                        {
+                                            system("cls");
+                                            cout << endl;
+                                            cout << " Гравець 1: " << y1 << " обрав Милисента Булстроуд!!" << "\t\t\t Гравець 2: " << y2 << " обрав Кети Белл" << endl;
+                                            hp* h = new hp;
+                                            h->Input();
+                                            h->Output();
+                                        }
+                                    }
+                                }
+                                if (x == 2)
+                                {
+                                    system("cls");
+                                    gp2* g2 = new gp2;
+                                    g2->Input();
+                                    g2->Output();
+                                    cin >> x;
+                                    if (x == 1)
+                                    {
+                                        system("cls");
+                                        cout << endl;
+                                        cout << " Гравець " << y2;
+                                        cout << ". Ви обрали персонажа Гарі Потера!! " << endl;
+                                        cout << " Для початку бою натисніть 1 :";
+                                        cin >> x;
+                                        if (x == 1)
+                                        {
+                                            system("cls");
+                                            cout << endl;
+                                            cout << " Гравець 1: " << y1 << " обрав Милисента Булстроуд!!" << "\t\t\t Гравець 2: " << y2 << " обрав Гарі Потера" << endl;
+                                            hp* h = new hp;
+                                            h->Input();
+                                            h->Output();
+                                        }
+                                    }
 
+                                }
+                                if (x == 3)
+                                {
+                                    system("cls");
+                                    gp3* g3 = new gp3;
+                                    g3->Input();
+                                    g3->Output();
+                                    cin >> x;
+                                    if (x == 1)
+                                    {
+                                        system("cls");
+                                        cout << endl;
+                                        cout << " Гравець " << y2;
+                                        cout << ". Ви обрали персонажа Гермиону Грейнджер!! " << endl;
+                                        cout << " Для початку бою натисніть 1 :";
+                                        cin >> x;
+                                        if (x == 1)
+                                        {
+                                            system("cls");
+                                            cout << endl;
+                                            cout << " Гравець 1: " << y1 << " обрав Милисента Булстроуд!!" << "\t\t\t Гравець 2: " << y2 << " обрав Гермиону Грейнджер!! " << endl;
+                                            hp* h = new hp;
+                                            h->Input();
+                                            h->Output();
+                                        }
+                                    }
+
+                                }
+                            }
+                            if (x == 2)
+                            {
+                                system("cls");
+                                int x;
+                                reivenclov* r = new reivenclov;
+                                r->Input();
+                                r->Output();
+                                cin >> x;
+                                if (x == 1)
+                                {
+                                    system("cls");
+                                    rp1* r1 = new rp1;
+                                    r1->Input();
+                                    r1->Output();
+                                    cin >> x;
+                                    if (x == 1)
+                                    {
+                                        system("cls");
+                                        cout << endl;
+
+                                        cout << " Гравець " << y2;
+                                        cout << ". Ви обрали персонажа Чо Чанґ!! " << endl;
+                                        cout << " Для початку бою натисніть 1 :";
+                                        cin >> x;
+                                        if (x == 1)
+                                        {
+                                            system("cls");
+                                            cout << endl;
+                                            cout << " Гравець 1: " << y1 << " обрав Милисента Булстроуд!!" << "\t\t\t Гравець 2: " << y2 << " обрав Чо Чанґ!! " << endl;
+                                            hp* h = new hp;
+                                            h->Input();
+                                            h->Output();
+                                            system("pause");
+                                        }
+                                    }
+                                }
+                                if (x == 2)
+                                {
+                                    system("cls");
+                                    rp2* r2 = new rp2;
+                                    r2->Input();
+                                    r2->Output();
+                                    cin >> x;
+                                    if (x == 1)
+                                    {
+                                        system("cls");
+                                        cout << endl;
+                                        cout << " Гравець " << y2;
+                                        cout << ". Ви обрали персонажа Майкл Корнер!! " << endl;
+                                        cout << " Для початку бою натисніть 1 :";
+                                        cin >> x;
+                                        if (x == 1)
+                                        {
+                                            system("cls");
+                                            cout << endl;
+                                            cout << " Гравець 1: " << y1 << " обрав Милисента Булстроуд!!" << "\t\t\t Гравець 2: " << y2 << " обрав Майкл Корнер!! " << endl;
+                                            hp* h = new hp;
+                                            h->Input();
+                                            h->Output();
+                                            system("pause");
+                                        }
+                                    }
+                                }
+                                if (x == 3)
+                                {
+                                    system("cls");
+                                    rp3* r3 = new rp3;
+                                    r3->Input();
+                                    r3->Output();
+                                    cin >> x;
+                                    if (x == 1)
+                                    {
+                                        system("cls");
+                                        cout << endl;
+                                        cout << " Гравець " << y2;
+                                        cout << ". Ви обрали персонажа Маркус Белбі!! " << endl;
+                                        cout << " Для початку бою натисніть 1 :";
+                                        cin >> x;
+                                        if (x == 1)
+                                        {
+                                            system("cls");
+                                            cout << endl;
+                                            cout << " Гравець 1: " << y1 << " обрав Милисента Булстроуд!!" << "\t\t\t Гравець 2: " << y2 << " обрав Маркус Белбі!! " << endl;
+                                            hp* h = new hp;
+                                            h->Input();
+                                            h->Output();
+                                            system("pause");
+                                        }
+                                    }
+                                }
+                            }
+                            if (x == 3)
+                            {
+                                system("cls");
+                                int x;
+                                gafelpaf* g = new gafelpaf;
+                                g->Input();
+                                g->Output();
+                                cin >> x;
+                                if (x == 1)
+                                {
+                                    system("cls");
+                                    gap1* g1 = new gap1;
+                                    g1->Input();
+                                    g1->Output();
+                                    cin >> x;
+                                    if (x == 1)
+                                    {
+                                        system("cls");
+                                        cout << endl;
+                                        cout << " Гравець " << y2;
+                                        cout << ". Ви обрали персонажа Німфадора Тонкс!! " << endl;
+                                        cout << " Для початку бою натисніть 1 :";
+                                        cin >> x;
+                                        if (x == 1)
+                                        {
+                                            system("cls");
+                                            cout << endl;
+                                            cout << " Гравець 1: " << y1 << " обрав Милисента Булстроуд!!" << "\t\t\t Гравець 2: " << y2 << " обрав Німфадора Тонкс!! " << endl;
+                                            hp* h = new hp;
+                                            h->Input();
+                                            h->Output();
+                                            system("pause");
+                                        }
+                                    }
+                                }
+                                if (x == 2)
+                                {
+                                    system("cls");
+                                    gap2* g2 = new gap2;
+                                    g2->Input();
+                                    g2->Output();
+                                    cin >> x;
+                                    if (x == 1)
+                                    {
+                                        system("cls");
+                                        cout << endl;
+                                        cout << " Гравець " << y2;
+                                        cout << ". Ви обрали персонажа Помона Спраут!! " << endl;
+                                        cout << " Для початку бою натисніть 1 :";
+                                        cin >> x;
+                                        if (x == 1)
+                                        {
+                                            system("cls");
+                                            cout << endl;
+                                            cout << " Гравець 1: " << y1 << " обрав Милисента Булстроуд!!" << "\t\t\t Гравець 2: " << y2 << " обрав Помона Спраут!! " << endl;
+                                            hp* h = new hp;
+                                            h->Input();
+                                            h->Output();
+                                            system("pause");
+                                        }
+                                    }
+                                }
+                                if (x == 3)
+                                {
+                                    system("cls");
+                                    gap3* g3 = new gap3;
+                                    g3->Input();
+                                    g3->Output();
+                                    cin >> x;
+                                    if (x == 1)
+                                    {
+                                        system("cls");
+                                        cout << endl;
+                                        cout << " Гравець " << y2;
+                                        cout << ". Ви обрали персонажа Седрік Діґорі!! " << endl;
+                                        cout << " Для початку бою натисніть 1 :";
+                                        cin >> x;
+                                        if (x == 1)
+                                        {
+                                            system("cls");
+                                            cout << endl;
+                                            cout << " Гравець 1: " << y1 << " обрав Милисента Булстроуд!!" << "\t\t\t Гравець 2: " << y2 << " обрав Седрік Діґорі!! " << endl;
+                                            hp* h = new hp;
+                                            h->Input();
+                                            h->Output();
+                                            system("pause");
+                                        }
+                                    }
+                                }
+                            }
+                            if (x == 4)
+                            {
+                                system("cls");
+                                int x;
+                                slizerin* s = new slizerin;
+                                s->Input();
+                                s->Output();
+                                cin >> x;
+                                if (x == 1)
+                                {
+                                    system("cls");
+                                    sp1* s1 = new sp1;
+                                    s1->Input();
+                                    s1->Output();
+                                    cin >> x;
+                                    if (x == 1)
+                                    {
+                                        system("cls");
+                                        cout << endl;
+                                        cout << " Гравець " << y2;
+                                        cout << ". Ви обрали персонажа Драко Малфой!! " << endl;
+                                        cout << " Для початку бою натисніть 1 :";
+                                        cin >> x;
+                                        if (x == 1)
+                                        {
+                                            system("cls");
+                                            cout << endl;
+                                            cout << " Гравець 1: " << y1 << " обрав Милисента Булстроуд!!" << "\t\t\t Гравець 2: " << y2 << " обрав Драко Малфой!! " << endl;
+                                            hp* h = new hp;
+                                            h->Input();
+                                            h->Output();
+                                            system("pause");
+                                        }
+                                    }
+                                }
+                                if (x == 2)
+                                {
+                                    system("cls");
+                                    sp2* s2 = new sp2;
+                                    s2->Input();
+                                    s2->Output();
+                                    cin >> x;
+                                    if (x == 1)
+                                    {
+                                        system("cls");
+                                        cout << endl;
+                                        cout << " Гравець " << y2;
+                                        cout << ". Ви обрали персонажа Милисента Булстроуд!! " << endl;
+                                        cout << " Для початку бою натисніть 1 :";
+                                        cin >> x;
+                                        if (x == 1)
+                                        {
+                                            system("cls");
+                                            cout << endl;
+                                            cout << " Гравець 1: " << y1 << " обрав Милисента Булстроуд!!" << "\t\t\t Гравець 2: " << y2 << " обрав Милисента Булстроуд!! " << endl;
+                                            hp* h = new hp;
+                                            h->Input();
+                                            h->Output();
+                                            system("pause");
+                                        }
+                                    }
+                                }
+                                if (x == 3)
+                                {
+                                    system("cls");
+                                    sp3* s3 = new sp3;
+                                    s3->Input();
+                                    s3->Output();
+                                    cin >> x;
+                                    if (x == 1)
+                                    {
+                                        system("cls");
+                                        cout << endl;
+                                        cout << " Гравець " << y2;
+                                        cout << ". Ви обрали персонажа Трейси Дэвис!! " << endl;
+                                        cout << " Для початку бою натисніть 1 :";
+                                        cin >> x;
+                                        if (x == 1)
+                                        {
+                                            system("cls");
+                                            cout << endl;
+                                            cout << " Гравець 1: " << y1 << " обрав Милисента Булстроуд!!" << "\t\t\t Гравець 2: " << y2 << " обрав Трейси Дэвис!! " << endl;
+                                            hp* h = new hp;
+                                            h->Input();
+                                            h->Output();
+                                            system("pause");
+                                        }
+                                    }
+                                }
+                            }
                         }
                     }
                 }
@@ -1269,12 +4658,380 @@ int main()
                     {
                         system("cls");
                         cout << endl;
-                        cout << " Ви обрали персонажа Трейси Дэвис!! " << endl;
+                        cout << " Гравець " << y2;
+                        cout << ". Ви обрали персонажа Трейси Дэвис!! " << endl;
                         cout << " Для вибору персонажа для другого гравця натисніть 1 : ";
                         cin >> x;
                         if (x == 1)
                         {
+                            system("cls");
+                            cout << " Ви гравець номер 2, напишіть свій нік : ";
+                            cin >> y2;
+                            system("cls");
+                            facultet* f = new facultet;
+                            f->Input();
+                            f->Output();
+                            cin >> x;
+                            if (x == 1)
+                            {
+                                system("cls");
+                                int x;
+                                grifindor* g = new grifindor;
+                                g->Input();
+                                g->Output();
+                                cin >> x;
+                                if (x == 1)
+                                {
+                                    system("cls");
+                                    gp1* g1 = new gp1;
+                                    g1->Input();
+                                    g1->Output();
+                                    cin >> x;
+                                    if (x == 1)
+                                    {
+                                        system("cls");
+                                        cout << endl;
+                                        cout << " Гравець " << y2;
+                                        cout << ". Ви обрали персонажа Кети Белл!! " << endl;
+                                        cout << " Для початку бою натисніть 1 :";
+                                        cin >> x;
+                                        if (x == 1)
+                                        {
+                                            system("cls");
+                                            cout << endl;
+                                            cout << " Гравець 1: " << y1 << " обрав Трейси Дэвис!!" << "\t\t\t Гравець 2: " << y2 << " обрав Кети Белл" << endl;
+                                            hp* h = new hp;
+                                            h->Input();
+                                            h->Output();
+                                        }
+                                    }
+                                }
+                                if (x == 2)
+                                {
+                                    system("cls");
+                                    gp2* g2 = new gp2;
+                                    g2->Input();
+                                    g2->Output();
+                                    cin >> x;
+                                    if (x == 1)
+                                    {
+                                        system("cls");
+                                        cout << endl;
+                                        cout << " Гравець " << y2;
+                                        cout << ". Ви обрали персонажа Гарі Потера!! " << endl;
+                                        cout << " Для початку бою натисніть 1 :";
+                                        cin >> x;
+                                        if (x == 1)
+                                        {
+                                            system("cls");
+                                            cout << endl;
+                                            cout << " Гравець 1: " << y1 << " обрав Трейси Дэвис!!" << "\t\t\t Гравець 2: " << y2 << " обрав Гарі Потера" << endl;
+                                            hp* h = new hp;
+                                            h->Input();
+                                            h->Output();
+                                        }
+                                    }
 
+                                }
+                                if (x == 3)
+                                {
+                                    system("cls");
+                                    gp3* g3 = new gp3;
+                                    g3->Input();
+                                    g3->Output();
+                                    cin >> x;
+                                    if (x == 1)
+                                    {
+                                        system("cls");
+                                        cout << endl;
+                                        cout << " Гравець " << y2;
+                                        cout << ". Ви обрали персонажа Гермиону Грейнджер!! " << endl;
+                                        cout << " Для початку бою натисніть 1 :";
+                                        cin >> x;
+                                        if (x == 1)
+                                        {
+                                            system("cls");
+                                            cout << endl;
+                                            cout << " Гравець 1: " << y1 << " обрав Трейси Дэвис!!" << "\t\t\t Гравець 2: " << y2 << " обрав Гермиону Грейнджер!! " << endl;
+                                            hp* h = new hp;
+                                            h->Input();
+                                            h->Output();
+                                        }
+                                    }
+
+                                }
+                            }
+                            if (x == 2)
+                            {
+                                system("cls");
+                                int x;
+                                reivenclov* r = new reivenclov;
+                                r->Input();
+                                r->Output();
+                                cin >> x;
+                                if (x == 1)
+                                {
+                                    system("cls");
+                                    rp1* r1 = new rp1;
+                                    r1->Input();
+                                    r1->Output();
+                                    cin >> x;
+                                    if (x == 1)
+                                    {
+                                        system("cls");
+                                        cout << endl;
+
+                                        cout << " Гравець " << y2;
+                                        cout << ". Ви обрали персонажа Чо Чанґ!! " << endl;
+                                        cout << " Для початку бою натисніть 1 :";
+                                        cin >> x;
+                                        if (x == 1)
+                                        {
+                                            system("cls");
+                                            cout << endl;
+                                            cout << " Гравець 1: " << y1 << " обрав Трейси Дэвис!!" << "\t\t\t Гравець 2: " << y2 << " обрав Чо Чанґ!! " << endl;
+                                            hp* h = new hp;
+                                            h->Input();
+                                            h->Output();
+                                            system("pause");
+                                        }
+                                    }
+                                }
+                                if (x == 2)
+                                {
+                                    system("cls");
+                                    rp2* r2 = new rp2;
+                                    r2->Input();
+                                    r2->Output();
+                                    cin >> x;
+                                    if (x == 1)
+                                    {
+                                        system("cls");
+                                        cout << endl;
+                                        cout << " Гравець " << y2;
+                                        cout << ". Ви обрали персонажа Майкл Корнер!! " << endl;
+                                        cout << " Для початку бою натисніть 1 :";
+                                        cin >> x;
+                                        if (x == 1)
+                                        {
+                                            system("cls");
+                                            cout << endl;
+                                            cout << " Гравець 1: " << y1 << " обрав Трейси Дэвис!!" << "\t\t\t Гравець 2: " << y2 << " обрав Майкл Корнер!! " << endl;
+                                            hp* h = new hp;
+                                            h->Input();
+                                            h->Output();
+                                            system("pause");
+                                        }
+                                    }
+                                }
+                                if (x == 3)
+                                {
+                                    system("cls");
+                                    rp3* r3 = new rp3;
+                                    r3->Input();
+                                    r3->Output();
+                                    cin >> x;
+                                    if (x == 1)
+                                    {
+                                        system("cls");
+                                        cout << endl;
+                                        cout << " Гравець " << y2;
+                                        cout << ". Ви обрали персонажа Маркус Белбі!! " << endl;
+                                        cout << " Для початку бою натисніть 1 :";
+                                        cin >> x;
+                                        if (x == 1)
+                                        {
+                                            system("cls");
+                                            cout << endl;
+                                            cout << " Гравець 1: " << y1 << " обрав Трейси Дэвис!!" << "\t\t\t Гравець 2: " << y2 << " обрав Маркус Белбі!! " << endl;
+                                            hp* h = new hp;
+                                            h->Input();
+                                            h->Output();
+                                            system("pause");
+                                        }
+                                    }
+                                }
+                            }
+                            if (x == 3)
+                            {
+                                system("cls");
+                                int x;
+                                gafelpaf* g = new gafelpaf;
+                                g->Input();
+                                g->Output();
+                                cin >> x;
+                                if (x == 1)
+                                {
+                                    system("cls");
+                                    gap1* g1 = new gap1;
+                                    g1->Input();
+                                    g1->Output();
+                                    cin >> x;
+                                    if (x == 1)
+                                    {
+                                        system("cls");
+                                        cout << endl;
+                                        cout << " Гравець " << y2;
+                                        cout << ". Ви обрали персонажа Німфадора Тонкс!! " << endl;
+                                        cout << " Для початку бою натисніть 1 :";
+                                        cin >> x;
+                                        if (x == 1)
+                                        {
+                                            system("cls");
+                                            cout << endl;
+                                            cout << " Гравець 1: " << y1 << " обрав Трейси Дэвис!!" << "\t\t\t Гравець 2: " << y2 << " обрав Німфадора Тонкс!! " << endl;
+                                            hp* h = new hp;
+                                            h->Input();
+                                            h->Output();
+                                            system("pause");
+                                        }
+                                    }
+                                }
+                                if (x == 2)
+                                {
+                                    system("cls");
+                                    gap2* g2 = new gap2;
+                                    g2->Input();
+                                    g2->Output();
+                                    cin >> x;
+                                    if (x == 1)
+                                    {
+                                        system("cls");
+                                        cout << endl;
+                                        cout << " Гравець " << y2;
+                                        cout << ". Ви обрали персонажа Помона Спраут!! " << endl;
+                                        cout << " Для початку бою натисніть 1 :";
+                                        cin >> x;
+                                        if (x == 1)
+                                        {
+                                            system("cls");
+                                            cout << endl;
+                                            cout << " Гравець 1: " << y1 << " обрав Трейси Дэвис!!" << "\t\t\t Гравець 2: " << y2 << " обрав Помона Спраут!! " << endl;
+                                            hp* h = new hp;
+                                            h->Input();
+                                            h->Output();
+                                            system("pause");
+                                        }
+                                    }
+                                }
+                                if (x == 3)
+                                {
+                                    system("cls");
+                                    gap3* g3 = new gap3;
+                                    g3->Input();
+                                    g3->Output();
+                                    cin >> x;
+                                    if (x == 1)
+                                    {
+                                        system("cls");
+                                        cout << endl;
+                                        cout << " Гравець " << y2;
+                                        cout << ". Ви обрали персонажа Седрік Діґорі!! " << endl;
+                                        cout << " Для початку бою натисніть 1 :";
+                                        cin >> x;
+                                        if (x == 1)
+                                        {
+                                            system("cls");
+                                            cout << endl;
+                                            cout << " Гравець 1: " << y1 << " обрав Трейси Дэвис!!" << "\t\t\t Гравець 2: " << y2 << " обрав Седрік Діґорі!! " << endl;
+                                            hp* h = new hp;
+                                            h->Input();
+                                            h->Output();
+                                            system("pause");
+                                        }
+                                    }
+                                }
+                            }
+                            if (x == 4)
+                            {
+                                system("cls");
+                                int x;
+                                slizerin* s = new slizerin;
+                                s->Input();
+                                s->Output();
+                                cin >> x;
+                                if (x == 1)
+                                {
+                                    system("cls");
+                                    sp1* s1 = new sp1;
+                                    s1->Input();
+                                    s1->Output();
+                                    cin >> x;
+                                    if (x == 1)
+                                    {
+                                        system("cls");
+                                        cout << endl;
+                                        cout << " Гравець " << y2;
+                                        cout << ". Ви обрали персонажа Драко Малфой!! " << endl;
+                                        cout << " Для початку бою натисніть 1 :";
+                                        cin >> x;
+                                        if (x == 1)
+                                        {
+                                            system("cls");
+                                            cout << endl;
+                                            cout << " Гравець 1: " << y1 << " обрав Трейси Дэвис!!" << "\t\t\t Гравець 2: " << y2 << " обрав Драко Малфой!! " << endl;
+                                            hp* h = new hp;
+                                            h->Input();
+                                            h->Output();
+                                            system("pause");
+                                        }
+                                    }
+                                }
+                                if (x == 2)
+                                {
+                                    system("cls");
+                                    sp2* s2 = new sp2;
+                                    s2->Input();
+                                    s2->Output();
+                                    cin >> x;
+                                    if (x == 1)
+                                    {
+                                        system("cls");
+                                        cout << endl;
+                                        cout << " Гравець " << y2;
+                                        cout << ". Ви обрали персонажа Милисента Булстроуд!! " << endl;
+                                        cout << " Для початку бою натисніть 1 :";
+                                        cin >> x;
+                                        if (x == 1)
+                                        {
+                                            system("cls");
+                                            cout << endl;
+                                            cout << " Гравець 1: " << y1 << " обрав Трейси Дэвис!!" << "\t\t\t Гравець 2: " << y2 << " обрав Милисента Булстроуд!! " << endl;
+                                            hp* h = new hp;
+                                            h->Input();
+                                            h->Output();
+                                            system("pause");
+                                        }
+                                    }
+                                }
+                                if (x == 3)
+                                {
+                                    system("cls");
+                                    sp3* s3 = new sp3;
+                                    s3->Input();
+                                    s3->Output();
+                                    cin >> x;
+                                    if (x == 1)
+                                    {
+                                        system("cls");
+                                        cout << endl;
+                                        cout << " Гравець " << y2;
+                                        cout << ". Ви обрали персонажа Трейси Дэвис!! " << endl;
+                                        cout << " Для початку бою натисніть 1 :";
+                                        cin >> x;
+                                        if (x == 1)
+                                        {
+                                            system("cls");
+                                            cout << endl;
+                                            cout << " Гравець 1: " << y1 << " обрав Трейси Дэвис!!" << "\t\t\t Гравець 2: " << y2 << " обрав Трейси Дэвис!! " << endl;
+                                            hp* h = new hp;
+                                            h->Input();
+                                            h->Output();
+                                            system("pause");
+                                        }
+                                    }
+                                }
+                            }
                         }
                     }
                 }
