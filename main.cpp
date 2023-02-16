@@ -4150,6 +4150,151 @@ int main()
                                             hp* h = new hp;
                                             h->Input();
                                             h->Output();
+                                            cout << endl;
+                                            zillia* z = new zillia;
+                                            z->Input();
+                                            z->Output();
+                                            cout << endl;
+                                            cout << "* Для вибору зілля для Гравця 1 - " << y1 << ", введіть номер зілля : ";
+                                            cin >> x;
+                                            if (x == 1)
+                                            {
+                                                system("cls");
+                                                zillia* z = new zillia;
+                                                z->Input();
+                                                z->Output();
+                                                cout << endl;
+                                                cout << "* Для вибору зілля для Гравця 2 - " << y2 << ", введіть номер зілля : ";
+                                                cin >> x;
+                                                if (x == 1)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гарі Потера" << "\t\t\t Гравець 2: " << y2 << " обрав Помона Спраут!! " << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 1  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 1  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                                if (x == 2)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гарі Потера" << "\t\t\t Гравець 2: " << y2 << " обрав Помона Спраут!! " << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 1  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 2  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                                if (x == 3)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гарі Потера" << "\t\t\t Гравець 2: " << y2 << " обрав Помона Спраут!! " << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 1  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 3  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                            }
+                                            if (x == 2)
+                                            {
+                                                system("cls");
+                                                zillia* z = new zillia;
+                                                z->Input();
+                                                z->Output();
+                                                cout << endl;
+                                                cout << "* Для вибору зілля для Гравця 2 - " << y2 << ", введіть номер зілля : ";
+                                                cin >> x;
+                                                if (x == 1)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гарі Потера" << "\t\t\t Гравець 2: " << y2 << " обрав Помона Спраут!! " << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 2  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 1  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                                if (x == 2)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гарі Потера" << "\t\t\t Гравець 2: " << y2 << " обрав Помона Спраут!! " << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 2  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 2  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                                if (x == 3)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гарі Потера" << "\t\t\t Гравець 2: " << y2 << " обрав Помона Спраут!! " << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 2  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 3  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                            }
+                                            if (x == 3)
+                                            {
+                                                system("cls");
+                                                zillia* z = new zillia;
+                                                z->Input();
+                                                z->Output();
+                                                cout << endl;
+                                                cout << "* Для вибору зілля для Гравця 2 - " << y2 << ", введіть номер зілля : ";
+                                                cin >> x;
+                                                if (x == 1)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гарі Потера" << "\t\t\t Гравець 2: " << y2 << " обрав Помона Спраут!! " << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 3  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 1  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                                if (x == 2)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гарі Потера" << "\t\t\t Гравець 2: " << y2 << " обрав Помона Спраут!! " << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 3  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 2  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                                if (x == 3)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гарі Потера" << "\t\t\t Гравець 2: " << y2 << " обрав Помона Спраут!! " << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 3  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 3  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                            }
                                             system("pause");
                                         }
                                     }
@@ -4177,6 +4322,151 @@ int main()
                                             hp* h = new hp;
                                             h->Input();
                                             h->Output();
+                                            cout << endl;
+                                            zillia* z = new zillia;
+                                            z->Input();
+                                            z->Output();
+                                            cout << endl;
+                                            cout << "* Для вибору зілля для Гравця 1 - " << y1 << ", введіть номер зілля : ";
+                                            cin >> x;
+                                            if (x == 1)
+                                            {
+                                                system("cls");
+                                                zillia* z = new zillia;
+                                                z->Input();
+                                                z->Output();
+                                                cout << endl;
+                                                cout << "* Для вибору зілля для Гравця 2 - " << y2 << ", введіть номер зілля : ";
+                                                cin >> x;
+                                                if (x == 1)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гарі Потера" << "\t\t\t Гравець 2: " << y2 << " обрав Седрік Діґорі!! " << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 1  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 1  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                                if (x == 2)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гарі Потера" << "\t\t\t Гравець 2: " << y2 << " обрав Седрік Діґорі!! " << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 1  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 2  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                                if (x == 3)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гарі Потера" << "\t\t\t Гравець 2: " << y2 << " обрав Седрік Діґорі!! " << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 1  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 3  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                            }
+                                            if (x == 2)
+                                            {
+                                                system("cls");
+                                                zillia* z = new zillia;
+                                                z->Input();
+                                                z->Output();
+                                                cout << endl;
+                                                cout << "* Для вибору зілля для Гравця 2 - " << y2 << ", введіть номер зілля : ";
+                                                cin >> x;
+                                                if (x == 1)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гарі Потера" << "\t\t\t Гравець 2: " << y2 << " обрав Седрік Діґорі!! " << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 2  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 1  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                                if (x == 2)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гарі Потера" << "\t\t\t Гравець 2: " << y2 << " обрав Седрік Діґорі!! " << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 2  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 2  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                                if (x == 3)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гарі Потера" << "\t\t\t Гравець 2: " << y2 << " обрав Седрік Діґорі!! " << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 2  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 3  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                            }
+                                            if (x == 3)
+                                            {
+                                                system("cls");
+                                                zillia* z = new zillia;
+                                                z->Input();
+                                                z->Output();
+                                                cout << endl;
+                                                cout << "* Для вибору зілля для Гравця 2 - " << y2 << ", введіть номер зілля : ";
+                                                cin >> x;
+                                                if (x == 1)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гарі Потера" << "\t\t\t Гравець 2: " << y2 << " обрав Седрік Діґорі!! " << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 3  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 1  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                                if (x == 2)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гарі Потера" << "\t\t\t Гравець 2: " << y2 << " обрав Седрік Діґорі!! " << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 3  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 2  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                                if (x == 3)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гарі Потера" << "\t\t\t Гравець 2: " << y2 << " обрав Седрік Діґорі!! " << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 3  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 3  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                            }
                                             system("pause");
                                         }
                                     }
@@ -4213,6 +4503,7 @@ int main()
                                             hp* h = new hp;
                                             h->Input();
                                             h->Output();
+
                                             system("pause");
                                         }
                                     }
@@ -4240,6 +4531,151 @@ int main()
                                             hp* h = new hp;
                                             h->Input();
                                             h->Output();
+                                            cout << endl;
+                                            zillia* z = new zillia;
+                                            z->Input();
+                                            z->Output();
+                                            cout << endl;
+                                            cout << "* Для вибору зілля для Гравця 1 - " << y1 << ", введіть номер зілля : ";
+                                            cin >> x;
+                                            if (x == 1)
+                                            {
+                                                system("cls");
+                                                zillia* z = new zillia;
+                                                z->Input();
+                                                z->Output();
+                                                cout << endl;
+                                                cout << "* Для вибору зілля для Гравця 2 - " << y2 << ", введіть номер зілля : ";
+                                                cin >> x;
+                                                if (x == 1)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гарі Потера" << "\t\t\t Гравець 2: " << y2 << " обрав Милисента Булстроуд!! " << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 1  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 1  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                                if (x == 2)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гарі Потера" << "\t\t\t Гравець 2: " << y2 << " обрав Милисента Булстроуд!! " << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 1  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 2  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                                if (x == 3)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гарі Потера" << "\t\t\t Гравець 2: " << y2 << " обрав Милисента Булстроуд!! " << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 1  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 3  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                            }
+                                            if (x == 2)
+                                            {
+                                                system("cls");
+                                                zillia* z = new zillia;
+                                                z->Input();
+                                                z->Output();
+                                                cout << endl;
+                                                cout << "* Для вибору зілля для Гравця 2 - " << y2 << ", введіть номер зілля : ";
+                                                cin >> x;
+                                                if (x == 1)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гарі Потера" << "\t\t\t Гравець 2: " << y2 << " обрав Милисента Булстроуд!! " << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 2  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 1  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                                if (x == 2)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гарі Потера" << "\t\t\t Гравець 2: " << y2 << " обрав Милисента Булстроуд!! " << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 2  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 2  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                                if (x == 3)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гарі Потера" << "\t\t\t Гравець 2: " << y2 << " обрав Милисента Булстроуд!! " << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 2  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 3  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                            }
+                                            if (x == 3)
+                                            {
+                                                system("cls");
+                                                zillia* z = new zillia;
+                                                z->Input();
+                                                z->Output();
+                                                cout << endl;
+                                                cout << "* Для вибору зілля для Гравця 2 - " << y2 << ", введіть номер зілля : ";
+                                                cin >> x;
+                                                if (x == 1)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гарі Потера" << "\t\t\t Гравець 2: " << y2 << " обрав Милисента Булстроуд!! " << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 3  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 1  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                                if (x == 2)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гарі Потера" << "\t\t\t Гравець 2: " << y2 << " обрав Милисента Булстроуд!! " << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 3  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 2  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                                if (x == 3)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гарі Потера" << "\t\t\t Гравець 2: " << y2 << " обрав Милисента Булстроуд!! " << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 3  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 3  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                            }
                                             system("pause");
                                         }
                                     }
@@ -4267,6 +4703,151 @@ int main()
                                             hp* h = new hp;
                                             h->Input();
                                             h->Output();
+                                            cout << endl;
+                                            zillia* z = new zillia;
+                                            z->Input();
+                                            z->Output();
+                                            cout << endl;
+                                            cout << "* Для вибору зілля для Гравця 1 - " << y1 << ", введіть номер зілля : ";
+                                            cin >> x;
+                                            if (x == 1)
+                                            {
+                                                system("cls");
+                                                zillia* z = new zillia;
+                                                z->Input();
+                                                z->Output();
+                                                cout << endl;
+                                                cout << "* Для вибору зілля для Гравця 2 - " << y2 << ", введіть номер зілля : ";
+                                                cin >> x;
+                                                if (x == 1)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гарі Потера" << "\t\t\t Гравець 2: " << y2 << " обрав Трейси Дэвис!! " << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 1  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 1  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                                if (x == 2)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гарі Потера" << "\t\t\t Гравець 2: " << y2 << " обрав Трейси Дэвис!! " << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 1  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 2  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                                if (x == 3)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гарі Потера" << "\t\t\t Гравець 2: " << y2 << " обрав Трейси Дэвис!! " << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 1  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 3  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                            }
+                                            if (x == 2)
+                                            {
+                                                system("cls");
+                                                zillia* z = new zillia;
+                                                z->Input();
+                                                z->Output();
+                                                cout << endl;
+                                                cout << "* Для вибору зілля для Гравця 2 - " << y2 << ", введіть номер зілля : ";
+                                                cin >> x;
+                                                if (x == 1)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гарі Потера" << "\t\t\t Гравець 2: " << y2 << " обрав Трейси Дэвис!! " << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 2  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 1  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                                if (x == 2)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гарі Потера" << "\t\t\t Гравець 2: " << y2 << " обрав Трейси Дэвис!! " << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 2  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 2  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                                if (x == 3)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гарі Потера" << "\t\t\t Гравець 2: " << y2 << " обрав Трейси Дэвис!! " << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 2  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 3  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                            }
+                                            if (x == 3)
+                                            {
+                                                system("cls");
+                                                zillia* z = new zillia;
+                                                z->Input();
+                                                z->Output();
+                                                cout << endl;
+                                                cout << "* Для вибору зілля для Гравця 2 - " << y2 << ", введіть номер зілля : ";
+                                                cin >> x;
+                                                if (x == 1)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гарі Потера" << "\t\t\t Гравець 2: " << y2 << " обрав Трейси Дэвис!! " << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 3  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 1  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                                if (x == 2)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гарі Потера" << "\t\t\t Гравець 2: " << y2 << " обрав Трейси Дэвис!! " << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 3  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 2  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                                if (x == 3)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гарі Потера" << "\t\t\t Гравець 2: " << y2 << " обрав Трейси Дэвис!! " << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 3  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 3  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                            }
                                             system("pause");
                                         }
                                     }
@@ -4332,6 +4913,151 @@ int main()
                                             hp* h = new hp;
                                             h->Input();
                                             h->Output();
+                                            cout << endl;
+                                            zillia* z = new zillia;
+                                            z->Input();
+                                            z->Output();
+                                            cout << endl;
+                                            cout << "* Для вибору зілля для Гравця 1 - " << y1 << ", введіть номер зілля : ";
+                                            cin >> x;
+                                            if (x == 1)
+                                            {
+                                                system("cls");
+                                                zillia* z = new zillia;
+                                                z->Input();
+                                                z->Output();
+                                                cout << endl;
+                                                cout << "* Для вибору зілля для Гравця 2 - " << y2 << ", введіть номер зілля : ";
+                                                cin >> x;
+                                                if (x == 1)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гермиону Грейнджер" << "\t\t\t Гравець 2: " << y2 << " обрав Кети Белл" << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 1  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 1  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                                if (x == 2)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гермиону Грейнджер" << "\t\t\t Гравець 2: " << y2 << " обрав Кети Белл" << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 1  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 2  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                                if (x == 3)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гермиону Грейнджер" << "\t\t\t Гравець 2: " << y2 << " обрав Кети Белл" << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 1  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 3  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                            }
+                                            if (x == 2)
+                                            {
+                                                system("cls");
+                                                zillia* z = new zillia;
+                                                z->Input();
+                                                z->Output();
+                                                cout << endl;
+                                                cout << "* Для вибору зілля для Гравця 2 - " << y2 << ", введіть номер зілля : ";
+                                                cin >> x;
+                                                if (x == 1)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гермиону Грейнджер" << "\t\t\t Гравець 2: " << y2 << " обрав Кети Белл" << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 2  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 1  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                                if (x == 2)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гермиону Грейнджер" << "\t\t\t Гравець 2: " << y2 << " обрав Кети Белл" << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 2  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 2  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                                if (x == 3)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гермиону Грейнджер" << "\t\t\t Гравець 2: " << y2 << " обрав Кети Белл" << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 2  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 3  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                            }
+                                            if (x == 3)
+                                            {
+                                                system("cls");
+                                                zillia* z = new zillia;
+                                                z->Input();
+                                                z->Output();
+                                                cout << endl;
+                                                cout << "* Для вибору зілля для Гравця 2 - " << y2 << ", введіть номер зілля : ";
+                                                cin >> x;
+                                                if (x == 1)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гермиону Грейнджер" << "\t\t\t Гравець 2: " << y2 << " обрав Кети Белл" << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 3  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 1  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                                if (x == 2)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гермиону Грейнджер" << "\t\t\t Гравець 2: " << y2 << " обрав Кети Белл" << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 3  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 2  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                                if (x == 3)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гермиону Грейнджер" << "\t\t\t Гравець 2: " << y2 << " обрав Кети Белл" << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 3  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 3  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                            }
                                         }
                                     }
                                 }
@@ -4358,6 +5084,151 @@ int main()
                                             hp* h = new hp;
                                             h->Input();
                                             h->Output();
+                                            cout << endl;
+                                            zillia* z = new zillia;
+                                            z->Input();
+                                            z->Output();
+                                            cout << endl;
+                                            cout << "* Для вибору зілля для Гравця 1 - " << y1 << ", введіть номер зілля : ";
+                                            cin >> x;
+                                            if (x == 1)
+                                            {
+                                                system("cls");
+                                                zillia* z = new zillia;
+                                                z->Input();
+                                                z->Output();
+                                                cout << endl;
+                                                cout << "* Для вибору зілля для Гравця 2 - " << y2 << ", введіть номер зілля : ";
+                                                cin >> x;
+                                                if (x == 1)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гермиону Грейнджер" << "\t\t\t Гравець 2: " << y2 << " обрав Гарі Потера" << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 1  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 1  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                                if (x == 2)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гермиону Грейнджер" << "\t\t\t Гравець 2: " << y2 << " обрав Гарі Потера" << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 1  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 2  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                                if (x == 3)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гермиону Грейнджер" << "\t\t\t Гравець 2: " << y2 << " обрав Гарі Потера" << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 1  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 3  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                            }
+                                            if (x == 2)
+                                            {
+                                                system("cls");
+                                                zillia* z = new zillia;
+                                                z->Input();
+                                                z->Output();
+                                                cout << endl;
+                                                cout << "* Для вибору зілля для Гравця 2 - " << y2 << ", введіть номер зілля : ";
+                                                cin >> x;
+                                                if (x == 1)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гермиону Грейнджер" << "\t\t\t Гравець 2: " << y2 << " обрав Гарі Потера" << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 2  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 1  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                                if (x == 2)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гермиону Грейнджер" << "\t\t\t Гравець 2: " << y2 << " обрав Гарі Потера" << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 2  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 2  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                                if (x == 3)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гермиону Грейнджер" << "\t\t\t Гравець 2: " << y2 << " обрав Гарі Потера" << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 2  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 3  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                            }
+                                            if (x == 3)
+                                            {
+                                                system("cls");
+                                                zillia* z = new zillia;
+                                                z->Input();
+                                                z->Output();
+                                                cout << endl;
+                                                cout << "* Для вибору зілля для Гравця 2 - " << y2 << ", введіть номер зілля : ";
+                                                cin >> x;
+                                                if (x == 1)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гермиону Грейнджер" << "\t\t\t Гравець 2: " << y2 << " обрав Гарі Потера" << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 3  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 1  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                                if (x == 2)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гермиону Грейнджер" << "\t\t\t Гравець 2: " << y2 << " обрав Гарі Потера" << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 3  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 2  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                                if (x == 3)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гермиону Грейнджер" << "\t\t\t Гравець 2: " << y2 << " обрав Гарі Потера" << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 3  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 3  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                            }
                                         }
                                     }
 
@@ -4385,6 +5256,151 @@ int main()
                                             hp* h = new hp;
                                             h->Input();
                                             h->Output();
+                                            cout << endl;
+                                            zillia* z = new zillia;
+                                            z->Input();
+                                            z->Output();
+                                            cout << endl;
+                                            cout << "* Для вибору зілля для Гравця 1 - " << y1 << ", введіть номер зілля : ";
+                                            cin >> x;
+                                            if (x == 1)
+                                            {
+                                                system("cls");
+                                                zillia* z = new zillia;
+                                                z->Input();
+                                                z->Output();
+                                                cout << endl;
+                                                cout << "* Для вибору зілля для Гравця 2 - " << y2 << ", введіть номер зілля : ";
+                                                cin >> x;
+                                                if (x == 1)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гермиону Грейнджер" << "\t\t\t Гравець 2: " << y2 << " обрав Гермиону Грейнджер!! " << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 1  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 1  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                                if (x == 2)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гермиону Грейнджер" << "\t\t\t Гравець 2: " << y2 << " обрав Гермиону Грейнджер!! " << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 1  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 2  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                                if (x == 3)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гермиону Грейнджер" << "\t\t\t Гравець 2: " << y2 << " обрав Гермиону Грейнджер!! " << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 1  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 3  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                            }
+                                            if (x == 2)
+                                            {
+                                                system("cls");
+                                                zillia* z = new zillia;
+                                                z->Input();
+                                                z->Output();
+                                                cout << endl;
+                                                cout << "* Для вибору зілля для Гравця 2 - " << y2 << ", введіть номер зілля : ";
+                                                cin >> x;
+                                                if (x == 1)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гермиону Грейнджер" << "\t\t\t Гравець 2: " << y2 << " обрав Гермиону Грейнджер!! " << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 2  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 1  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                                if (x == 2)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гермиону Грейнджер" << "\t\t\t Гравець 2: " << y2 << " обрав Гермиону Грейнджер!! " << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 2  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 2  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                                if (x == 3)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гермиону Грейнджер" << "\t\t\t Гравець 2: " << y2 << " обрав Гермиону Грейнджер!! " << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 2  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 3  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                            }
+                                            if (x == 3)
+                                            {
+                                                system("cls");
+                                                zillia* z = new zillia;
+                                                z->Input();
+                                                z->Output();
+                                                cout << endl;
+                                                cout << "* Для вибору зілля для Гравця 2 - " << y2 << ", введіть номер зілля : ";
+                                                cin >> x;
+                                                if (x == 1)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гермиону Грейнджер" << "\t\t\t Гравець 2: " << y2 << " обрав Гермиону Грейнджер!! " << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 3  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 1  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                                if (x == 2)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гермиону Грейнджер" << "\t\t\t Гравець 2: " << y2 << " обрав Гермиону Грейнджер!! " << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 3  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 2  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                                if (x == 3)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гермиону Грейнджер" << "\t\t\t Гравець 2: " << y2 << " обрав Гермиону Грейнджер!! " << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 3  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 3  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                            }
                                         }
                                     }
 
@@ -4422,6 +5438,151 @@ int main()
                                             hp* h = new hp;
                                             h->Input();
                                             h->Output();
+                                            cout << endl;
+                                            zillia* z = new zillia;
+                                            z->Input();
+                                            z->Output();
+                                            cout << endl;
+                                            cout << "* Для вибору зілля для Гравця 1 - " << y1 << ", введіть номер зілля : ";
+                                            cin >> x;
+                                            if (x == 1)
+                                            {
+                                                system("cls");
+                                                zillia* z = new zillia;
+                                                z->Input();
+                                                z->Output();
+                                                cout << endl;
+                                                cout << "* Для вибору зілля для Гравця 2 - " << y2 << ", введіть номер зілля : ";
+                                                cin >> x;
+                                                if (x == 1)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гермиону Грейнджер" << "\t\t\t Гравець 2: " << y2 << " обрав Чо Чанґ!! " << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 1  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 1  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                                if (x == 2)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гермиону Грейнджер" << "\t\t\t Гравець 2: " << y2 << " обрав Чо Чанґ!! " << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 1  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 2  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                                if (x == 3)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гермиону Грейнджер" << "\t\t\t Гравець 2: " << y2 << " обрав Чо Чанґ!! " << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 1  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 3  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                            }
+                                            if (x == 2)
+                                            {
+                                                system("cls");
+                                                zillia* z = new zillia;
+                                                z->Input();
+                                                z->Output();
+                                                cout << endl;
+                                                cout << "* Для вибору зілля для Гравця 2 - " << y2 << ", введіть номер зілля : ";
+                                                cin >> x;
+                                                if (x == 1)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гермиону Грейнджер" << "\t\t\t Гравець 2: " << y2 << " обрав Чо Чанґ!! " << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 2  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 1  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                                if (x == 2)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гермиону Грейнджер" << "\t\t\t Гравець 2: " << y2 << " обрав Чо Чанґ!! " << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 2  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 2  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                                if (x == 3)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гермиону Грейнджер" << "\t\t\t Гравець 2: " << y2 << " обрав Чо Чанґ!! " << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 2  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 3  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                            }
+                                            if (x == 3)
+                                            {
+                                                system("cls");
+                                                zillia* z = new zillia;
+                                                z->Input();
+                                                z->Output();
+                                                cout << endl;
+                                                cout << "* Для вибору зілля для Гравця 2 - " << y2 << ", введіть номер зілля : ";
+                                                cin >> x;
+                                                if (x == 1)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гермиону Грейнджер" << "\t\t\t Гравець 2: " << y2 << " обрав Чо Чанґ!! " << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 3  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 1  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                                if (x == 2)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гермиону Грейнджер" << "\t\t\t Гравець 2: " << y2 << " обрав Чо Чанґ!! " << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 3  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 2  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                                if (x == 3)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гермиону Грейнджер" << "\t\t\t Гравець 2: " << y2 << " обрав Чо Чанґ!! " << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 3  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 3  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                            }
                                             system("pause");
                                         }
                                     }
@@ -4448,7 +5609,152 @@ int main()
                                             cout << " Гравець 1: " << y1 << " обрав Гермиону Грейнджер" << "\t\t\t Гравець 2: " << y2 << " обрав Майкл Корнер!! " << endl;
                                             hp* h = new hp;
                                             h->Input();
-                                            h->Output();               
+                                            h->Output(); 
+                                            cout << endl;
+                                            zillia* z = new zillia;
+                                            z->Input();
+                                            z->Output();
+                                            cout << endl;
+                                            cout << "* Для вибору зілля для Гравця 1 - " << y1 << ", введіть номер зілля : ";
+                                            cin >> x;
+                                            if (x == 1)
+                                            {
+                                                system("cls");
+                                                zillia* z = new zillia;
+                                                z->Input();
+                                                z->Output();
+                                                cout << endl;
+                                                cout << "* Для вибору зілля для Гравця 2 - " << y2 << ", введіть номер зілля : ";
+                                                cin >> x;
+                                                if (x == 1)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гермиону Грейнджер" << "\t\t\t Гравець 2: " << y2 << " обрав Майкл Корнер!! " << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 1  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 1  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                                if (x == 2)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гермиону Грейнджер" << "\t\t\t Гравець 2: " << y2 << " обрав Майкл Корнер!! " << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 1  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 2  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                                if (x == 3)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гермиону Грейнджер" << "\t\t\t Гравець 2: " << y2 << " обрав Майкл Корнер!! " << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 1  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 3  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                            }
+                                            if (x == 2)
+                                            {
+                                                system("cls");
+                                                zillia* z = new zillia;
+                                                z->Input();
+                                                z->Output();
+                                                cout << endl;
+                                                cout << "* Для вибору зілля для Гравця 2 - " << y2 << ", введіть номер зілля : ";
+                                                cin >> x;
+                                                if (x == 1)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гермиону Грейнджер" << "\t\t\t Гравець 2: " << y2 << " обрав Майкл Корнер!! " << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 2  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 1  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                                if (x == 2)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гермиону Грейнджер" << "\t\t\t Гравець 2: " << y2 << " обрав Майкл Корнер!! " << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 2  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 2  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                                if (x == 3)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гермиону Грейнджер" << "\t\t\t Гравець 2: " << y2 << " обрав Майкл Корнер!! " << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 2  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 3  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                            }
+                                            if (x == 3)
+                                            {
+                                                system("cls");
+                                                zillia* z = new zillia;
+                                                z->Input();
+                                                z->Output();
+                                                cout << endl;
+                                                cout << "* Для вибору зілля для Гравця 2 - " << y2 << ", введіть номер зілля : ";
+                                                cin >> x;
+                                                if (x == 1)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гермиону Грейнджер" << "\t\t\t Гравець 2: " << y2 << " обрав Майкл Корнер!! " << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 3  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 1  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                                if (x == 2)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гермиону Грейнджер" << "\t\t\t Гравець 2: " << y2 << " обрав Майкл Корнер!! " << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 3  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 2  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                                if (x == 3)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гермиону Грейнджер" << "\t\t\t Гравець 2: " << y2 << " обрав Майкл Корнер!! " << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 3  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 3  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                            }
                                             system("pause");
                                         }
                                     }
@@ -4475,7 +5781,152 @@ int main()
                                             cout << " Гравець 1: " << y1 << " обрав Гермиону Грейнджер" << "\t\t\t Гравець 2: " << y2 << " обрав Маркус Белбі!! " << endl;
                                             hp* h = new hp;
                                             h->Input();
-                                            h->Output();           
+                                            h->Output(); 
+                                            cout << endl;
+                                            zillia* z = new zillia;
+                                            z->Input();
+                                            z->Output();
+                                            cout << endl;
+                                            cout << "* Для вибору зілля для Гравця 1 - " << y1 << ", введіть номер зілля : ";
+                                            cin >> x;
+                                            if (x == 1)
+                                            {
+                                                system("cls");
+                                                zillia* z = new zillia;
+                                                z->Input();
+                                                z->Output();
+                                                cout << endl;
+                                                cout << "* Для вибору зілля для Гравця 2 - " << y2 << ", введіть номер зілля : ";
+                                                cin >> x;
+                                                if (x == 1)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гермиону Грейнджер" << "\t\t\t Гравець 2: " << y2 << " обрав Маркус Белбі!! " << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 1  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 1  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                                if (x == 2)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гермиону Грейнджер" << "\t\t\t Гравець 2: " << y2 << " обрав Маркус Белбі!! " << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 1  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 2  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                                if (x == 3)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гермиону Грейнджер" << "\t\t\t Гравець 2: " << y2 << " обрав Маркус Белбі!! " << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 1  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 3  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                            }
+                                            if (x == 2)
+                                            {
+                                                system("cls");
+                                                zillia* z = new zillia;
+                                                z->Input();
+                                                z->Output();
+                                                cout << endl;
+                                                cout << "* Для вибору зілля для Гравця 2 - " << y2 << ", введіть номер зілля : ";
+                                                cin >> x;
+                                                if (x == 1)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гермиону Грейнджер" << "\t\t\t Гравець 2: " << y2 << " обрав Маркус Белбі!! " << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 2  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 1  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                                if (x == 2)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гермиону Грейнджер" << "\t\t\t Гравець 2: " << y2 << " обрав Маркус Белбі!! " << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 2  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 2  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                                if (x == 3)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гермиону Грейнджер" << "\t\t\t Гравець 2: " << y2 << " обрав Маркус Белбі!! " << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 2  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 3  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                            }
+                                            if (x == 3)
+                                            {
+                                                system("cls");
+                                                zillia* z = new zillia;
+                                                z->Input();
+                                                z->Output();
+                                                cout << endl;
+                                                cout << "* Для вибору зілля для Гравця 2 - " << y2 << ", введіть номер зілля : ";
+                                                cin >> x;
+                                                if (x == 1)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гермиону Грейнджер" << "\t\t\t Гравець 2: " << y2 << " обрав Маркус Белбі!! " << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 3  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 1  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                                if (x == 2)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гермиону Грейнджер" << "\t\t\t Гравець 2: " << y2 << " обрав Маркус Белбі!! " << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 3  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 2  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                                if (x == 3)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гермиону Грейнджер" << "\t\t\t Гравець 2: " << y2 << " обрав Маркус Белбі!! " << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 3  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 3  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                            }
                                             system("pause");
                                         }
                                     }
@@ -4512,6 +5963,151 @@ int main()
                                             hp* h = new hp;
                                             h->Input();
                                             h->Output();
+                                            cout << endl;
+                                            zillia* z = new zillia;
+                                            z->Input();
+                                            z->Output();
+                                            cout << endl;
+                                            cout << "* Для вибору зілля для Гравця 1 - " << y1 << ", введіть номер зілля : ";
+                                            cin >> x;
+                                            if (x == 1)
+                                            {
+                                                system("cls");
+                                                zillia* z = new zillia;
+                                                z->Input();
+                                                z->Output();
+                                                cout << endl;
+                                                cout << "* Для вибору зілля для Гравця 2 - " << y2 << ", введіть номер зілля : ";
+                                                cin >> x;
+                                                if (x == 1)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гермиону Грейнджер" << "\t\t\t Гравець 2: " << y2 << " обрав Німфадора Тонкс!! " << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 1  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 1  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                                if (x == 2)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гермиону Грейнджер" << "\t\t\t Гравець 2: " << y2 << " обрав Німфадора Тонкс!! " << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 1  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 2  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                                if (x == 3)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гермиону Грейнджер" << "\t\t\t Гравець 2: " << y2 << " обрав Німфадора Тонкс!! " << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 1  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 3  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                            }
+                                            if (x == 2)
+                                            {
+                                                system("cls");
+                                                zillia* z = new zillia;
+                                                z->Input();
+                                                z->Output();
+                                                cout << endl;
+                                                cout << "* Для вибору зілля для Гравця 2 - " << y2 << ", введіть номер зілля : ";
+                                                cin >> x;
+                                                if (x == 1)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гермиону Грейнджер" << "\t\t\t Гравець 2: " << y2 << " обрав Німфадора Тонкс!! " << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 2  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 1  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                                if (x == 2)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гермиону Грейнджер" << "\t\t\t Гравець 2: " << y2 << " обрав Німфадора Тонкс!! " << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 2  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 2  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                                if (x == 3)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гермиону Грейнджер" << "\t\t\t Гравець 2: " << y2 << " обрав Німфадора Тонкс!! " << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 2  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 3  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                            }
+                                            if (x == 3)
+                                            {
+                                                system("cls");
+                                                zillia* z = new zillia;
+                                                z->Input();
+                                                z->Output();
+                                                cout << endl;
+                                                cout << "* Для вибору зілля для Гравця 2 - " << y2 << ", введіть номер зілля : ";
+                                                cin >> x;
+                                                if (x == 1)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гермиону Грейнджер" << "\t\t\t Гравець 2: " << y2 << " обрав Німфадора Тонкс!! " << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 3  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 1  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                                if (x == 2)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гермиону Грейнджер" << "\t\t\t Гравець 2: " << y2 << " обрав Німфадора Тонкс!! " << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 3  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 2  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                                if (x == 3)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гермиону Грейнджер" << "\t\t\t Гравець 2: " << y2 << " обрав Німфадора Тонкс!! " << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 3  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 3  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                            }
                                             system("pause");
                                         }
                                     }
@@ -4539,6 +6135,151 @@ int main()
                                             hp* h = new hp;
                                             h->Input();
                                             h->Output();
+                                            cout << endl;
+                                            zillia* z = new zillia;
+                                            z->Input();
+                                            z->Output();
+                                            cout << endl;
+                                            cout << "* Для вибору зілля для Гравця 1 - " << y1 << ", введіть номер зілля : ";
+                                            cin >> x;
+                                            if (x == 1)
+                                            {
+                                                system("cls");
+                                                zillia* z = new zillia;
+                                                z->Input();
+                                                z->Output();
+                                                cout << endl;
+                                                cout << "* Для вибору зілля для Гравця 2 - " << y2 << ", введіть номер зілля : ";
+                                                cin >> x;
+                                                if (x == 1)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гермиону Грейнджер" << "\t\t\t Гравець 2: " << y2 << " обрав Помона Спраут!! " << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 1  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 1  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                                if (x == 2)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гермиону Грейнджер" << "\t\t\t Гравець 2: " << y2 << " обрав Помона Спраут!! " << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 1  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 2  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                                if (x == 3)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гермиону Грейнджер" << "\t\t\t Гравець 2: " << y2 << " обрав Помона Спраут!! " << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 1  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 3  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                            }
+                                            if (x == 2)
+                                            {
+                                                system("cls");
+                                                zillia* z = new zillia;
+                                                z->Input();
+                                                z->Output();
+                                                cout << endl;
+                                                cout << "* Для вибору зілля для Гравця 2 - " << y2 << ", введіть номер зілля : ";
+                                                cin >> x;
+                                                if (x == 1)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гермиону Грейнджер" << "\t\t\t Гравець 2: " << y2 << " обрав Помона Спраут!! " << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 2  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 1  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                                if (x == 2)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гермиону Грейнджер" << "\t\t\t Гравець 2: " << y2 << " обрав Помона Спраут!! " << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 2  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 2  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                                if (x == 3)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гермиону Грейнджер" << "\t\t\t Гравець 2: " << y2 << " обрав Помона Спраут!! " << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 2  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 3  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                            }
+                                            if (x == 3)
+                                            {
+                                                system("cls");
+                                                zillia* z = new zillia;
+                                                z->Input();
+                                                z->Output();
+                                                cout << endl;
+                                                cout << "* Для вибору зілля для Гравця 2 - " << y2 << ", введіть номер зілля : ";
+                                                cin >> x;
+                                                if (x == 1)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гермиону Грейнджер" << "\t\t\t Гравець 2: " << y2 << " обрав Помона Спраут!! " << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 3  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 1  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                                if (x == 2)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гермиону Грейнджер" << "\t\t\t Гравець 2: " << y2 << " обрав Помона Спраут!! " << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 3  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 2  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                                if (x == 3)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гермиону Грейнджер" << "\t\t\t Гравець 2: " << y2 << " обрав Помона Спраут!! " << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 3  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 3  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                            }
                                             system("pause");
                                         }
                                     }
@@ -4566,6 +6307,151 @@ int main()
                                             hp* h = new hp;
                                             h->Input();
                                             h->Output();
+                                            cout << endl;
+                                            zillia* z = new zillia;
+                                            z->Input();
+                                            z->Output();
+                                            cout << endl;
+                                            cout << "* Для вибору зілля для Гравця 1 - " << y1 << ", введіть номер зілля : ";
+                                            cin >> x;
+                                            if (x == 1)
+                                            {
+                                                system("cls");
+                                                zillia* z = new zillia;
+                                                z->Input();
+                                                z->Output();
+                                                cout << endl;
+                                                cout << "* Для вибору зілля для Гравця 2 - " << y2 << ", введіть номер зілля : ";
+                                                cin >> x;
+                                                if (x == 1)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гермиону Грейнджер" << "\t\t\t Гравець 2: " << y2 << " обрав Седрік Діґорі!! " << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 1  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 1  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                                if (x == 2)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гермиону Грейнджер" << "\t\t\t Гравець 2: " << y2 << " обрав Седрік Діґорі!! " << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 1  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 2  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                                if (x == 3)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гермиону Грейнджер" << "\t\t\t Гравець 2: " << y2 << " обрав Седрік Діґорі!! " << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 1  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 3  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                            }
+                                            if (x == 2)
+                                            {
+                                                system("cls");
+                                                zillia* z = new zillia;
+                                                z->Input();
+                                                z->Output();
+                                                cout << endl;
+                                                cout << "* Для вибору зілля для Гравця 2 - " << y2 << ", введіть номер зілля : ";
+                                                cin >> x;
+                                                if (x == 1)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гермиону Грейнджер" << "\t\t\t Гравець 2: " << y2 << " обрав Седрік Діґорі!! " << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 2  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 1  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                                if (x == 2)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гермиону Грейнджер" << "\t\t\t Гравець 2: " << y2 << " обрав Седрік Діґорі!! " << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 2  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 2  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                                if (x == 3)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гермиону Грейнджер" << "\t\t\t Гравець 2: " << y2 << " обрав Седрік Діґорі!! " << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 2  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 3  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                            }
+                                            if (x == 3)
+                                            {
+                                                system("cls");
+                                                zillia* z = new zillia;
+                                                z->Input();
+                                                z->Output();
+                                                cout << endl;
+                                                cout << "* Для вибору зілля для Гравця 2 - " << y2 << ", введіть номер зілля : ";
+                                                cin >> x;
+                                                if (x == 1)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гермиону Грейнджер" << "\t\t\t Гравець 2: " << y2 << " обрав Седрік Діґорі!! " << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 3  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 1  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                                if (x == 2)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гермиону Грейнджер" << "\t\t\t Гравець 2: " << y2 << " обрав Седрік Діґорі!! " << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 3  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 2  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                                if (x == 3)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гермиону Грейнджер" << "\t\t\t Гравець 2: " << y2 << " обрав Седрік Діґорі!! " << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 3  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 3  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                            }
                                             system("pause");
                                         }
                                     }
@@ -4602,6 +6488,151 @@ int main()
                                             hp* h = new hp;
                                             h->Input();
                                             h->Output();
+                                            cout << endl;
+                                            zillia* z = new zillia;
+                                            z->Input();
+                                            z->Output();
+                                            cout << endl;
+                                            cout << "* Для вибору зілля для Гравця 1 - " << y1 << ", введіть номер зілля : ";
+                                            cin >> x;
+                                            if (x == 1)
+                                            {
+                                                system("cls");
+                                                zillia* z = new zillia;
+                                                z->Input();
+                                                z->Output();
+                                                cout << endl;
+                                                cout << "* Для вибору зілля для Гравця 2 - " << y2 << ", введіть номер зілля : ";
+                                                cin >> x;
+                                                if (x == 1)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гермиону Грейнджер" << "\t\t\t Гравець 2: " << y2 << " обрав Драко Малфой!! " << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 1  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 1  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                                if (x == 2)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гермиону Грейнджер" << "\t\t\t Гравець 2: " << y2 << " обрав Драко Малфой!! " << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 1  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 2  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                                if (x == 3)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гермиону Грейнджер" << "\t\t\t Гравець 2: " << y2 << " обрав Драко Малфой!! " << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 1  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 3  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                            }
+                                            if (x == 2)
+                                            {
+                                                system("cls");
+                                                zillia* z = new zillia;
+                                                z->Input();
+                                                z->Output();
+                                                cout << endl;
+                                                cout << "* Для вибору зілля для Гравця 2 - " << y2 << ", введіть номер зілля : ";
+                                                cin >> x;
+                                                if (x == 1)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гермиону Грейнджер" << "\t\t\t Гравець 2: " << y2 << " обрав Драко Малфой!! " << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 2  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 1  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                                if (x == 2)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гермиону Грейнджер" << "\t\t\t Гравець 2: " << y2 << " обрав Драко Малфой!! " << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 2  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 2  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                                if (x == 3)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гермиону Грейнджер" << "\t\t\t Гравець 2: " << y2 << " обрав Драко Малфой!! " << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 2  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 3  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                            }
+                                            if (x == 3)
+                                            {
+                                                system("cls");
+                                                zillia* z = new zillia;
+                                                z->Input();
+                                                z->Output();
+                                                cout << endl;
+                                                cout << "* Для вибору зілля для Гравця 2 - " << y2 << ", введіть номер зілля : ";
+                                                cin >> x;
+                                                if (x == 1)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гермиону Грейнджер" << "\t\t\t Гравець 2: " << y2 << " обрав Драко Малфой!! " << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 3  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 1  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                                if (x == 2)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гермиону Грейнджер" << "\t\t\t Гравець 2: " << y2 << " обрав Драко Малфой!! " << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 3  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 2  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                                if (x == 3)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гермиону Грейнджер" << "\t\t\t Гравець 2: " << y2 << " обрав Драко Малфой!! " << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 3  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 3  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                            }
                                             system("pause");
                                         }
                                     }
@@ -4629,6 +6660,151 @@ int main()
                                             hp* h = new hp;
                                             h->Input();
                                             h->Output();
+                                            cout << endl;
+                                            zillia* z = new zillia;
+                                            z->Input();
+                                            z->Output();
+                                            cout << endl;
+                                            cout << "* Для вибору зілля для Гравця 1 - " << y1 << ", введіть номер зілля : ";
+                                            cin >> x;
+                                            if (x == 1)
+                                            {
+                                                system("cls");
+                                                zillia* z = new zillia;
+                                                z->Input();
+                                                z->Output();
+                                                cout << endl;
+                                                cout << "* Для вибору зілля для Гравця 2 - " << y2 << ", введіть номер зілля : ";
+                                                cin >> x;
+                                                if (x == 1)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гермиону Грейнджер" << "\t\t\t Гравець 2: " << y2 << " обрав Милисента Булстроуд!! " << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 1  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 1  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                                if (x == 2)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гермиону Грейнджер" << "\t\t\t Гравець 2: " << y2 << " обрав Милисента Булстроуд!! " << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 1  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 2  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                                if (x == 3)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гермиону Грейнджер" << "\t\t\t Гравець 2: " << y2 << " обрав Милисента Булстроуд!! " << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 1  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 3  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                            }
+                                            if (x == 2)
+                                            {
+                                                system("cls");
+                                                zillia* z = new zillia;
+                                                z->Input();
+                                                z->Output();
+                                                cout << endl;
+                                                cout << "* Для вибору зілля для Гравця 2 - " << y2 << ", введіть номер зілля : ";
+                                                cin >> x;
+                                                if (x == 1)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гермиону Грейнджер" << "\t\t\t Гравець 2: " << y2 << " обрав Милисента Булстроуд!! " << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 2  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 1  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                                if (x == 2)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гермиону Грейнджер" << "\t\t\t Гравець 2: " << y2 << " обрав Милисента Булстроуд!! " << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 2  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 2  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                                if (x == 3)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гермиону Грейнджер" << "\t\t\t Гравець 2: " << y2 << " обрав Милисента Булстроуд!! " << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 2  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 3  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                            }
+                                            if (x == 3)
+                                            {
+                                                system("cls");
+                                                zillia* z = new zillia;
+                                                z->Input();
+                                                z->Output();
+                                                cout << endl;
+                                                cout << "* Для вибору зілля для Гравця 2 - " << y2 << ", введіть номер зілля : ";
+                                                cin >> x;
+                                                if (x == 1)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гермиону Грейнджер" << "\t\t\t Гравець 2: " << y2 << " обрав Милисента Булстроуд!! " << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 3  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 1  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                                if (x == 2)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гермиону Грейнджер" << "\t\t\t Гравець 2: " << y2 << " обрав Милисента Булстроуд!! " << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 3  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 2  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                                if (x == 3)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гермиону Грейнджер" << "\t\t\t Гравець 2: " << y2 << " обрав Милисента Булстроуд!! " << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 3  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 3  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                            }
                                             system("pause");
                                         }
                                     }
@@ -4656,6 +6832,151 @@ int main()
                                             hp* h = new hp;
                                             h->Input();
                                             h->Output();
+                                            cout << endl;
+                                            zillia* z = new zillia;
+                                            z->Input();
+                                            z->Output();
+                                            cout << endl;
+                                            cout << "* Для вибору зілля для Гравця 1 - " << y1 << ", введіть номер зілля : ";
+                                            cin >> x;
+                                            if (x == 1)
+                                            {
+                                                system("cls");
+                                                zillia* z = new zillia;
+                                                z->Input();
+                                                z->Output();
+                                                cout << endl;
+                                                cout << "* Для вибору зілля для Гравця 2 - " << y2 << ", введіть номер зілля : ";
+                                                cin >> x;
+                                                if (x == 1)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гермиону Грейнджер" << "\t\t\t Гравець 2: " << y2 << " обрав Трейси Дэвис!! " << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 1  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 1  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                                if (x == 2)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гермиону Грейнджер" << "\t\t\t Гравець 2: " << y2 << " обрав Трейси Дэвис!! " << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 1  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 2  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                                if (x == 3)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гермиону Грейнджер" << "\t\t\t Гравець 2: " << y2 << " обрав Трейси Дэвис!! " << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 1  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 3  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                            }
+                                            if (x == 2)
+                                            {
+                                                system("cls");
+                                                zillia* z = new zillia;
+                                                z->Input();
+                                                z->Output();
+                                                cout << endl;
+                                                cout << "* Для вибору зілля для Гравця 2 - " << y2 << ", введіть номер зілля : ";
+                                                cin >> x;
+                                                if (x == 1)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гермиону Грейнджер" << "\t\t\t Гравець 2: " << y2 << " обрав Трейси Дэвис!! " << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 2  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 1  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                                if (x == 2)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гермиону Грейнджер" << "\t\t\t Гравець 2: " << y2 << " обрав Трейси Дэвис!! " << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 2  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 2  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                                if (x == 3)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гермиону Грейнджер" << "\t\t\t Гравець 2: " << y2 << " обрав Трейси Дэвис!! " << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 2  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 3  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                            }
+                                            if (x == 3)
+                                            {
+                                                system("cls");
+                                                zillia* z = new zillia;
+                                                z->Input();
+                                                z->Output();
+                                                cout << endl;
+                                                cout << "* Для вибору зілля для Гравця 2 - " << y2 << ", введіть номер зілля : ";
+                                                cin >> x;
+                                                if (x == 1)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гермиону Грейнджер" << "\t\t\t Гравець 2: " << y2 << " обрав Трейси Дэвис!! " << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 3  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 1  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                                if (x == 2)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гермиону Грейнджер" << "\t\t\t Гравець 2: " << y2 << " обрав Трейси Дэвис!! " << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 3  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 2  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                                if (x == 3)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Гермиону Грейнджер" << "\t\t\t Гравець 2: " << y2 << " обрав Трейси Дэвис!! " << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 3  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 3  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                            }
                                             system("pause");
                                         }
                                     }
@@ -4730,6 +7051,151 @@ int main()
                                             hp* h = new hp;
                                             h->Input();
                                             h->Output();
+                                            cout << endl;
+                                            zillia* z = new zillia;
+                                            z->Input();
+                                            z->Output();
+                                            cout << endl;
+                                            cout << "* Для вибору зілля для Гравця 1 - " << y1 << ", введіть номер зілля : ";
+                                            cin >> x;
+                                            if (x == 1)
+                                            {
+                                                system("cls");
+                                                zillia* z = new zillia;
+                                                z->Input();
+                                                z->Output();
+                                                cout << endl;
+                                                cout << "* Для вибору зілля для Гравця 2 - " << y2 << ", введіть номер зілля : ";
+                                                cin >> x;
+                                                if (x == 1)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Чо Чанґ!!" << "\t\t\t Гравець 2: " << y2 << " обрав Кети Белл" << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 1  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 1  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                                if (x == 2)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Чо Чанґ!!" << "\t\t\t Гравець 2: " << y2 << " обрав Кети Белл" << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 1  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 2  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                                if (x == 3)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Чо Чанґ!!" << "\t\t\t Гравець 2: " << y2 << " обрав Кети Белл" << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 1  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 3  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                            }
+                                            if (x == 2)
+                                            {
+                                                system("cls");
+                                                zillia* z = new zillia;
+                                                z->Input();
+                                                z->Output();
+                                                cout << endl;
+                                                cout << "* Для вибору зілля для Гравця 2 - " << y2 << ", введіть номер зілля : ";
+                                                cin >> x;
+                                                if (x == 1)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Чо Чанґ!!" << "\t\t\t Гравець 2: " << y2 << " обрав Кети Белл" << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 2  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 1  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                                if (x == 2)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Чо Чанґ!!" << "\t\t\t Гравець 2: " << y2 << " обрав Кети Белл" << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 2  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 2  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                                if (x == 3)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Чо Чанґ!!" << "\t\t\t Гравець 2: " << y2 << " обрав Кети Белл" << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 2  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 3  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                            }
+                                            if (x == 3)
+                                            {
+                                                system("cls");
+                                                zillia* z = new zillia;
+                                                z->Input();
+                                                z->Output();
+                                                cout << endl;
+                                                cout << "* Для вибору зілля для Гравця 2 - " << y2 << ", введіть номер зілля : ";
+                                                cin >> x;
+                                                if (x == 1)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Чо Чанґ!!" << "\t\t\t Гравець 2: " << y2 << " обрав Кети Белл" << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 3  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 1  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                                if (x == 2)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Чо Чанґ!!" << "\t\t\t Гравець 2: " << y2 << " обрав Кети Белл" << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 3  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 2  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                                if (x == 3)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Чо Чанґ!!" << "\t\t\t Гравець 2: " << y2 << " обрав Кети Белл" << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 3  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 3  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                            }
                                         }
                                     }
                                 }
@@ -4756,6 +7222,151 @@ int main()
                                             hp* h = new hp;
                                             h->Input();
                                             h->Output();
+                                            cout << endl;
+                                            zillia* z = new zillia;
+                                            z->Input();
+                                            z->Output();
+                                            cout << endl;
+                                            cout << "* Для вибору зілля для Гравця 1 - " << y1 << ", введіть номер зілля : ";
+                                            cin >> x;
+                                            if (x == 1)
+                                            {
+                                                system("cls");
+                                                zillia* z = new zillia;
+                                                z->Input();
+                                                z->Output();
+                                                cout << endl;
+                                                cout << "* Для вибору зілля для Гравця 2 - " << y2 << ", введіть номер зілля : ";
+                                                cin >> x;
+                                                if (x == 1)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Чо Чанґ!!" << "\t\t\t Гравець 2: " << y2 << " обрав Гарі Потера" << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 1  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 1  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                                if (x == 2)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Чо Чанґ!!" << "\t\t\t Гравець 2: " << y2 << " обрав Гарі Потера" << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 1  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 2  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                                if (x == 3)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Чо Чанґ!!" << "\t\t\t Гравець 2: " << y2 << " обрав Гарі Потера" << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 1  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 3  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                            }
+                                            if (x == 2)
+                                            {
+                                                system("cls");
+                                                zillia* z = new zillia;
+                                                z->Input();
+                                                z->Output();
+                                                cout << endl;
+                                                cout << "* Для вибору зілля для Гравця 2 - " << y2 << ", введіть номер зілля : ";
+                                                cin >> x;
+                                                if (x == 1)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Чо Чанґ!!" << "\t\t\t Гравець 2: " << y2 << " обрав Гарі Потера" << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 2  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 1  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                                if (x == 2)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Чо Чанґ!!" << "\t\t\t Гравець 2: " << y2 << " обрав Гарі Потера" << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 2  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 2  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                                if (x == 3)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Чо Чанґ!!" << "\t\t\t Гравець 2: " << y2 << " обрав Гарі Потера" << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 2  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 3  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                            }
+                                            if (x == 3)
+                                            {
+                                                system("cls");
+                                                zillia* z = new zillia;
+                                                z->Input();
+                                                z->Output();
+                                                cout << endl;
+                                                cout << "* Для вибору зілля для Гравця 2 - " << y2 << ", введіть номер зілля : ";
+                                                cin >> x;
+                                                if (x == 1)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Чо Чанґ!!" << "\t\t\t Гравець 2: " << y2 << " обрав Гарі Потера" << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 3  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 1  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                                if (x == 2)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Чо Чанґ!!" << "\t\t\t Гравець 2: " << y2 << " обрав Гарі Потера" << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 3  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 2  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                                if (x == 3)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Чо Чанґ!!" << "\t\t\t Гравець 2: " << y2 << " обрав Гарі Потера" << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 3  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 3  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                            }
                                         }
                                     }
 
@@ -4783,6 +7394,151 @@ int main()
                                             hp* h = new hp;
                                             h->Input();
                                             h->Output();
+                                            cout << endl;
+                                            zillia* z = new zillia;
+                                            z->Input();
+                                            z->Output();
+                                            cout << endl;
+                                            cout << "* Для вибору зілля для Гравця 1 - " << y1 << ", введіть номер зілля : ";
+                                            cin >> x;
+                                            if (x == 1)
+                                            {
+                                                system("cls");
+                                                zillia* z = new zillia;
+                                                z->Input();
+                                                z->Output();
+                                                cout << endl;
+                                                cout << "* Для вибору зілля для Гравця 2 - " << y2 << ", введіть номер зілля : ";
+                                                cin >> x;
+                                                if (x == 1)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Чо Чанґ!!" << "\t\t\t Гравець 2: " << y2 << " обрав Гермиону Грейнджер!! " << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 1  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 1  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                                if (x == 2)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Чо Чанґ!!" << "\t\t\t Гравець 2: " << y2 << " обрав Гермиону Грейнджер!! " << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 1  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 2  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                                if (x == 3)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Чо Чанґ!!" << "\t\t\t Гравець 2: " << y2 << " обрав Гермиону Грейнджер!! " << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 1  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 3  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                            }
+                                            if (x == 2)
+                                            {
+                                                system("cls");
+                                                zillia* z = new zillia;
+                                                z->Input();
+                                                z->Output();
+                                                cout << endl;
+                                                cout << "* Для вибору зілля для Гравця 2 - " << y2 << ", введіть номер зілля : ";
+                                                cin >> x;
+                                                if (x == 1)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Чо Чанґ!!" << "\t\t\t Гравець 2: " << y2 << " обрав Гермиону Грейнджер!! " << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 2  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 1  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                                if (x == 2)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Чо Чанґ!!" << "\t\t\t Гравець 2: " << y2 << " обрав Гермиону Грейнджер!! " << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 2  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 2  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                                if (x == 3)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Чо Чанґ!!" << "\t\t\t Гравець 2: " << y2 << " обрав Гермиону Грейнджер!! " << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 2  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 3  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                            }
+                                            if (x == 3)
+                                            {
+                                                system("cls");
+                                                zillia* z = new zillia;
+                                                z->Input();
+                                                z->Output();
+                                                cout << endl;
+                                                cout << "* Для вибору зілля для Гравця 2 - " << y2 << ", введіть номер зілля : ";
+                                                cin >> x;
+                                                if (x == 1)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Чо Чанґ!!" << "\t\t\t Гравець 2: " << y2 << " обрав Гермиону Грейнджер!! " << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 3  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 1  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                                if (x == 2)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Чо Чанґ!!" << "\t\t\t Гравець 2: " << y2 << " обрав Гермиону Грейнджер!! " << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 3  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 2  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                                if (x == 3)
+                                                {
+                                                    system("cls");
+                                                    cout << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав Чо Чанґ!!" << "\t\t\t Гравець 2: " << y2 << " обрав Гермиону Грейнджер!! " << endl;
+                                                    cout << " Гравець 1: " << y1 << " обрав зілля 3  " << "\t\t\t Гравець 2: " << y2 << " обрав зілля 3  " << endl;
+                                                    hp* h = new hp;
+                                                    h->Input();
+                                                    h->Output();
+                                                    cout << endl;
+                                                    system("pause");
+                                                }
+                                            }
                                         }
                                     }
 
