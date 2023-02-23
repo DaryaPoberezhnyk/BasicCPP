@@ -2576,8 +2576,7 @@ int main()
                                                                 }
                                                             }
                                                         }
-
-
+                                                        
                                                     }
                                                     system("pause");
                                                 }
@@ -2754,8 +2753,6 @@ int main()
                                                                                         SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
 
                                                                                     }
-
-                                                                                    }
                                                                                 }
                                                                             }
                                                                         }
@@ -2763,8 +2760,6 @@ int main()
                                                                 }
                                                             }
                                                         }
-
-
                                                     }
                                                     system("pause");
                                                 }
@@ -2821,6 +2816,140 @@ int main()
                                                     h->Input();
                                                     h->Output();
                                                     cout << endl;
+                                                    cout << "Для початку першого раунду натисніть 1 :";
+                                                    cin >> x;
+                                                    if (x == 1)
+                                                    {
+                                                        system("cls");
+                                                        cout << endl;
+                                                        SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                        cout << "----------------------------------------------------| 1 LEVEL |----------------------------------------------------" << endl << endl;
+                                                        SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                        cout << "                                                - Активація зілля - " << endl << endl;
+                                                        SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                        cout << "-------------------------------------------------------------------------------------------------------------------" << endl << endl;
+                                                        SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                        cout << " Гравець 1: " << y1 << "\t\t\t\t\t Гравець 2: " << y2 << endl;
+                                                        cout << " ХП1: ---------- 20ХП" << "\t\t\t\t ХП2: ---------- 20ХП" << endl << endl;
+                                                        SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                        cout << "-------------------------------------------------------------------------------------------------------------------" << endl << endl;
+                                                        SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                        cout << "Для для початку другого раунду натисніть 1 :";
+                                                        cin >> x;
+                                                        if (x == 1)
+                                                        {
+                                                            cout << endl;
+                                                            SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                            cout << "----------------------------------------------------| 2 LEVEL |----------------------------------------------------" << endl << endl;
+                                                            SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                            cout << " Нанесення урону 2 хп від гравця: " << y1 << "                        Нанесення урону 4 хп від гравця : " << y2 << endl << endl;
+                                                            SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                            cout << "-------------------------------------------------------------------------------------------------------------------" << endl << endl;
+                                                            SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                            cout << " Гравець 1: " << y1 << "\t\t\t\t\t Гравець 2: " << y2 << endl;
+                                                            cout << " ХП1: --------- 20ХП" << "\t\t\t\t ХП2: ---------- 20ХП" << endl << endl;
+                                                            SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                            cout << "-------------------------------------------------------------------------------------------------------------------" << endl << endl;
+                                                            SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                            cout << "Для для початку третього раунду натисніть 1 :";
+                                                            cin >> x;
+                                                            if (x == 1)
+                                                            {
+                                                                cout << endl;
+                                                                SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                                cout << "----------------------------------------------------| 3 LEVEL |----------------------------------------------------" << endl << endl;
+                                                                SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                                cout << " Нанесення урону 2 хп від гравця: " << y1 << "                        Нанесення урону 4 хп від гравця : " << y2 << endl << endl;
+                                                                SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                                cout << "-------------------------------------------------------------------------------------------------------------------" << endl << endl;
+                                                                SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                                cout << " Гравець 1: " << y1 << "\t\t\t\t\t Гравець 2: " << y2 << endl;
+                                                                cout << " ХП1: --------- 16ХП" << "\t\t\t\t ХП2: ---------- 18ХП" << endl << endl;
+                                                                SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                                cout << "-------------------------------------------------------------------------------------------------------------------" << endl << endl;
+                                                                SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                                cout << "Для для початку четвертого раунду натисніть 1 :";
+                                                                cin >> x;
+                                                                if (x == 1)
+                                                                {
+                                                                    system("cls");
+                                                                    cout << endl;
+                                                                    SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                                    cout << "----------------------------------------------------| 4 LEVEL |----------------------------------------------------" << endl << endl;
+                                                                    SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                                    cout << " Нанесення урону 2 хп від гравця: " << y1 << "                        Нанесення урону 4 хп від гравця : " << y2 << endl << endl;
+                                                                    SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                                    cout << "-------------------------------------------------------------------------------------------------------------------" << endl << endl;
+                                                                    SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                                    cout << " Гравець 1: " << y1 << "\t\t\t\t\t Гравець 2: " << y2 << endl;
+                                                                    cout << " ХП1: --------- 12ХП" << "\t\t\t\t ХП2: ---------- 16ХП" << endl << endl;
+                                                                    SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                                    cout << "-------------------------------------------------------------------------------------------------------------------" << endl << endl;
+                                                                    SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                                    cout << "Для для початку п'ятого раунду натисніть 1 :";
+                                                                    cin >> x;
+                                                                    if (x == 1)
+                                                                    {
+                                                                        cout << endl;
+                                                                        SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                                        cout << "----------------------------------------------------| 5 LEVEL |----------------------------------------------------" << endl << endl;
+                                                                        SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                                        cout << " Нанесення урону 2 хп від гравця: " << y1 << "                        Нанесення урону 4 хп від гравця : " << y2 << endl << endl;
+                                                                        SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                                        cout << "-------------------------------------------------------------------------------------------------------------------" << endl << endl;
+                                                                        SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                                        cout << " Гравець 1: " << y1 << "\t\t\t\t\t Гравець 2: " << y2 << endl;
+                                                                        cout << " ХП1: --------- 8ХП" << "\t\t\t\t ХП2: ---------- 14ХП" << endl << endl;
+                                                                        SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                                        cout << "-------------------------------------------------------------------------------------------------------------------" << endl << endl;
+                                                                        SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                                        cout << "Для для початку шостого раунду натисніть 1 :";
+                                                                        cin >> x;
+                                                                        if (x == 1)
+                                                                        {
+                                                                            cout << endl;
+                                                                            SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                                            cout << "----------------------------------------------------| 6 LEVEL |----------------------------------------------------" << endl << endl;
+                                                                            SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                                            cout << " Нанесення урону 2 хп від гравця: " << y1 << "                        Нанесення урону 4 хп від гравця : " << y2 << endl << endl;
+                                                                            SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                                            cout << "-------------------------------------------------------------------------------------------------------------------" << endl << endl;
+                                                                            SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                                            cout << " Гравець 1: " << y1 << "\t\t\t\t\t Гравець 2: " << y2 << endl;
+                                                                            cout << " ХП1: --------- 4ХП" << "\t\t\t\t ХП2: ---------- 12XП" << endl << endl;
+                                                                            SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                                            cout << "-------------------------------------------------------------------------------------------------------------------" << endl << endl;
+                                                                            SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                                            cout << "Для для початку сьомого раунду натисніть 1 :";
+                                                                            cin >> x;
+                                                                            if (x == 1)
+                                                                            {
+                                                                                system("cls");
+                                                                                cout << endl;
+                                                                                SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                                                cout << "----------------------------------------------------| FINISH |-----------------------------------------------------" << endl << endl;
+                                                                                SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                                                cout << " Нанесення урону 2 хп від гравця: " << y1 << "                        Нанесення урону 4 хп від гравця : " << y2 << endl << endl;
+                                                                                SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                                                cout << "-------------------------------------------------------------------------------------------------------------------" << endl << endl;
+                                                                                SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                                                cout << " Гравець 1: " << y1 << "\t\t\t\t\t Гравець 2: " << y2 << endl;
+                                                                                cout << " ХП1: --------- 0ХП" << "\t\t\t\t ХП2: ---------- 10ХП" << endl << endl;
+                                                                                SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                                                cout << "-------------------------------------------------------------------------------------------------------------------" << endl << endl << endl;
+                                                                                SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 2));
+                                                                                cout << " РЕЗУЛЬТАТ:        Перемогу одержав Гравець 2:" << y2 << endl << endl << endl;
+                                                                                SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                                                cout << "-------------------------------------------------------------------------------------------------------------------" << endl << endl << endl << endl;
+                                                                                SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                                                
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
                                                     system("pause");
                                                 }
                                                 if (x == 2)
@@ -2833,6 +2962,140 @@ int main()
                                                     h->Input();
                                                     h->Output();
                                                     cout << endl;
+                                                    cout << "Для початку першого раунду натисніть 1 :";
+                                                    cin >> x;
+                                                    if (x == 1)
+                                                    {
+                                                        system("cls");
+                                                        cout << endl;
+                                                        SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                        cout << "----------------------------------------------------| 1 LEVEL |----------------------------------------------------" << endl << endl;
+                                                        SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                        cout << "                                                - Активація зілля - " << endl << endl;
+                                                        SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                        cout << "-------------------------------------------------------------------------------------------------------------------" << endl << endl;
+                                                        SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                        cout << " Гравець 1: " << y1 << "\t\t\t\t\t Гравець 2: " << y2 << endl;
+                                                        cout << " ХП1: ---------- 20ХП" << "\t\t\t\t ХП2: ---------- 18ХП" << endl << endl;
+                                                        SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                        cout << "-------------------------------------------------------------------------------------------------------------------" << endl << endl;
+                                                        SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                        cout << "Для для початку другого раунду натисніть 1 :";
+                                                        cin >> x;
+                                                        if (x == 1)
+                                                        {
+                                                            cout << endl;
+                                                            SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                            cout << "----------------------------------------------------| 2 LEVEL |----------------------------------------------------" << endl << endl;
+                                                            SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                            cout << " Нанесення урону 2 хп від гравця: " << y1 << "                        Нанесення урону 4 хп від гравця : " << y2 << endl << endl;
+                                                            SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                            cout << "-------------------------------------------------------------------------------------------------------------------" << endl << endl;
+                                                            SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                            cout << " Гравець 1: " << y1 << "\t\t\t\t\t Гравець 2: " << y2 << endl;
+                                                            cout << " ХП1: --------- 20ХП" << "\t\t\t\t ХП2: ---------- 18ХП" << endl << endl;
+                                                            SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                            cout << "-------------------------------------------------------------------------------------------------------------------" << endl << endl;
+                                                            SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                            cout << "Для для початку третього раунду натисніть 1 :";
+                                                            cin >> x;
+                                                            if (x == 1)
+                                                            {
+                                                                cout << endl;
+                                                                SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                                cout << "----------------------------------------------------| 3 LEVEL |----------------------------------------------------" << endl << endl;
+                                                                SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                                cout << " Нанесення урону 2 хп від гравця: " << y1 << "                        Нанесення урону 4 хп від гравця : " << y2 << endl << endl;
+                                                                SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                                cout << "-------------------------------------------------------------------------------------------------------------------" << endl << endl;
+                                                                SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                                cout << " Гравець 1: " << y1 << "\t\t\t\t\t Гравець 2: " << y2 << endl;
+                                                                cout << " ХП1: --------- 16ХП" << "\t\t\t\t ХП2: ---------- 16ХП" << endl << endl;
+                                                                SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                                cout << "-------------------------------------------------------------------------------------------------------------------" << endl << endl;
+                                                                SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                                cout << "Для для початку четвертого раунду натисніть 1 :";
+                                                                cin >> x;
+                                                                if (x == 1)
+                                                                {
+                                                                    system("cls");
+                                                                    cout << endl;
+                                                                    SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                                    cout << "----------------------------------------------------| 4 LEVEL |----------------------------------------------------" << endl << endl;
+                                                                    SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                                    cout << " Нанесення урону 2 хп від гравця: " << y1 << "                        Нанесення урону 4 хп від гравця : " << y2 << endl << endl;
+                                                                    SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                                    cout << "-------------------------------------------------------------------------------------------------------------------" << endl << endl;
+                                                                    SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                                    cout << " Гравець 1: " << y1 << "\t\t\t\t\t Гравець 2: " << y2 << endl;
+                                                                    cout << " ХП1: --------- 12ХП" << "\t\t\t\t ХП2: ---------- 14ХП" << endl << endl;
+                                                                    SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                                    cout << "-------------------------------------------------------------------------------------------------------------------" << endl << endl;
+                                                                    SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                                    cout << "Для для початку п'ятого раунду натисніть 1 :";
+                                                                    cin >> x;
+                                                                    if (x == 1)
+                                                                    {
+                                                                        cout << endl;
+                                                                        SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                                        cout << "----------------------------------------------------| 5 LEVEL |----------------------------------------------------" << endl << endl;
+                                                                        SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                                        cout << " Нанесення урону 2 хп від гравця: " << y1 << "                        Нанесення урону 4 хп від гравця : " << y2 << endl << endl;
+                                                                        SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                                        cout << "-------------------------------------------------------------------------------------------------------------------" << endl << endl;
+                                                                        SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                                        cout << " Гравець 1: " << y1 << "\t\t\t\t\t Гравець 2: " << y2 << endl;
+                                                                        cout << " ХП1: --------- 8ХП" << "\t\t\t\t ХП2: ---------- 12ХП" << endl << endl;
+                                                                        SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                                        cout << "-------------------------------------------------------------------------------------------------------------------" << endl << endl;
+                                                                        SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                                        cout << "Для для початку шостого раунду натисніть 1 :";
+                                                                        cin >> x;
+                                                                        if (x == 1)
+                                                                        {
+                                                                            cout << endl;
+                                                                            SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                                            cout << "----------------------------------------------------| 6 LEVEL |----------------------------------------------------" << endl << endl;
+                                                                            SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                                            cout << " Нанесення урону 2 хп від гравця: " << y1 << "                        Нанесення урону 4 хп від гравця : " << y2 << endl << endl;
+                                                                            SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                                            cout << "-------------------------------------------------------------------------------------------------------------------" << endl << endl;
+                                                                            SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                                            cout << " Гравець 1: " << y1 << "\t\t\t\t\t Гравець 2: " << y2 << endl;
+                                                                            cout << " ХП1: --------- 4ХП" << "\t\t\t\t ХП2: ---------- 10XП" << endl << endl;
+                                                                            SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                                            cout << "-------------------------------------------------------------------------------------------------------------------" << endl << endl;
+                                                                            SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                                            cout << "Для для початку сьомого раунду натисніть 1 :";
+                                                                            cin >> x;
+                                                                            if (x == 1)
+                                                                            {
+                                                                                system("cls");
+                                                                                cout << endl;
+                                                                                SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                                                cout << "----------------------------------------------------| FINISH |-----------------------------------------------------" << endl << endl;
+                                                                                SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                                                cout << " Нанесення урону 2 хп від гравця: " << y1 << "                        Нанесення урону 4 хп від гравця : " << y2 << endl << endl;
+                                                                                SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                                                cout << "-------------------------------------------------------------------------------------------------------------------" << endl << endl;
+                                                                                SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                                                cout << " Гравець 1: " << y1 << "\t\t\t\t\t Гравець 2: " << y2 << endl;
+                                                                                cout << " ХП1: --------- 0ХП" << "\t\t\t\t ХП2: ---------- 8ХП" << endl << endl;
+                                                                                SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                                                cout << "-------------------------------------------------------------------------------------------------------------------" << endl << endl << endl;
+                                                                                SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 2));
+                                                                                cout << " РЕЗУЛЬТАТ:        Перемогу одержав Гравець 2:" << y2 << endl << endl << endl;
+                                                                                SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                                                cout << "-------------------------------------------------------------------------------------------------------------------" << endl << endl << endl << endl;
+                                                                                SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
                                                     system("pause");
                                                 }
                                                 if (x == 3)
@@ -2845,6 +3108,140 @@ int main()
                                                     h->Input();
                                                     h->Output();
                                                     cout << endl;
+                                                    cout << "Для початку першого раунду натисніть 1 :";
+                                                    cin >> x;
+                                                    if (x == 1)
+                                                    {
+                                                        system("cls");
+                                                        cout << endl;
+                                                        SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                        cout << "----------------------------------------------------| 1 LEVEL |----------------------------------------------------" << endl << endl;
+                                                        SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                        cout << "                                                - Активація зілля - " << endl << endl;
+                                                        SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                        cout << "-------------------------------------------------------------------------------------------------------------------" << endl << endl;
+                                                        SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                        cout << " Гравець 1: " << y1 << "\t\t\t\t\t Гравець 2: " << y2 << endl;
+                                                        cout << " ХП1: ---------- 20ХП" << "\t\t\t\t ХП2: ---------- 18ХП" << endl << endl;
+                                                        SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                        cout << "-------------------------------------------------------------------------------------------------------------------" << endl << endl;
+                                                        SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                        cout << "Для для початку другого раунду натисніть 1 :";
+                                                        cin >> x;
+                                                        if (x == 1)
+                                                        {
+                                                            cout << endl;
+                                                            SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                            cout << "----------------------------------------------------| 2 LEVEL |----------------------------------------------------" << endl << endl;
+                                                            SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                            cout << " Нанесення урону 2 хп від гравця: " << y1 << "                        Нанесення урону 4 хп від гравця : " << y2 << endl << endl;
+                                                            SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                            cout << "-------------------------------------------------------------------------------------------------------------------" << endl << endl;
+                                                            SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                            cout << " Гравець 1: " << y1 << "\t\t\t\t\t Гравець 2: " << y2 << endl;
+                                                            cout << " ХП1: --------- 20ХП" << "\t\t\t\t ХП2: ---------- 16ХП" << endl << endl;
+                                                            SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                            cout << "-------------------------------------------------------------------------------------------------------------------" << endl << endl;
+                                                            SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                            cout << "Для для початку третього раунду натисніть 1 :";
+                                                            cin >> x;
+                                                            if (x == 1)
+                                                            {
+                                                                cout << endl;
+                                                                SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                                cout << "----------------------------------------------------| 3 LEVEL |----------------------------------------------------" << endl << endl;
+                                                                SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                                cout << " Нанесення урону 2 хп від гравця: " << y1 << "                        Нанесення урону 4 хп від гравця : " << y2 << endl << endl;
+                                                                SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                                cout << "-------------------------------------------------------------------------------------------------------------------" << endl << endl;
+                                                                SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                                cout << " Гравець 1: " << y1 << "\t\t\t\t\t Гравець 2: " << y2 << endl;
+                                                                cout << " ХП1: --------- 16ХП" << "\t\t\t\t ХП2: ---------- 14ХП" << endl << endl;
+                                                                SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                                cout << "-------------------------------------------------------------------------------------------------------------------" << endl << endl;
+                                                                SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                                cout << "Для для початку четвертого раунду натисніть 1 :";
+                                                                cin >> x;
+                                                                if (x == 1)
+                                                                {
+                                                                    system("cls");
+                                                                    cout << endl;
+                                                                    SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                                    cout << "----------------------------------------------------| 4 LEVEL |----------------------------------------------------" << endl << endl;
+                                                                    SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                                    cout << " Нанесення урону 2 хп від гравця: " << y1 << "                        Нанесення урону 4 хп від гравця : " << y2 << endl << endl;
+                                                                    SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                                    cout << "-------------------------------------------------------------------------------------------------------------------" << endl << endl;
+                                                                    SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                                    cout << " Гравець 1: " << y1 << "\t\t\t\t\t Гравець 2: " << y2 << endl;
+                                                                    cout << " ХП1: --------- 12ХП" << "\t\t\t\t ХП2: ---------- 12ХП" << endl << endl;
+                                                                    SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                                    cout << "-------------------------------------------------------------------------------------------------------------------" << endl << endl;
+                                                                    SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                                    cout << "Для для початку п'ятого раунду натисніть 1 :";
+                                                                    cin >> x;
+                                                                    if (x == 1)
+                                                                    {
+                                                                        cout << endl;
+                                                                        SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                                        cout << "----------------------------------------------------| 5 LEVEL |----------------------------------------------------" << endl << endl;
+                                                                        SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                                        cout << " Нанесення урону 2 хп від гравця: " << y1 << "                        Нанесення урону 4 хп від гравця : " << y2 << endl << endl;
+                                                                        SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                                        cout << "-------------------------------------------------------------------------------------------------------------------" << endl << endl;
+                                                                        SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                                        cout << " Гравець 1: " << y1 << "\t\t\t\t\t Гравець 2: " << y2 << endl;
+                                                                        cout << " ХП1: --------- 8ХП" << "\t\t\t\t ХП2: ---------- 10ХП" << endl << endl;
+                                                                        SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                                        cout << "-------------------------------------------------------------------------------------------------------------------" << endl << endl;
+                                                                        SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                                        cout << "Для для початку шостого раунду натисніть 1 :";
+                                                                        cin >> x;
+                                                                        if (x == 1)
+                                                                        {
+                                                                            cout << endl;
+                                                                            SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                                            cout << "----------------------------------------------------| 6 LEVEL |----------------------------------------------------" << endl << endl;
+                                                                            SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                                            cout << " Нанесення урону 2 хп від гравця: " << y1 << "                        Нанесення урону 4 хп від гравця : " << y2 << endl << endl;
+                                                                            SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                                            cout << "-------------------------------------------------------------------------------------------------------------------" << endl << endl;
+                                                                            SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                                            cout << " Гравець 1: " << y1 << "\t\t\t\t\t Гравець 2: " << y2 << endl;
+                                                                            cout << " ХП1: --------- 4ХП" << "\t\t\t\t ХП2: ---------- 8XП" << endl << endl;
+                                                                            SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                                            cout << "-------------------------------------------------------------------------------------------------------------------" << endl << endl;
+                                                                            SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                                            cout << "Для для початку сьомого раунду натисніть 1 :";
+                                                                            cin >> x;
+                                                                            if (x == 1)
+                                                                            {
+                                                                                system("cls");
+                                                                                cout << endl;
+                                                                                SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                                                cout << "----------------------------------------------------| FINISH |-----------------------------------------------------" << endl << endl;
+                                                                                SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                                                cout << " Нанесення урону 2 хп від гравця: " << y1 << "                        Нанесення урону 4 хп від гравця : " << y2 << endl << endl;
+                                                                                SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                                                cout << "-------------------------------------------------------------------------------------------------------------------" << endl << endl;
+                                                                                SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                                                cout << " Гравець 1: " << y1 << "\t\t\t\t\t Гравець 2: " << y2 << endl;
+                                                                                cout << " ХП1: --------- 0ХП" << "\t\t\t\t ХП2: ---------- 6ХП" << endl << endl;
+                                                                                SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                                                cout << "-------------------------------------------------------------------------------------------------------------------" << endl << endl << endl;
+                                                                                SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 2));
+                                                                                cout << " РЕЗУЛЬТАТ:        Перемогу одержав Гравець 2:" << y2 << endl << endl << endl;
+                                                                                SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                                                cout << "-------------------------------------------------------------------------------------------------------------------" << endl << endl << endl << endl;
+                                                                                SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
                                                     system("pause");
                                                 }
                                             }
@@ -2867,6 +3264,140 @@ int main()
                                                     h->Input();
                                                     h->Output();
                                                     cout << endl;
+                                                    cout << "Для початку першого раунду натисніть 1 :";
+                                                    cin >> x;
+                                                    if (x == 1)
+                                                    {
+                                                        system("cls");
+                                                        cout << endl;
+                                                        SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                        cout << "----------------------------------------------------| 1 LEVEL |----------------------------------------------------" << endl << endl;
+                                                        SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                        cout << "                                                - Активація зілля - " << endl << endl;
+                                                        SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                        cout << "-------------------------------------------------------------------------------------------------------------------" << endl << endl;
+                                                        SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                        cout << " Гравець 1: " << y1 << "\t\t\t\t\t Гравець 2: " << y2 << endl;
+                                                        cout << " ХП1: ---------- 18ХП" << "\t\t\t\t ХП2: ---------- 20ХП" << endl << endl;
+                                                        SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                        cout << "-------------------------------------------------------------------------------------------------------------------" << endl << endl;
+                                                        SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                        cout << "Для для початку другого раунду натисніть 1 :";
+                                                        cin >> x;
+                                                        if (x == 1)
+                                                        {
+                                                            cout << endl;
+                                                            SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                            cout << "----------------------------------------------------| 2 LEVEL |----------------------------------------------------" << endl << endl;
+                                                            SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                            cout << " Нанесення урону 2 хп від гравця: " << y1 << "                        Нанесення урону 4 хп від гравця : " << y2 << endl << endl;
+                                                            SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                            cout << "-------------------------------------------------------------------------------------------------------------------" << endl << endl;
+                                                            SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                            cout << " Гравець 1: " << y1 << "\t\t\t\t\t Гравець 2: " << y2 << endl;
+                                                            cout << " ХП1: --------- 18ХП" << "\t\t\t\t ХП2: ---------- 20ХП" << endl << endl;
+                                                            SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                            cout << "-------------------------------------------------------------------------------------------------------------------" << endl << endl;
+                                                            SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                            cout << "Для для початку третього раунду натисніть 1 :";
+                                                            cin >> x;
+                                                            if (x == 1)
+                                                            {
+                                                                cout << endl;
+                                                                SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                                cout << "----------------------------------------------------| 3 LEVEL |----------------------------------------------------" << endl << endl;
+                                                                SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                                cout << " Нанесення урону 2 хп від гравця: " << y1 << "                        Нанесення урону 4 хп від гравця : " << y2 << endl << endl;
+                                                                SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                                cout << "-------------------------------------------------------------------------------------------------------------------" << endl << endl;
+                                                                SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                                cout << " Гравець 1: " << y1 << "\t\t\t\t\t Гравець 2: " << y2 << endl;
+                                                                cout << " ХП1: --------- 16ХП" << "\t\t\t\t ХП2: ---------- 16ХП" << endl << endl;
+                                                                SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                                cout << "-------------------------------------------------------------------------------------------------------------------" << endl << endl;
+                                                                SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                                cout << "Для для початку четвертого раунду натисніть 1 :";
+                                                                cin >> x;
+                                                                if (x == 1)
+                                                                {
+                                                                    system("cls");
+                                                                    cout << endl;
+                                                                    SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                                    cout << "----------------------------------------------------| 4 LEVEL |----------------------------------------------------" << endl << endl;
+                                                                    SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                                    cout << " Нанесення урону 2 хп від гравця: " << y1 << "                        Нанесення урону 4 хп від гравця : " << y2 << endl << endl;
+                                                                    SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                                    cout << "-------------------------------------------------------------------------------------------------------------------" << endl << endl;
+                                                                    SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                                    cout << " Гравець 1: " << y1 << "\t\t\t\t\t Гравець 2: " << y2 << endl;
+                                                                    cout << " ХП1: --------- 12ХП" << "\t\t\t\t ХП2: ---------- 14ХП" << endl << endl;
+                                                                    SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                                    cout << "-------------------------------------------------------------------------------------------------------------------" << endl << endl;
+                                                                    SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                                    cout << "Для для початку п'ятого раунду натисніть 1 :";
+                                                                    cin >> x;
+                                                                    if (x == 1)
+                                                                    {
+                                                                        cout << endl;
+                                                                        SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                                        cout << "----------------------------------------------------| 5 LEVEL |----------------------------------------------------" << endl << endl;
+                                                                        SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                                        cout << " Нанесення урону 2 хп від гравця: " << y1 << "                        Нанесення урону 4 хп від гравця : " << y2 << endl << endl;
+                                                                        SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                                        cout << "-------------------------------------------------------------------------------------------------------------------" << endl << endl;
+                                                                        SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                                        cout << " Гравець 1: " << y1 << "\t\t\t\t\t Гравець 2: " << y2 << endl;
+                                                                        cout << " ХП1: --------- 8ХП" << "\t\t\t\t ХП2: ---------- 12ХП" << endl << endl;
+                                                                        SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                                        cout << "-------------------------------------------------------------------------------------------------------------------" << endl << endl;
+                                                                        SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                                        cout << "Для для початку шостого раунду натисніть 1 :";
+                                                                        cin >> x;
+                                                                        if (x == 1)
+                                                                        {
+                                                                            cout << endl;
+                                                                            SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                                            cout << "----------------------------------------------------| 6 LEVEL |----------------------------------------------------" << endl << endl;
+                                                                            SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                                            cout << " Нанесення урону 2 хп від гравця: " << y1 << "                        Нанесення урону 4 хп від гравця : " << y2 << endl << endl;
+                                                                            SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                                            cout << "-------------------------------------------------------------------------------------------------------------------" << endl << endl;
+                                                                            SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                                            cout << " Гравець 1: " << y1 << "\t\t\t\t\t Гравець 2: " << y2 << endl;
+                                                                            cout << " ХП1: --------- 4ХП" << "\t\t\t\t ХП2: ---------- 10XП" << endl << endl;
+                                                                            SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                                            cout << "-------------------------------------------------------------------------------------------------------------------" << endl << endl;
+                                                                            SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                                            cout << "Для для початку сьомого раунду натисніть 1 :";
+                                                                            cin >> x;
+                                                                            if (x == 1)
+                                                                            {
+                                                                                system("cls");
+                                                                                cout << endl;
+                                                                                SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                                                cout << "----------------------------------------------------| FINISH |-----------------------------------------------------" << endl << endl;
+                                                                                SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                                                cout << " Нанесення урону 2 хп від гравця: " << y1 << "                        Нанесення урону 4 хп від гравця : " << y2 << endl << endl;
+                                                                                SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                                                cout << "-------------------------------------------------------------------------------------------------------------------" << endl << endl;
+                                                                                SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                                                cout << " Гравець 1: " << y1 << "\t\t\t\t\t Гравець 2: " << y2 << endl;
+                                                                                cout << " ХП1: --------- 0ХП" << "\t\t\t\t ХП2: ---------- 8ХП" << endl << endl;
+                                                                                SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                                                cout << "-------------------------------------------------------------------------------------------------------------------" << endl << endl << endl;
+                                                                                SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 2));
+                                                                                cout << " РЕЗУЛЬТАТ:        Перемогу одержав Гравець 2:" << y2 << endl << endl << endl;
+                                                                                SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                                                cout << "-------------------------------------------------------------------------------------------------------------------" << endl << endl << endl << endl;
+                                                                                SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
                                                     system("pause");
                                                 }
                                                 if (x == 2)
@@ -2879,6 +3410,140 @@ int main()
                                                     h->Input();
                                                     h->Output();
                                                     cout << endl;
+                                                    cout << "Для початку першого раунду натисніть 1 :";
+                                                    cin >> x;
+                                                    if (x == 1)
+                                                    {
+                                                        system("cls");
+                                                        cout << endl;
+                                                        SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                        cout << "----------------------------------------------------| 1 LEVEL |----------------------------------------------------" << endl << endl;
+                                                        SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                        cout << "                                                - Активація зілля - " << endl << endl;
+                                                        SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                        cout << "-------------------------------------------------------------------------------------------------------------------" << endl << endl;
+                                                        SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                        cout << " Гравець 1: " << y1 << "\t\t\t\t\t Гравець 2: " << y2 << endl;
+                                                        cout << " ХП1: ---------- 17ХП" << "\t\t\t\t ХП2: ---------- 17ХП" << endl << endl;
+                                                        SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                        cout << "-------------------------------------------------------------------------------------------------------------------" << endl << endl;
+                                                        SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                        cout << "Для для початку другого раунду натисніть 1 :";
+                                                        cin >> x;
+                                                        if (x == 1)
+                                                        {
+                                                            cout << endl;
+                                                            SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                            cout << "----------------------------------------------------| 2 LEVEL |----------------------------------------------------" << endl << endl;
+                                                            SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                            cout << " Нанесення урону 2 хп від гравця: " << y1 << "                        Нанесення урону 4 хп від гравця : " << y2 << endl << endl;
+                                                            SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                            cout << "-------------------------------------------------------------------------------------------------------------------" << endl << endl;
+                                                            SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                            cout << " Гравець 1: " << y1 << "\t\t\t\t\t Гравець 2: " << y2 << endl;
+                                                            cout << " ХП1: --------- 17ХП" << "\t\t\t\t ХП2: ---------- 17ХП" << endl << endl;
+                                                            SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                            cout << "-------------------------------------------------------------------------------------------------------------------" << endl << endl;
+                                                            SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                            cout << "Для для початку третього раунду натисніть 1 :";
+                                                            cin >> x;
+                                                            if (x == 1)
+                                                            {
+                                                                cout << endl;
+                                                                SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                                cout << "----------------------------------------------------| 3 LEVEL |----------------------------------------------------" << endl << endl;
+                                                                SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                                cout << " Нанесення урону 2 хп від гравця: " << y1 << "                        Нанесення урону 4 хп від гравця : " << y2 << endl << endl;
+                                                                SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                                cout << "-------------------------------------------------------------------------------------------------------------------" << endl << endl;
+                                                                SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                                cout << " Гравець 1: " << y1 << "\t\t\t\t\t Гравець 2: " << y2 << endl;
+                                                                cout << " ХП1: --------- 13ХП" << "\t\t\t\t ХП2: ---------- 15ХП" << endl << endl;
+                                                                SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                                cout << "-------------------------------------------------------------------------------------------------------------------" << endl << endl;
+                                                                SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                                cout << "Для для початку четвертого раунду натисніть 1 :";
+                                                                cin >> x;
+                                                                if (x == 1)
+                                                                {
+                                                                    system("cls");
+                                                                    cout << endl;
+                                                                    SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                                    cout << "----------------------------------------------------| 4 LEVEL |----------------------------------------------------" << endl << endl;
+                                                                    SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                                    cout << " Нанесення урону 2 хп від гравця: " << y1 << "                        Нанесення урону 4 хп від гравця : " << y2 << endl << endl;
+                                                                    SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                                    cout << "-------------------------------------------------------------------------------------------------------------------" << endl << endl;
+                                                                    SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                                    cout << " Гравець 1: " << y1 << "\t\t\t\t\t Гравець 2: " << y2 << endl;
+                                                                    cout << " ХП1: --------- 9ХП" << "\t\t\t\t ХП2: ---------- 13ХП" << endl << endl;
+                                                                    SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                                    cout << "-------------------------------------------------------------------------------------------------------------------" << endl << endl;
+                                                                    SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                                    cout << "Для для початку п'ятого раунду натисніть 1 :";
+                                                                    cin >> x;
+                                                                    if (x == 1)
+                                                                    {
+                                                                        cout << endl;
+                                                                        SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                                        cout << "----------------------------------------------------| 5 LEVEL |----------------------------------------------------" << endl << endl;
+                                                                        SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                                        cout << " Нанесення урону 2 хп від гравця: " << y1 << "                        Нанесення урону 4 хп від гравця : " << y2 << endl << endl;
+                                                                        SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                                        cout << "-------------------------------------------------------------------------------------------------------------------" << endl << endl;
+                                                                        SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                                        cout << " Гравець 1: " << y1 << "\t\t\t\t\t Гравець 2: " << y2 << endl;
+                                                                        cout << " ХП1: --------- 5ХП" << "\t\t\t\t ХП2: ---------- 11ХП" << endl << endl;
+                                                                        SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                                        cout << "-------------------------------------------------------------------------------------------------------------------" << endl << endl;
+                                                                        SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                                        cout << "Для для початку шостого раунду натисніть 1 :";
+                                                                        cin >> x;
+                                                                        if (x == 1)
+                                                                        {
+                                                                            cout << endl;
+                                                                            SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                                            cout << "----------------------------------------------------| 6 LEVEL |----------------------------------------------------" << endl << endl;
+                                                                            SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                                            cout << " Нанесення урону 2 хп від гравця: " << y1 << "                        Нанесення урону 4 хп від гравця : " << y2 << endl << endl;
+                                                                            SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                                            cout << "-------------------------------------------------------------------------------------------------------------------" << endl << endl;
+                                                                            SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                                            cout << " Гравець 1: " << y1 << "\t\t\t\t\t Гравець 2: " << y2 << endl;
+                                                                            cout << " ХП1: --------- 1ХП" << "\t\t\t\t ХП2: ---------- 9XП" << endl << endl;
+                                                                            SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                                            cout << "-------------------------------------------------------------------------------------------------------------------" << endl << endl;
+                                                                            SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                                            cout << "Для для початку сьомого раунду натисніть 1 :";
+                                                                            cin >> x;
+                                                                            if (x == 1)
+                                                                            {
+                                                                                system("cls");
+                                                                                cout << endl;
+                                                                                SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                                                cout << "----------------------------------------------------| FINISH |-----------------------------------------------------" << endl << endl;
+                                                                                SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                                                cout << " Нанесення урону 2 хп від гравця: " << y1 << "                        Нанесення урону 4 хп від гравця : " << y2 << endl << endl;
+                                                                                SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                                                cout << "-------------------------------------------------------------------------------------------------------------------" << endl << endl;
+                                                                                SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                                                cout << " Гравець 1: " << y1 << "\t\t\t\t\t Гравець 2: " << y2 << endl;
+                                                                                cout << " ХП1: --------- 0ХП" << "\t\t\t\t ХП2: ---------- 7ХП" << endl << endl;
+                                                                                SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                                                cout << "-------------------------------------------------------------------------------------------------------------------" << endl << endl << endl;
+                                                                                SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 2));
+                                                                                cout << " РЕЗУЛЬТАТ:        Перемогу одержав Гравець 2:" << y2 << endl << endl << endl;
+                                                                                SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                                                cout << "-------------------------------------------------------------------------------------------------------------------" << endl << endl << endl << endl;
+                                                                                SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
                                                     system("pause");
                                                 }
                                                 if (x == 3)
@@ -2891,6 +3556,122 @@ int main()
                                                     h->Input();
                                                     h->Output();
                                                     cout << endl;
+                                                    cout << "Для початку першого раунду натисніть 1 :";
+                                                    cin >> x;
+                                                    if (x == 1)
+                                                    {
+                                                        system("cls");
+                                                        cout << endl;
+                                                        SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                        cout << "----------------------------------------------------| 1 LEVEL |----------------------------------------------------" << endl << endl;
+                                                        SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                        cout << "                                                - Активація зілля - " << endl << endl;
+                                                        SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                        cout << "-------------------------------------------------------------------------------------------------------------------" << endl << endl;
+                                                        SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                        cout << " Гравець 1: " << y1 << "\t\t\t\t\t Гравець 2: " << y2 << endl;
+                                                        cout << " ХП1: ---------- 16ХП" << "\t\t\t\t ХП2: ---------- 17ХП" << endl << endl;
+                                                        SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                        cout << "-------------------------------------------------------------------------------------------------------------------" << endl << endl;
+                                                        SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                        cout << "Для для початку другого раунду натисніть 1 :";
+                                                        cin >> x;
+                                                        if (x == 1)
+                                                        {
+                                                            cout << endl;
+                                                            SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                            cout << "----------------------------------------------------| 2 LEVEL |----------------------------------------------------" << endl << endl;
+                                                            SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                            cout << " Нанесення урону 2 хп від гравця: " << y1 << "                        Нанесення урону 4 хп від гравця : " << y2 << endl << endl;
+                                                            SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                            cout << "-------------------------------------------------------------------------------------------------------------------" << endl << endl;
+                                                            SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                            cout << " Гравець 1: " << y1 << "\t\t\t\t\t Гравець 2: " << y2 << endl;
+                                                            cout << " ХП1: --------- 16ХП" << "\t\t\t\t ХП2: ---------- 15ХП" << endl << endl;
+                                                            SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                            cout << "-------------------------------------------------------------------------------------------------------------------" << endl << endl;
+                                                            SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                            cout << "Для для початку третього раунду натисніть 1 :";
+                                                            cin >> x;
+                                                            if (x == 1)
+                                                            {
+                                                                cout << endl;
+                                                                SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                                cout << "----------------------------------------------------| 3 LEVEL |----------------------------------------------------" << endl << endl;
+                                                                SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                                cout << " Нанесення урону 2 хп від гравця: " << y1 << "                        Нанесення урону 4 хп від гравця : " << y2 << endl << endl;
+                                                                SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                                cout << "-------------------------------------------------------------------------------------------------------------------" << endl << endl;
+                                                                SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                                cout << " Гравець 1: " << y1 << "\t\t\t\t\t Гравець 2: " << y2 << endl;
+                                                                cout << " ХП1: --------- 12ХП" << "\t\t\t\t ХП2: ---------- 13ХП" << endl << endl;
+                                                                SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                                cout << "-------------------------------------------------------------------------------------------------------------------" << endl << endl;
+                                                                SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                                cout << "Для для початку четвертого раунду натисніть 1 :";
+                                                                cin >> x;
+                                                                if (x == 1)
+                                                                {
+                                                                    system("cls");
+                                                                    cout << endl;
+                                                                    SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                                    cout << "----------------------------------------------------| 4 LEVEL |----------------------------------------------------" << endl << endl;
+                                                                    SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                                    cout << " Нанесення урону 2 хп від гравця: " << y1 << "                        Нанесення урону 4 хп від гравця : " << y2 << endl << endl;
+                                                                    SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                                    cout << "-------------------------------------------------------------------------------------------------------------------" << endl << endl;
+                                                                    SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                                    cout << " Гравець 1: " << y1 << "\t\t\t\t\t Гравець 2: " << y2 << endl;
+                                                                    cout << " ХП1: --------- 8ХП" << "\t\t\t\t ХП2: ---------- 11ХП" << endl << endl;
+                                                                    SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                                    cout << "-------------------------------------------------------------------------------------------------------------------" << endl << endl;
+                                                                    SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                                    cout << "Для для початку п'ятого раунду натисніть 1 :";
+                                                                    cin >> x;
+                                                                    if (x == 1)
+                                                                    {
+                                                                        cout << endl;
+                                                                        SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                                        cout << "----------------------------------------------------| 5 LEVEL |----------------------------------------------------" << endl << endl;
+                                                                        SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                                        cout << " Нанесення урону 2 хп від гравця: " << y1 << "                        Нанесення урону 4 хп від гравця : " << y2 << endl << endl;
+                                                                        SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                                        cout << "-------------------------------------------------------------------------------------------------------------------" << endl << endl;
+                                                                        SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                                        cout << " Гравець 1: " << y1 << "\t\t\t\t\t Гравець 2: " << y2 << endl;
+                                                                        cout << " ХП1: --------- 4ХП" << "\t\t\t\t ХП2: ---------- 9ХП" << endl << endl;
+                                                                        SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                                        cout << "-------------------------------------------------------------------------------------------------------------------" << endl << endl;
+                                                                        SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                                        cout << "Для для початку шостого раунду натисніть 1 :";
+                                                                        cin >> x;
+                                                                        if (x == 1)
+                                                                        {
+                                                                            system("cls");
+                                                                            cout << endl;
+                                                                            SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                                            cout << "----------------------------------------------------| FINISH |-----------------------------------------------------" << endl << endl;
+                                                                            SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                                            cout << " Нанесення урону 2 хп від гравця: " << y1 << "                        Нанесення урону 4 хп від гравця : " << y2 << endl << endl;
+                                                                            SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                                            cout << "-------------------------------------------------------------------------------------------------------------------" << endl << endl;
+                                                                            SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                                            cout << " Гравець 1: " << y1 << "\t\t\t\t\t Гравець 2: " << y2 << endl;
+                                                                            cout << " ХП1: --------- 0ХП" << "\t\t\t\t ХП2: ---------- 7ХП" << endl << endl;
+                                                                            SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                                            cout << "-------------------------------------------------------------------------------------------------------------------" << endl << endl << endl;
+                                                                            SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 2));
+                                                                            cout << " РЕЗУЛЬТАТ:        Перемогу одержав Гравець 2:" << y2 << endl << endl << endl;
+                                                                            SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                                            cout << "-------------------------------------------------------------------------------------------------------------------" << endl << endl << endl << endl;
+                                                                            SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
                                                     system("pause");
                                                 }
                                             }
@@ -2913,6 +3694,122 @@ int main()
                                                     h->Input();
                                                     h->Output();
                                                     cout << endl;
+                                                    cout << "Для початку першого раунду натисніть 1 :";
+                                                    cin >> x;
+                                                    if (x == 1)
+                                                    {
+                                                        system("cls");
+                                                        cout << endl;
+                                                        SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                        cout << "----------------------------------------------------| 1 LEVEL |----------------------------------------------------" << endl << endl;
+                                                        SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                        cout << "                                                - Активація зілля - " << endl << endl;
+                                                        SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                        cout << "-------------------------------------------------------------------------------------------------------------------" << endl << endl;
+                                                        SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                        cout << " Гравець 1: " << y1 << "\t\t\t\t\t Гравець 2: " << y2 << endl;
+                                                        cout << " ХП1: ---------- 18ХП" << "\t\t\t\t ХП2: ---------- 20ХП" << endl << endl;
+                                                        SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                        cout << "-------------------------------------------------------------------------------------------------------------------" << endl << endl;
+                                                        SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                        cout << "Для для початку другого раунду натисніть 1 :";
+                                                        cin >> x;
+                                                        if (x == 1)
+                                                        {
+                                                            cout << endl;
+                                                            SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                            cout << "----------------------------------------------------| 2 LEVEL |----------------------------------------------------" << endl << endl;
+                                                            SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                            cout << " Нанесення урону 2 хп від гравця: " << y1 << "                        Нанесення урону 4 хп від гравця : " << y2 << endl << endl;
+                                                            SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                            cout << "-------------------------------------------------------------------------------------------------------------------" << endl << endl;
+                                                            SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                            cout << " Гравець 1: " << y1 << "\t\t\t\t\t Гравець 2: " << y2 << endl;
+                                                            cout << " ХП1: --------- 14ХП" << "\t\t\t\t ХП2: ---------- 20ХП" << endl << endl;
+                                                            SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                            cout << "-------------------------------------------------------------------------------------------------------------------" << endl << endl;
+                                                            SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                            cout << "Для для початку третього раунду натисніть 1 :";
+                                                            cin >> x;
+                                                            if (x == 1)
+                                                            {
+                                                                cout << endl;
+                                                                SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                                cout << "----------------------------------------------------| 3 LEVEL |----------------------------------------------------" << endl << endl;
+                                                                SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                                cout << " Нанесення урону 2 хп від гравця: " << y1 << "                        Нанесення урону 2 хп від гравця : " << y2 << endl << endl;
+                                                                SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                                cout << "-------------------------------------------------------------------------------------------------------------------" << endl << endl;
+                                                                SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                                cout << " Гравець 1: " << y1 << "\t\t\t\t\t Гравець 2: " << y2 << endl;
+                                                                cout << " ХП1: --------- 10ХП" << "\t\t\t\t ХП2: ---------- 18ХП" << endl << endl;
+                                                                SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                                cout << "-------------------------------------------------------------------------------------------------------------------" << endl << endl;
+                                                                SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                                cout << "Для для початку четвертого раунду натисніть 1 :";
+                                                                cin >> x;
+                                                                if (x == 1)
+                                                                {
+                                                                    system("cls");
+                                                                    cout << endl;
+                                                                    SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                                    cout << "----------------------------------------------------| 4 LEVEL |----------------------------------------------------" << endl << endl;
+                                                                    SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                                    cout << " Нанесення урону 2 хп від гравця: " << y1 << "                        Нанесення урону 4 хп від гравця : " << y2 << endl << endl;
+                                                                    SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                                    cout << "-------------------------------------------------------------------------------------------------------------------" << endl << endl;
+                                                                    SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                                    cout << " Гравець 1: " << y1 << "\t\t\t\t\t Гравець 2: " << y2 << endl;
+                                                                    cout << " ХП1: --------- 6ХП" << "\t\t\t\t ХП2: ---------- 16ХП" << endl << endl;
+                                                                    SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                                    cout << "-------------------------------------------------------------------------------------------------------------------" << endl << endl;
+                                                                    SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                                    cout << "Для для початку п'ятого раунду натисніть 1 :";
+                                                                    cin >> x;
+                                                                    if (x == 1)
+                                                                    {
+                                                                        cout << endl;
+                                                                        SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                                        cout << "----------------------------------------------------| 5 LEVEL |----------------------------------------------------" << endl << endl;
+                                                                        SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                                        cout << " Нанесення урону 2 хп від гравця: " << y1 << "                        Нанесення урону 4 хп від гравця : " << y2 << endl << endl;
+                                                                        SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                                        cout << "-------------------------------------------------------------------------------------------------------------------" << endl << endl;
+                                                                        SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                                        cout << " Гравець 1: " << y1 << "\t\t\t\t\t Гравець 2: " << y2 << endl;
+                                                                        cout << " ХП1: --------- 2ХП" << "\t\t\t\t ХП2: ---------- 14ХП" << endl << endl;
+                                                                        SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                                        cout << "-------------------------------------------------------------------------------------------------------------------" << endl << endl;
+                                                                        SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                                        cout << "Для для початку шостого раунду натисніть 1 :";
+                                                                        cin >> x;
+                                                                        if (x == 1)
+                                                                        {
+                                                                            system("cls");
+                                                                            cout << endl;
+                                                                            SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                                            cout << "----------------------------------------------------| FINISH |-----------------------------------------------------" << endl << endl;
+                                                                            SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                                            cout << " Нанесення урону 2 хп від гравця: " << y1 << "                        Нанесення урону 4 хп від гравця : " << y2 << endl << endl;
+                                                                            SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                                            cout << "-------------------------------------------------------------------------------------------------------------------" << endl << endl;
+                                                                            SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                                            cout << " Гравець 1: " << y1 << "\t\t\t\t\t Гравець 2: " << y2 << endl;
+                                                                            cout << " ХП1: --------- 0ХП" << "\t\t\t\t ХП2: ---------- 12ХП" << endl << endl;
+                                                                            SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                                            cout << "-------------------------------------------------------------------------------------------------------------------" << endl << endl << endl;
+                                                                            SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 2));
+                                                                            cout << " РЕЗУЛЬТАТ:        Перемогу одержав Гравець 2:" << y2 << endl << endl << endl;
+                                                                            SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                                            cout << "-------------------------------------------------------------------------------------------------------------------" << endl << endl << endl << endl;
+                                                                            SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
                                                     system("pause");
                                                 }
                                                 if (x == 2)
@@ -2925,6 +3822,122 @@ int main()
                                                     h->Input();
                                                     h->Output();
                                                     cout << endl;
+                                                    cout << "Для початку першого раунду натисніть 1 :";
+                                                    cin >> x;
+                                                    if (x == 1)
+                                                    {
+                                                        system("cls");
+                                                        cout << endl;
+                                                        SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                        cout << "----------------------------------------------------| 1 LEVEL |----------------------------------------------------" << endl << endl;
+                                                        SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                        cout << "                                                - Активація зілля - " << endl << endl;
+                                                        SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                        cout << "-------------------------------------------------------------------------------------------------------------------" << endl << endl;
+                                                        SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                        cout << " Гравець 1: " << y1 << "\t\t\t\t\t Гравець 2: " << y2 << endl;
+                                                        cout << " ХП1: ---------- 17ХП" << "\t\t\t\t ХП2: ---------- 16ХП" << endl << endl;
+                                                        SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                        cout << "-------------------------------------------------------------------------------------------------------------------" << endl << endl;
+                                                        SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                        cout << "Для для початку другого раунду натисніть 1 :";
+                                                        cin >> x;
+                                                        if (x == 1)
+                                                        {
+                                                            cout << endl;
+                                                            SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                            cout << "----------------------------------------------------| 2 LEVEL |----------------------------------------------------" << endl << endl;
+                                                            SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                            cout << " Нанесення урону 2 хп від гравця: " << y1 << "                        Нанесення урону 4 хп від гравця : " << y2 << endl << endl;
+                                                            SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                            cout << "-------------------------------------------------------------------------------------------------------------------" << endl << endl;
+                                                            SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                            cout << " Гравець 1: " << y1 << "\t\t\t\t\t Гравець 2: " << y2 << endl;
+                                                            cout << " ХП1: --------- 13ХП" << "\t\t\t\t ХП2: ---------- 16ХП" << endl << endl;
+                                                            SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                            cout << "-------------------------------------------------------------------------------------------------------------------" << endl << endl;
+                                                            SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                            cout << "Для для початку третього раунду натисніть 1 :";
+                                                            cin >> x;
+                                                            if (x == 1)
+                                                            {
+                                                                cout << endl;
+                                                                SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                                cout << "----------------------------------------------------| 3 LEVEL |----------------------------------------------------" << endl << endl;
+                                                                SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                                cout << " Нанесення урону 2 хп від гравця: " << y1 << "                        Нанесення урону 4 хп від гравця : " << y2 << endl << endl;
+                                                                SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                                cout << "-------------------------------------------------------------------------------------------------------------------" << endl << endl;
+                                                                SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                                cout << " Гравець 1: " << y1 << "\t\t\t\t\t Гравець 2: " << y2 << endl;
+                                                                cout << " ХП1: --------- 9ХП" << "\t\t\t\t ХП2: ---------- 14ХП" << endl << endl;
+                                                                SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                                cout << "-------------------------------------------------------------------------------------------------------------------" << endl << endl;
+                                                                SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                                cout << "Для для початку четвертого раунду натисніть 1 :";
+                                                                cin >> x;
+                                                                if (x == 1)
+                                                                {
+                                                                    system("cls");
+                                                                    cout << endl;
+                                                                    SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                                    cout << "----------------------------------------------------| 4 LEVEL |----------------------------------------------------" << endl << endl;
+                                                                    SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                                    cout << " Нанесення урону 2 хп від гравця: " << y1 << "                        Нанесення урону 4 хп від гравця : " << y2 << endl << endl;
+                                                                    SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                                    cout << "-------------------------------------------------------------------------------------------------------------------" << endl << endl;
+                                                                    SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                                    cout << " Гравець 1: " << y1 << "\t\t\t\t\t Гравець 2: " << y2 << endl;
+                                                                    cout << " ХП1: --------- 5ХП" << "\t\t\t\t ХП2: ---------- 12ХП" << endl << endl;
+                                                                    SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                                    cout << "-------------------------------------------------------------------------------------------------------------------" << endl << endl;
+                                                                    SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                                    cout << "Для для початку п'ятого раунду натисніть 1 :";
+                                                                    cin >> x;
+                                                                    if (x == 1)
+                                                                    {
+                                                                        cout << endl;
+                                                                        SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                                        cout << "----------------------------------------------------| 5 LEVEL |----------------------------------------------------" << endl << endl;
+                                                                        SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                                        cout << " Нанесення урону 2 хп від гравця: " << y1 << "                        Нанесення урону 4 хп від гравця : " << y2 << endl << endl;
+                                                                        SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                                        cout << "-------------------------------------------------------------------------------------------------------------------" << endl << endl;
+                                                                        SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                                        cout << " Гравець 1: " << y1 << "\t\t\t\t\t Гравець 2: " << y2 << endl;
+                                                                        cout << " ХП1: --------- 1ХП" << "\t\t\t\t ХП2: ---------- 10ХП" << endl << endl;
+                                                                        SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                                        cout << "-------------------------------------------------------------------------------------------------------------------" << endl << endl;
+                                                                        SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                                        cout << "Для для початку шостого раунду натисніть 1 :";
+                                                                        cin >> x;
+                                                                        if (x == 1)
+                                                                        {
+                                                                            system("cls");
+                                                                            cout << endl;
+                                                                            SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                                            cout << "----------------------------------------------------| FINISH |-----------------------------------------------------" << endl << endl;
+                                                                            SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                                            cout << " Нанесення урону 2 хп від гравця: " << y1 << "                        Нанесення урону 4 хп від гравця : " << y2 << endl << endl;
+                                                                            SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                                            cout << "-------------------------------------------------------------------------------------------------------------------" << endl << endl;
+                                                                            SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                                            cout << " Гравець 1: " << y1 << "\t\t\t\t\t Гравець 2: " << y2 << endl;
+                                                                            cout << " ХП1: --------- 0ХП" << "\t\t\t\t ХП2: ---------- 8ХП" << endl << endl;
+                                                                            SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                                            cout << "-------------------------------------------------------------------------------------------------------------------" << endl << endl << endl;
+                                                                            SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 2));
+                                                                            cout << " РЕЗУЛЬТАТ:        Перемогу одержав Гравець 2:" << y2 << endl << endl << endl;
+                                                                            SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                                            cout << "-------------------------------------------------------------------------------------------------------------------" << endl << endl << endl << endl;
+                                                                            SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
                                                     system("pause");
                                                 }
                                                 if (x == 3)
@@ -2937,6 +3950,104 @@ int main()
                                                     h->Input();
                                                     h->Output();
                                                     cout << endl;
+                                                    cout << "Для початку першого раунду натисніть 1 :";
+                                                    cin >> x;
+                                                    if (x == 1)
+                                                    {
+                                                        system("cls");
+                                                        cout << endl;
+                                                        SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                        cout << "----------------------------------------------------| 1 LEVEL |----------------------------------------------------" << endl << endl;
+                                                        SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                        cout << "                                                - Активація зілля - " << endl << endl;
+                                                        SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                        cout << "-------------------------------------------------------------------------------------------------------------------" << endl << endl;
+                                                        SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                        cout << " Гравець 1: " << y1 << "\t\t\t\t\t Гравець 2: " << y2 << endl;
+                                                        cout << " ХП1: ---------- 16ХП" << "\t\t\t\t ХП2: ---------- 16ХП" << endl << endl;
+                                                        SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                        cout << "-------------------------------------------------------------------------------------------------------------------" << endl << endl;
+                                                        SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                        cout << "Для для початку другого раунду натисніть 1 :";
+                                                        cin >> x;
+                                                        if (x == 1)
+                                                        {
+                                                            cout << endl;
+                                                            SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                            cout << "----------------------------------------------------| 2 LEVEL |----------------------------------------------------" << endl << endl;
+                                                            SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                            cout << " Нанесення урону 2 хп від гравця: " << y1 << "                        Нанесення урону 4 хп від гравця : " << y2 << endl << endl;
+                                                            SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                            cout << "-------------------------------------------------------------------------------------------------------------------" << endl << endl;
+                                                            SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                            cout << " Гравець 1: " << y1 << "\t\t\t\t\t Гравець 2: " << y2 << endl;
+                                                            cout << " ХП1: --------- 12ХП" << "\t\t\t\t ХП2: ---------- 14ХП" << endl << endl;
+                                                            SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                            cout << "-------------------------------------------------------------------------------------------------------------------" << endl << endl;
+                                                            SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                            cout << "Для для початку третього раунду натисніть 1 :";
+                                                            cin >> x;
+                                                            if (x == 1)
+                                                            {
+                                                                cout << endl;
+                                                                SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                                cout << "----------------------------------------------------| 3 LEVEL |----------------------------------------------------" << endl << endl;
+                                                                SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                                cout << " Нанесення урону 2 хп від гравця: " << y1 << "                        Нанесення урону 4 хп від гравця : " << y2 << endl << endl;
+                                                                SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                                cout << "-------------------------------------------------------------------------------------------------------------------" << endl << endl;
+                                                                SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                                cout << " Гравець 1: " << y1 << "\t\t\t\t\t Гравець 2: " << y2 << endl;
+                                                                cout << " ХП1: --------- 8ХП" << "\t\t\t\t ХП2: ---------- 12ХП" << endl << endl;
+                                                                SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                                cout << "-------------------------------------------------------------------------------------------------------------------" << endl << endl;
+                                                                SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                                cout << "Для для початку четвертого раунду натисніть 1 :";
+                                                                cin >> x;
+                                                                if (x == 1)
+                                                                {
+                                                                    system("cls");
+                                                                    cout << endl;
+                                                                    SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                                    cout << "----------------------------------------------------| 4 LEVEL |----------------------------------------------------" << endl << endl;
+                                                                    SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                                    cout << " Нанесення урону 2 хп від гравця: " << y1 << "                        Нанесення урону 4 хп від гравця : " << y2 << endl << endl;
+                                                                    SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                                    cout << "-------------------------------------------------------------------------------------------------------------------" << endl << endl;
+                                                                    SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                                    cout << " Гравець 1: " << y1 << "\t\t\t\t\t Гравець 2: " << y2 << endl;
+                                                                    cout << " ХП1: --------- 4ХП" << "\t\t\t\t ХП2: ---------- 10ХП" << endl << endl;
+                                                                    SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                                    cout << "-------------------------------------------------------------------------------------------------------------------" << endl << endl;
+                                                                    SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                                    cout << "Для для початку п'ятого раунду натисніть 1 :";
+                                                                    cin >> x;
+                                                                    if (x == 1)
+                                                                    {
+                                                                        system("cls");
+                                                                        cout << endl;
+                                                                        SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                                        cout << "----------------------------------------------------| FINISH |-----------------------------------------------------" << endl << endl;
+                                                                        SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                                        cout << " Нанесення урону 2 хп від гравця: " << y1 << "                        Нанесення урону 4 хп від гравця : " << y2 << endl << endl;
+                                                                        SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                                        cout << "-------------------------------------------------------------------------------------------------------------------" << endl << endl;
+                                                                        SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+                                                                        cout << " Гравець 1: " << y1 << "\t\t\t\t\t Гравець 2: " << y2 << endl;
+                                                                        cout << " ХП1: --------- 0ХП" << "\t\t\t\t ХП2: ---------- 8ХП" << endl << endl;
+                                                                        SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                                        cout << "-------------------------------------------------------------------------------------------------------------------" << endl << endl << endl;
+                                                                        SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 2));
+                                                                        cout << " РЕЗУЛЬТАТ:        Перемогу одержав Гравець 2:" << y2 << endl << endl << endl;
+                                                                        SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 9));
+                                                                        cout << "-------------------------------------------------------------------------------------------------------------------" << endl << endl << endl << endl;
+                                                                        SetConsoleTextAttribute(hConsole, WORD(0 << 0 | 7));
+
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
                                                     system("pause");
                                                 }
                                             }
@@ -27991,8 +29102,9 @@ int main()
                 }
             }
             system("pause");
+            }
         }break;
         }
-    } while (true);
+    }while (true);
     return 0;
 }
