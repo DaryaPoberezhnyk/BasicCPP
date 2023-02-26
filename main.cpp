@@ -2,6 +2,7 @@
 #include <string>
 #include <vector>
 #include <algorithm>
+#include <conio.h>
 #include <ctime>
 #include <sstream>
 using namespace std;
