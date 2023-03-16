@@ -10,4 +10,9 @@
       <Filter>main</Filter>
     </ClCompile>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Library.h" />
+    <ClInclude Include="Classes.h" />
+    <ClInclude Include="Menu.h" />
+  </ItemGroup>
 </Project>
